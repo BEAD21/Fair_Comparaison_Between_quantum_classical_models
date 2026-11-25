@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+\begin{axis}[width=7.4cm,height=3.4cm,font=\footnotesize,
+  xlabel={trainable filter parameters},ylabel={validation acc.\ (\%)},xmin=1,xmax=21,
+  ymin=81.9,ymax=88.3,xtick={2,4,...,20},grid=major,grid style={black!8},
+  legend style={font=\scriptsize,at={(1.03,0.5)},anchor=west,draw=none},legend cell align=left]
+\addplot[only marks,mark=*,mark size=1.8pt,qcol,fill opacity=0.7] coordinates {(15.8,86.95) (19.8,86.95) (11.8,86.90) (9.8,86.88) (19.8,86.84) (17.8,86.49) (15.8,86.45) (11.8,86.37) (13.8,86.17) (11.8,85.84) (17.8,85.80) (9.8,85.79) (14.8,85.67) (13.8,85.63) (17.8,85.56) (11.8,85.42) (15.8,85.41) (19.8,85.30) (7.8,86.12) (3.8,85.87) (5.8,85.71) (5.8,85.63)};
+\addlegendentry{quantum filters (22)}
+\addplot[only marks,mark=square*,mark size=1.8pt,ccol] coordinates {(10.2,87.49) (12.2,86.78) (12.2,86.72) (12.2,86.14) (10.2,85.99) (12.2,85.69) (12.2,85.51) (12.2,84.51) (12.2,84.21) (12.2,82.34)};
+\addlegendentry{classical filters (10)}
+\addplot[black!60,dashed,domain=1:21] {83.71};
+\addlegendentry{identity control}
+\draw[qcol,thin] (axis cs:11.80,86.90) -- (axis cs:6.00,87.85) node[font=\scriptsize,fill=white,inner sep=1pt,anchor=east] {B6 (chosen)};
+\draw[ccol,thin] (axis cs:10.20,87.49) -- (axis cs:15.50,87.85) node[font=\scriptsize,fill=white,inner sep=1pt,anchor=west] {Conv2x2};
+\draw[ccol,thin] (axis cs:12.20,85.51) -- (axis cs:14.00,82.75) node[font=\scriptsize,fill=white,inner sep=1pt,anchor=west] {PatchMLP};
+\end{axis}
+\end{tikzpicture}

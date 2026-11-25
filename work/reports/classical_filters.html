@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Classical filters: models</title>
+<style>
+  body { font: 14px system-ui, -apple-system, Segoe UI, sans-serif; margin: 28px; color: #1a1a1a; max-width: 1400px; }
+  h1 { margin-bottom: 4px; }
+  h2 { margin-top: 36px; border-bottom: 2px solid #e5e5e5; padding-bottom: 4px; }
+  .sub { color: #555; margin-top: 0; }
+  .pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 14px 0 6px; }
+  .pipe div { border: 1px solid #bbb; border-radius: 6px; padding: 6px 10px; background: #fafafa; }
+  .pipe .c { background: #fff4e6; border-color: #ea8a1a; font-weight: 600; }
+  .pipe .opt { border-style: dashed; }
+  .pipe span { color: #888; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 14px 0; }
+  .card h3 { margin: 0 0 2px; font-family: ui-monospace, Consolas, monospace; font-size: 15px; }
+  .meta { color: #444; margin: 2px 0 8px; }
+  .meta b { color: #111; }
+  .row { display: flex; flex-wrap: wrap; gap: 22px; align-items: flex-start; }
+  .row > div { min-width: 0; }
+  .cap { font-size: 12px; color: #555; margin-top: 2px; }
+  .f { font-family: ui-monospace, Consolas, monospace; background: #f6f6f6; padding: 6px 10px; border-radius: 5px; display: inline-block; margin: 4px 0; }
+  table.sum { border-collapse: collapse; margin: 10px 0; }
+  table.sum th, table.sum td { border: 1px solid #ccc; padding: 4px 9px; text-align: left; vertical-align: top; }
+  table.sum td.n { text-align: right; white-space: nowrap; }
+  table.sum th { background: #f2f2f2; }
+  .note { background: #fffbea; border: 1px solid #f0d97a; border-radius: 6px; padding: 8px 12px; margin: 10px 0; }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; margin-left: 6px; vertical-align: 2px; }
+  .t-test { background: #dcfce7; border: 1px solid #22a35a; }
+  .t-scan { background: #f3f4f6; border: 1px solid #9ca3af; }
+  .t-old { background: #fde2e2; border: 1px solid #d64545; }
+</style>
+</head>
+<body>
+<h1>Classical filters in the comparison</h1>
+<p class="sub">The classical half of the fair comparison. Every model below replaces <b>only the filter</b> of the hybrid QCNN:
+encoding options, normalisation, activation, pooling and the 258-parameter head are identical, and each model got the same
+12-recipe grid, dev crops (Cherry, Grape), seeds and selection rule as the quantum filters. Code: qbench/models.py.</p>
+
+<div class="pipe">
+  <div>image 32×32 grey</div><span>→</span>
+  <div class="opt">[amp encoding] (optional, 0 params)</div><span>→</span>
+  <div class="c">classical filter (10–12 params) → 2 channels 16×16</div><span>→</span>
+  <div>[BN] → act</div><span>→</span>
+  <div>MaxPool 2 → 2×8×8 = 128</div><span>→</span>
+  <div>Linear 128→2 (258 params)</div>
+</div>
+<p class="cap">The quantum model is the same pipeline with the orange box replaced by: amplitude encoding → 2-qubit circuit → ⟨Z₀⟩, ⟨Z₁⟩.</p>
+
+<h2>Two input versions: raw and amp</h2>
+<div class="row">
+  <div id="enc"></div>
+  <div style="max-width:620px">
+    <p><b>raw</b>: the filter sees the grey pixel values as they are.</p>
+    <p><b>amp</b>: before the filter, each non-overlapping 2×2 block is replaced by |x| / ‖x‖, exactly what the quantum
+    amplitude encoding does to a patch. No parameters. So the <i>amp</i> version gets the same input as the circuit; the
+    only difference left is the filter itself.</p>
+    <p class="cap">Effect: the absolute brightness of each block is removed, only its pattern remains. For the 3×3 models a
+    window covers parts of up to four normalised blocks.</p>
+  </div>
+</div>
+
+<h2>Summary</h2>
+<table class="sum">
+  <tr><th>model</th><th>params</th><th>where the parameters are</th><th>window</th><th>nonlinear inside the filter</th>
+      <th>same patches as the circuit</th><th>val all (best of raw/amp)</th><th>role</th></tr>
+  <tr><td><a href="#PatchMLP">PatchMLP</a></td><td class="n">12</td><td>4→2 weights (8) + 2→2 weights (4)</td><td>2×2, stride 2</td><td>yes (tanh)</td><td>yes</td><td class="n">85.69 (amp)</td><td>strict twin of the circuit <span class="tag t-test">final test</span></td></tr>
+  <tr><td><a href="#Conv2x2">Conv2x2</a></td><td class="n">10</td><td>2 kernels 2×2 (8) + 2 biases</td><td>2×2, stride 2</td><td>no</td><td>yes</td><td class="n">87.49 (raw)</td><td>best classical on validation <span class="tag t-test">final test</span></td></tr>
+  <tr><td><a href="#Separable3x3">Separable3x3</a></td><td class="n">12</td><td>2 × (column 3 + row 3)</td><td>3×3, stride 2, overlap</td><td>no</td><td>no</td><td class="n">86.72 (raw)</td><td>scan only; won the old protocol <span class="tag t-scan">scan</span></td></tr>
+  <tr><td><a href="#FixedBasis6">FixedBasis6</a></td><td class="n">12</td><td>2 × 6 mixing weights of fixed DCT patterns</td><td>3×3, stride 2, overlap</td><td>no</td><td>no</td><td class="n">86.78 (raw)</td><td>scan only <span class="tag t-scan">scan</span></td></tr>
+  <tr><td><a href="#DWSep3x3">DWSep3x3</a></td><td class="n">12</td><td>1 kernel 3×3 (9) + bias + 2 scales</td><td>3×3, stride 2, overlap</td><td>no</td><td>no</td><td class="n">84.21 (raw)</td><td>scan only <span class="tag t-scan">scan</span></td></tr>
+</table>
+<p class="cap">Every total is filter + 258 head: 270, except Conv2x2 (268). B6 (quantum) for reference: 12 + 258 = 270, validation 86.90.
+Validation = mean last-5-epoch accuracy, 7 crops, seeds 100–109.</p>
+
+<div class="note"><b>Why these five.</b> A fair counterpart must answer "could a classical piece of the same size do the
+circuit's job?". PatchMLP answers it most strictly (same patches, same count, nonlinear like the circuit). Conv2x2 is the plain
+convolution on the same patches. The three 3×3 models show what happens when the 12 parameters are spent on a larger,
+overlapping view of the image instead, each with a different way of reaching exactly 12.</div>
+
+<div id="out"></div>
+
+<h2>Not in this comparison</h2>
+<p><b>PaperTwin</b> (20 params: 2 dense 3×3 kernels + 2 biases): the classical twin used in an earlier version of this work. Not
+parameter-matched, so not used.<br>
+<b>Pool2</b> (0 params: 2×2 average and 2×2 max as the 2 channels): the classical "no filter" baseline of the earlier final
+runs; the matching quantum control here is q/identity.</p>
+
+<script>
+// ---------- shared drawing helpers ----------
+const CELL = 22;
+function grid(n, windows, opts = {}) {
+  // n×n pixel grid; windows = [{r, c, s, col}] highlighted squares (s = size); pad = dashed padding ring
+  const pad = opts.pad ? 1 : 0, N = n + 2 * pad, W = N * CELL + 2;
+  let s = `<svg width="${W}" height="${W}" xmlns="http://www.w3.org/2000/svg">`;
+  for (let r = 0; r < N; r++) for (let c = 0; c < N; c++) {
+    const isPad = pad && (r === 0 || c === 0 || r === N - 1 || c === N - 1);
+    s += `<rect x="${1 + c * CELL}" y="${1 + r * CELL}" width="${CELL}" height="${CELL}" fill="${isPad ? '#fff' : '#eee'}"
+          stroke="${isPad ? '#ccc' : '#bbb'}" ${isPad ? 'stroke-dasharray="2 2"' : ''}/>`;
+    if (isPad) s += `<text x="${1 + c * CELL + CELL / 2}" y="${1 + r * CELL + 15}" text-anchor="middle" font-size="10" fill="#bbb">0</text>`;
+  }
+  for (const w of windows) {
+    s += `<rect x="${1 + (w.c + pad) * CELL + 2}" y="${1 + (w.r + pad) * CELL + 2}" width="${w.s * CELL - 4}" height="${w.s * CELL - 4}"
+          fill="${w.col}" fill-opacity="0.22" stroke="${w.col}" stroke-width="2.5" rx="3"/>`;
+  }
+  return s + '</svg>';
+}
+function box(x, y, w, h, t1, t2, fill, stroke) {
+  return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="${stroke}"/>` +
+    `<text x="${x + w / 2}" y="${y + (t2 ? h / 2 - 3 : h / 2 + 4)}" text-anchor="middle" font-size="12" font-weight="600">${t1}</text>` +
+    (t2 ? `<text x="${x + w / 2}" y="${y + h / 2 + 12}" text-anchor="middle" font-size="10" fill="#444">${t2}</text>` : '');
+}
+function arrow(x1, y1, x2, y2, label) {
+  return `<line x1="${x1}" y1="${y1}" x2="${x2 - 6}" y2="${y2}" stroke="#555" stroke-width="1.3"/>` +
+    `<polygon points="${x2},${y2} ${x2 - 7},${y2 - 4} ${x2 - 7},${y2 + 4}" fill="#555"/>` +
+    (label ? `<text x="${(x1 + x2) / 2}" y="${(y1 + y2) / 2 - 5}" text-anchor="middle" font-size="10" fill="#666">${label}</text>` : '');
+}
+const P = ['#fdf2e3', '#ea8a1a'], W8 = ['#e8f0fe', '#3b82f6'], G = ['#f3f4f6', '#6b7280'], FX = ['#f1f1f1', '#9ca3af'];
+function svg(w, h, body) { return `<svg width="${w}" height="${h}" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">${body}</svg>`; }
+
+// ---------- encoding illustration ----------
+document.getElementById('enc').innerHTML = svg(470, 120,
+  box(10, 30, 110, 56, 'patch x', '[a b; c d]', ...G) + arrow(120, 58, 190, 58, 'abs') +
+  box(190, 30, 100, 56, '|x|', '', ...G) + arrow(290, 58, 350, 58, '÷ ‖x‖') +
+  box(350, 30, 110, 56, '4 amplitudes', 'sum of squares = 1', '#e7f6ec', '#2f9e5a'));
+
+// ---------- the models ----------
+const M = [
+ { id: 'PatchMLP', tags: '<span class="tag t-test">final test</span>', params: 12,
+   one: 'A tiny two-layer network applied to every 2×2 patch on its own.',
+   formula: 'h = tanh(W₁ · x)     (W₁: 2×4)<br>out = W₂ · h          (W₂: 2×2)',
+   count: 'W₁ 2×4 = 8, W₂ 2×2 = 4, no biases → 12',
+   why: 'The strictest classical twin of the circuit: same non-overlapping 2×2 patches, 2 outputs per patch, exactly 12 parameters, and, like the circuit (whose ⟨Z⟩ is a nonlinear function of the 4 pixels), each output is a nonlinear function of its own patch only. Added on 10 Nov for this purpose.',
+   windows: [{ r: 0, c: 0, s: 2, col: '#ea8a1a' }, { r: 0, c: 2, s: 2, col: '#3b82f6' }, { r: 2, c: 0, s: 2, col: '#22a35a' }], pad: false,
+   flow: () => box(0, 30, 92, 56, '2×2 patch', '4 pixels', ...G) + arrow(92, 58, 140, 58) + box(140, 30, 110, 56, 'W₁ (2×4)', '8 weights', ...P) +
+         arrow(250, 58, 290, 58) + box(290, 30, 70, 56, 'tanh', '', ...FX) + arrow(360, 58, 400, 58) +
+         box(400, 30, 110, 56, 'W₂ (2×2)', '4 weights', ...P) + arrow(510, 58, 550, 58) + box(550, 30, 100, 56, '2 outputs', '→ 2 channels', ...W8),
+   fw: 660,
+   res: [['raw', 'tanh, BN, lr 0.005', 94.59, 81.88, 85.51, '−1.38 [−2.27, −0.50]'], ['amp', 'tanh, no BN, lr 0.01', 92.90, 82.81, 85.69, '−1.20 [−2.15, −0.26]']],
+   test: 'PatchMLP raw on test: <b>87.41 ± 1.05</b> vs B6 86.18 ± 0.64 (B6 −1.23 [−2.18, −0.28] over seeds; McNemar p = 0.008; over crops the interval includes 0). Note the reversal: on validation B6 was ahead.' },
+ { id: 'Conv2x2', tags: '<span class="tag t-test">final test</span>', params: 10,
+   one: 'A standard convolution with two 2×2 kernels and stride 2: one weighted sum per output and patch.',
+   formula: 'out₁ = w₁ · x + b₁<br>out₂ = w₂ · x + b₂     (w: 4 weights each)',
+   count: '2 kernels × 4 = 8, + 2 biases → 10 (2 fewer than B6)',
+   why: 'The plain classical filter on exactly the circuit\'s 2×2 patches. It is linear: the only nonlinearity comes after it (act). It cannot reach 12 parameters without changing its form, so it runs at 10, which only works against it.',
+   windows: [{ r: 0, c: 0, s: 2, col: '#ea8a1a' }, { r: 0, c: 2, s: 2, col: '#3b82f6' }, { r: 2, c: 0, s: 2, col: '#22a35a' }], pad: false,
+   flow: () => box(0, 30, 92, 56, '2×2 patch', '4 pixels', ...G) + arrow(92, 58, 150, 58) + box(150, 4, 140, 46, 'w₁ · x + b₁', '5 params', ...P) +
+         box(150, 66, 140, 46, 'w₂ · x + b₂', '5 params', ...P) + arrow(290, 27, 340, 58) + arrow(290, 89, 340, 58) +
+         box(340, 30, 100, 56, '2 outputs', '→ 2 channels', ...W8),
+   fw: 450,
+   res: [['raw', 'tanh, no BN, lr 0.01', 96.99, 83.69, 87.49, '+0.60 [−0.01, +1.20]'], ['amp', 'tanh, no BN, lr 0.01', 93.40, 83.02, 85.99, '−0.91 [−1.37, −0.46]']],
+   test: 'Conv2x2 raw on test: <b>86.88 ± 1.23</b> vs B6 86.18 ± 0.64 (B6 −0.70 [−1.54, +0.13]; McNemar p = 0.09: no significant difference).' },
+ { id: 'Separable3x3', tags: '<span class="tag t-scan">scan only</span>', params: 12,
+   one: 'Two 3×3 kernels, each built as a column vector times a row vector (a rank-1 kernel).',
+   formula: 'K₁ = v₁ h₁ᵀ,  K₂ = v₂ h₂ᵀ     (v, h ∈ ℝ³)<br>out = K * x   (3×3 windows, stride 2, zero padding 1)',
+   count: '2 kernels × (3 + 3) = 12, no biases',
+   why: 'Spends the 12 parameters on a larger, overlapping 3×3 view. A full 3×3 kernel needs 9 parameters, two would need 18; the separable form reaches exactly 12. It won the classical side under the old protocol (test 88.54 vs B6 86.33, with Corn); with equal tuning it is tied with B6 on validation.',
+   windows: [{ r: 0, c: 0, s: 3, col: '#ea8a1a' }, { r: 0, c: 2, s: 3, col: '#3b82f6' }], pad: true,
+   flow: () => box(0, 30, 92, 56, '3×3 window', '9 pixels', ...G) + arrow(92, 58, 150, 58) + box(150, 4, 150, 46, 'K₁ = v₁ h₁ᵀ', '3 + 3 params', ...P) +
+         box(150, 66, 150, 46, 'K₂ = v₂ h₂ᵀ', '3 + 3 params', ...P) + arrow(300, 27, 350, 58) + arrow(300, 89, 350, 58) +
+         box(350, 30, 100, 56, '2 outputs', '→ 2 channels', ...W8),
+   fw: 460,
+   res: [['raw', 'tanh, BN, lr 0.005', 96.24, 82.90, 86.72, '−0.18 [−0.60, +0.24]'], ['amp', 'tanh, BN, lr 0.01', 92.63, 81.26, 84.51, '−2.38 [−3.23, −1.53]']] },
+ { id: 'FixedBasis6', tags: '<span class="tag t-scan">scan only</span>', params: 12,
+   one: 'Each 3×3 kernel is a learned mix of 6 fixed patterns (2-D cosine / DCT bases), like a JPEG block transform.',
+   formula: 'K₁ = Σₙ c₁ₙ Bₙ,  K₂ = Σₙ c₂ₙ Bₙ     (n = 1..6, Bₙ fixed)<br>out = K * x   (3×3 windows, stride 2, zero padding 1)',
+   count: '2 kernels × 6 mixing weights = 12; the 6 patterns are frozen (0 params)',
+   why: 'Another way of reaching exactly 12 on 3×3 windows: the shapes are fixed in advance, only their weights are learned. The 6 patterns are the first 6 of the 9 DCT bases (flat, then increasing frequency), so the highest vertical frequencies are missing.',
+   windows: [{ r: 0, c: 0, s: 3, col: '#ea8a1a' }, { r: 0, c: 2, s: 3, col: '#3b82f6' }], pad: true,
+   flow: () => box(0, 30, 92, 56, '3×3 window', '9 pixels', ...G) + arrow(92, 58, 140, 58) + box(140, 30, 130, 56, '6 fixed DCT', 'patterns (frozen)', ...FX) +
+         arrow(270, 58, 320, 58) + box(320, 30, 130, 56, 'mix: 2 × 6', '12 weights', ...P) + arrow(450, 58, 500, 58) +
+         box(500, 30, 100, 56, '2 outputs', '→ 2 channels', ...W8),
+   fw: 610,
+   res: [['raw', 'tanh, BN, lr 0.005', 96.18, 83.02, 86.78, '−0.11 [−0.59, +0.36]'], ['amp', 'tanh, BN, lr 0.005', 94.52, 82.79, 86.14, '−0.76 [−1.46, −0.05]']] },
+ { id: 'DWSep3x3', tags: '<span class="tag t-scan">scan only</span>', params: 12,
+   one: 'One 3×3 kernel with a bias makes one feature map; two learned scales turn it into the 2 channels.',
+   formula: 'z = k * x + b          (one 3×3 kernel)<br>out₁ = a₁ z,  out₂ = a₂ z',
+   count: 'kernel 9 + bias 1 + 2 scales = 12',
+   why: 'The depthwise-separable layout of mobile CNNs, scaled down to reach 12. Limitation visible in the results: both channels are multiples of the same map, so the head effectively sees one feature, not two. That explains why it is the weakest model.',
+   windows: [{ r: 0, c: 0, s: 3, col: '#ea8a1a' }, { r: 0, c: 2, s: 3, col: '#3b82f6' }], pad: true,
+   flow: () => box(0, 30, 92, 56, '3×3 window', '9 pixels', ...G) + arrow(92, 58, 140, 58) + box(140, 30, 130, 56, 'k * x + b', '9 + 1 params', ...P) +
+         arrow(270, 58, 320, 58, '1 map') + box(320, 4, 100, 46, '× a₁', '1 param', ...P) + box(320, 66, 100, 46, '× a₂', '1 param', ...P) +
+         arrow(420, 27, 470, 58) + arrow(420, 89, 470, 58) + box(470, 30, 100, 56, '2 outputs', '→ 2 channels', ...W8),
+   fw: 580,
+   res: [['raw', 'tanh, no BN, lr 0.005', 91.17, 81.42, 84.21, '−2.69 [−3.91, −1.47]'], ['amp', 'tanh, no BN, lr 0.01', 88.64, 79.82, 82.34, '−4.56 [−5.73, −3.38]']] },
+];
+
+const out = document.getElementById('out');
+out.insertAdjacentHTML('beforeend', '<h2>The models</h2>');
+for (const m of M) {
+  const win = m.windows[0].s === 2
+    ? 'Non-overlapping 2×2 patches, stride 2: each pixel belongs to exactly one patch (the circuit\'s patches).'
+    : '3×3 windows, stride 2, zero padding 1: neighbouring windows share a row or column of pixels.';
+  const rows = m.res.map(r => `<tr><td>${r[0]}</td><td>${r[1]}</td><td class="n">${r[2].toFixed(2)}</td><td class="n">${r[3].toFixed(2)}</td>
+                                <td class="n"><b>${r[4].toFixed(2)}</b></td><td class="n">${r[5]}</td></tr>`).join('');
+  out.insertAdjacentHTML('beforeend', `
+  <div class="card" id="${m.id}"><h3>c/${m.id}/{raw, amp}${m.tags}</h3>
+    <div class="meta"><b>${m.params} filter parameters</b> + 258 head · ${m.one}</div>
+    <div class="row">
+      <div>${grid(m.windows[0].s === 2 ? 6 : 5, m.windows, { pad: m.pad })}<div class="cap" style="max-width:${m.pad ? 170 : 140}px">${win}</div></div>
+      <div><div style="overflow-x:auto">${svg(m.fw, 120, m.flow())}</div>
+        <div class="f">${m.formula}</div><div class="cap">${m.count}</div></div>
+    </div>
+    <p style="max-width:1000px">${m.why}</p>
+    <table class="sum"><tr><th>input</th><th>chosen recipe (of 12)</th><th>val dev</th><th>val held-out</th><th>val all</th><th>vs B6 [95% CI, seeds]</th></tr>${rows}</table>
+    ${m.test ? `<div class="note">${m.test}</div>` : ''}
+  </div>`);
+}
+</script>
+</body>
+</html>

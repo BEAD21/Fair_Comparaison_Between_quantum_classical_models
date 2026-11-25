@@ -1,0 +1,92 @@
+{
+  "Cherry": {
+    "quantum": {
+      "model": "q/ry_only_L2",
+      "recipe": {
+        "act": "tanh",
+        "lr": 0.01,
+        "norm": "bn"
+      },
+      "val_last5": 95.23809523809524,
+      "val_mean": 96.03174603174602,
+      "val_sd": 0.7273929674533112,
+      "filter_params": 4,
+      "trials_done": 40
+    },
+    "classical_raw": {
+      "model": "c/Separable3x3/raw",
+      "recipe": {
+        "act": "none",
+        "epochs": 40,
+        "lr": 0.001,
+        "norm": "bn",
+        "warmup_epochs": 2
+      },
+      "val_last5": 96.09523809523809,
+      "val_mean": 96.82539682539682,
+      "val_sd": 0.9912695235553086,
+      "filter_params": 12,
+      "trials_done": 40
+    },
+    "classical_amp": {
+      "model": "c/FixedBasis6/amp",
+      "recipe": {
+        "act": "tanh",
+        "epochs": 40,
+        "lr": 0.02,
+        "norm": "none"
+      },
+      "val_last5": 93.39682539682538,
+      "val_mean": 94.76190476190476,
+      "val_sd": 1.259881576697429,
+      "filter_params": 12,
+      "trials_done": 40
+    }
+  },
+  "Corn": {
+    "quantum": {
+      "model": "q/hea_L2",
+      "recipe": {
+        "act": "relu",
+        "lr": 0.01,
+        "norm": "none",
+        "warmup_epochs": 2
+      },
+      "val_last5": 99.87301587301586,
+      "val_mean": 100.0,
+      "val_sd": 0.0,
+      "filter_params": 8,
+      "trials_done": 40
+    },
+    "classical_raw": {
+      "model": "c/Conv2x2/raw",
+      "recipe": {
+        "act": "leaky",
+        "epochs": 40,
+        "lr": 0.02,
+        "norm": "none",
+        "warmup_epochs": 2
+      },
+      "val_last5": 100.0,
+      "val_mean": 100.0,
+      "val_sd": 0.0,
+      "filter_params": 10,
+      "trials_done": 40
+    },
+    "classical_amp": {
+      "model": "c/Conv2x2/amp",
+      "recipe": {
+        "act": "leaky",
+        "epochs": 40,
+        "lr": 0.02,
+        "norm": "none",
+        "warmup_epochs": 2
+      },
+      "val_last5": 99.17460317460318,
+      "val_mean": 99.52380952380952,
+      "val_sd": 0.0,
+      "filter_params": 10,
+      "trials_done": 40
+    }
+  }
+}

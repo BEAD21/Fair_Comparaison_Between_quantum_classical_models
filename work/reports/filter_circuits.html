@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quantum filters: circuits</title>
+<style>
+  body { font: 14px system-ui, -apple-system, Segoe UI, sans-serif; margin: 28px; color: #1a1a1a; max-width: 1400px; }
+  h1 { margin-bottom: 4px; }
+  h2 { margin-top: 36px; border-bottom: 2px solid #e5e5e5; padding-bottom: 4px; }
+  .sub { color: #555; margin-top: 0; }
+  .pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 14px 0 6px; }
+  .pipe div { border: 1px solid #bbb; border-radius: 6px; padding: 6px 10px; background: #fafafa; }
+  .pipe .q { background: #eef4ff; border-color: #3b82f6; font-weight: 600; }
+  .pipe span { color: #888; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 14px 0; }
+  .card h3 { margin: 0 0 2px; font-family: ui-monospace, Consolas, monospace; font-size: 15px; }
+  .meta { color: #444; margin: 2px 0 8px; }
+  .meta b { color: #111; }
+  .scroll { overflow-x: auto; padding-bottom: 4px; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin: 10px 0; color: #444; }
+  .sw { display: inline-block; width: 14px; height: 14px; border: 1px solid; border-radius: 3px; vertical-align: -2px; margin-right: 5px; }
+  table.sum { border-collapse: collapse; margin: 10px 0; }
+  table.sum th, table.sum td { border: 1px solid #ccc; padding: 4px 9px; text-align: left; }
+  table.sum th { background: #f2f2f2; }
+  .note { background: #fffbea; border: 1px solid #f0d97a; border-radius: 6px; padding: 8px 12px; }
+</style>
+</head>
+<body>
+<h1>Quantum filters in the scan</h1>
+<p class="sub">Every filter acts on one 2×2 patch at a time, on 2 qubits. Only the circuit between encoding and readout differs.
+Wire q0 is the most significant bit. Circuits are drawn in the order the code applies the gates (qbench/models.py, QuantumConv).</p>
+
+<div class="pipe">
+  <div>image 32×32 grey</div><span>→</span>
+  <div>2×2 patches, stride 2 (256 patches)</div><span>→</span>
+  <div>|x|, L2-normalise → 4 amplitudes</div><span>→</span>
+  <div class="q">circuit U (the filter)</div><span>→</span>
+  <div>⟨Z₀⟩, ⟨Z₁⟩ → 2 channels 16×16</div><span>→</span>
+  <div>[BN] → [act]</div><span>→</span>
+  <div>MaxPool 2 → 2×8×8 = 128</div><span>→</span>
+  <div>Linear 128→2 (258 params)</div>
+</div>
+
+<div class="legend">
+  <span><span class="sw" style="background:#e7f6ec;border-color:#2f9e5a"></span>amplitude encoding</span>
+  <span><span class="sw" style="background:#dbeafe;border-color:#3b82f6"></span>RY (trainable)</span>
+  <span><span class="sw" style="background:#ffedd5;border-color:#ea8a1a"></span>RZ (trainable)</span>
+  <span><span class="sw" style="background:#ede9fe;border-color:#7c3aed"></span>2-qubit block</span>
+  <span><span class="sw" style="background:#f3f4f6;border-color:#6b7280"></span>⟨Z⟩ readout</span>
+  <span>●—⊕ CNOT (control → target)</span>
+  <span><span class="sw" style="background:#f7f7f7;border-color:#d4d4d4"></span>repeated block</span>
+</div>
+
+<div class="note"><b>Effective parameters.</b> A real circuit (only RY and CNOT) can use at most 6 parameters on 2 qubits, however many it has: B3 and B6 were verified to reach 6. A circuit with complex phases (RZ, SU(4)) can use at most 15. Values marked ≤ are upper bounds, not measured.</div>
+
+<h2>Summary</h2>
+<table class="sum" id="sum"><tr><th>filter</th><th>group</th><th>family</th><th>parameters</th><th>effective (bound)</th><th>2-qubit gates</th></tr></table>
+
+<div id="out"></div>
+
+<h2>Not in the scan</h2>
+<p><b>QAOA</b> (qaoa_p&lt;p&gt;): removed. Earlier runs showed no gain with depth and results close to the identity control.</p>
+
+<script>
+const COLW = 50, GW = 38, GH = 34, Y = [42, 108], X0 = 46;
+const C = { RY: ['#dbeafe', '#3b82f6'], RZ: ['#ffedd5', '#ea8a1a'] };
+
+// ---------- circuit specs: list of blocks, each a list of columns ----------
+function ryCol(p) { return [{ k: 'g', q: 0, n: 'RY', p: p() }, { k: 'g', q: 1, n: 'RY', p: p() }]; }
+function rzCol(p) { return [{ k: 'g', q: 0, n: 'RZ', p: p() }, { k: 'g', q: 1, n: 'RZ', p: p() }]; }
+const CX01 = [{ k: 'cx', c: 0, t: 1 }], CX10 = [{ k: 'cx', c: 1, t: 0 }];
+function counter() { let i = 0; return () => 'θ' + (++i); }
+
+function ryCnot(B) {            // RY RY, CNOT, ..., RY RY  (no CNOT after the last block)
+  const p = counter(), blocks = [];
+  for (let b = 0; b < B; b++) blocks.push({ label: 'block ' + (b + 1), cols: b < B - 1 ? [ryCol(p), CX01] : [ryCol(p)] });
+  return blocks;
+}
+function ryOnly(L) {            // per layer: RY RY, then CNOT ring 0→1, 1→0
+  const p = counter(), blocks = [];
+  for (let l = 0; l < L; l++) blocks.push({ label: 'layer ' + (l + 1), cols: [ryCol(p), CX01, CX10] });
+  return blocks;
+}
+function hea(L) {               // per layer: RY then RZ on each wire, then CNOT ring
+  const p = counter(), blocks = [];
+  for (let l = 0; l < L; l++) blocks.push({ label: 'layer ' + (l + 1), cols: [ryCol(p), rzCol(p), CX01, CX10] });
+  return blocks;
+}
+function wgate(P) {             // notebooks' w_gate_pl: RY RY, CNOT, RY RY, CNOT, RY RY  (x P)
+  const p = counter(), blocks = [];
+  for (let j = 0; j < P; j++) blocks.push({ label: 'w_gate ' + (j + 1), cols: [ryCol(p), CX01, ryCol(p), CX01, ryCol(p)] });
+  return blocks;
+}
+function su4() {                // (A1⊗A2) · exp(i(aXX+bYY+cZZ)) · (A3⊗A4), A = RZ RY RZ
+  const p = counter();
+  const local = () => [rzCol(p), ryCol(p), rzCol(p)];
+  const a = local();
+  const core = [{ k: 'span', n: 'exp(i(aXX+bYY+cZZ))', p: p() + ',' + p() + ',' + p(), w: 3 }];
+  const b = local();
+  return [{ label: 'local A3⊗A4', cols: a }, { label: 'entangling core', cols: [core] }, { label: 'local A1⊗A2', cols: b }];
+}
+const identity = () => [];
+const random = () => [{ label: 'fixed, not trained', cols: [[{ k: 'span', n: 'Haar-random U (frozen)', p: '', w: 3 }]] }];
+
+const F = [];
+function add(name, group, family, params, eff, spec, note) { F.push({ name, group, family, params, eff, spec, note }); }
+const REAL = 'real (RY + CNOT)', CPLX = 'complex phases';
+for (let b = 5; b <= 10; b++) add('q/ry_cnot_B' + b, '10 to 20 parameters', 'RY-CNOT', 2 * b, b === 6 ? '6 (verified)' : '≤ 6', ryCnot(b),
+  b === 6 ? 'B6: the filter of the earlier paper version.' : '');
+for (let l = 5; l <= 10; l++) add('q/ry_only_L' + l, '10 to 20 parameters', 'RY-only + CNOT ring', 2 * l, '≤ 6', ryOnly(l),
+  'Despite the name it entangles: each layer ends with CNOT 0→1 and 1→0.');
+for (const l of [3, 4, 5]) add('q/hea_L' + l, '10 to 20 parameters', 'HEA (RY, RZ, CNOT ring)', 4 * l, '≤ 15', hea(l), '');
+for (const P of [2, 3]) add('q/wgate_P' + P, '10 to 20 parameters', 'notebook w_gate_pl', 6 * P, '≤ 6', wgate(P),
+  'The filter of the earlier notebooks, used as a patch filter.');
+add('q/su4', '10 to 20 parameters', 'general 2-qubit gate (SU(4), KAK form)', 15, '≤ 15', su4(),
+  'Can express any 2-qubit gate. Added 9 Nov; not yet checked against PennyLane.');
+add('q/ry_cnot_B3', 'Smaller filters, information only', 'RY-CNOT', 6, '6 (verified)', ryCnot(3), '');
+for (const l of [2, 3]) add('q/ry_only_L' + l, 'Smaller filters, information only', 'RY-only + CNOT ring', 2 * l, '≤ ' + Math.min(2 * l, 6), ryOnly(l), '');
+add('q/hea_L2', 'Smaller filters, information only', 'HEA (RY, RZ, CNOT ring)', 8, '≤ 8', hea(2), '');
+add('q/identity', 'Controls: nothing to train in the circuit', 'none', 0, '0', identity(), 'No circuit: the encoded patch is measured directly.');
+add('q/random', 'Controls: nothing to train in the circuit', 'fixed random unitary', 0, '0', random(), 'A random 4×4 unitary drawn once from the seed and never trained.');
+
+// ---------- drawing ----------
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function colWidth(col) { return Math.max(...col.map(it => it.k === 'span' ? (it.w || 2) * COLW : COLW)); }
+
+function draw(blocks) {
+  const bg = [], fg = [];
+  let x = X0;
+  // encoding
+  fg.push(`<rect x="${x}" y="${Y[0] - 22}" width="78" height="${Y[1] - Y[0] + 44}" rx="5" fill="#e7f6ec" stroke="#2f9e5a"/>`,
+          `<text x="${x + 39}" y="${(Y[0] + Y[1]) / 2 - 3}" text-anchor="middle" font-size="12" font-weight="600">Amp(|x|)</text>`,
+          `<text x="${x + 39}" y="${(Y[0] + Y[1]) / 2 + 12}" text-anchor="middle" font-size="10" fill="#444">2×2 patch</text>`);
+  x += 94;
+  let shade = 0, cx = 0;
+  for (const bl of blocks) {
+    const bx = x;
+    for (const col of bl.cols) {
+      const w = colWidth(col), c = x + w / 2;
+      for (const it of col) {
+        if (it.k === 'g') {
+          const [f, s] = C[it.n], y = Y[it.q];
+          fg.push(`<rect x="${c - GW / 2}" y="${y - GH / 2}" width="${GW}" height="${GH}" rx="4" fill="${f}" stroke="${s}"/>`,
+                  `<text x="${c}" y="${y - 2}" text-anchor="middle" font-size="12" font-weight="600">${it.n}</text>`,
+                  `<text x="${c}" y="${y + 11}" text-anchor="middle" font-size="9.5" fill="#333">${it.p}</text>`);
+        } else if (it.k === 'cx') {
+          const yc = Y[it.c], yt = Y[it.t], dir = yt > yc ? 1 : -1;
+          cx++;
+          fg.push(`<line x1="${c}" y1="${yc}" x2="${c}" y2="${yt + 11 * dir}" stroke="#111" stroke-width="1.5"/>`,
+                  `<circle cx="${c}" cy="${yc}" r="4.5" fill="#111"/>`,
+                  `<circle cx="${c}" cy="${yt}" r="11" fill="#fff" stroke="#111" stroke-width="1.5"/>`,
+                  `<line x1="${c - 11}" y1="${yt}" x2="${c + 11}" y2="${yt}" stroke="#111" stroke-width="1.5"/>`,
+                  `<line x1="${c}" y1="${yt - 11}" x2="${c}" y2="${yt + 11}" stroke="#111" stroke-width="1.5"/>`);
+        } else if (it.k === 'span') {
+          fg.push(`<rect x="${x + 4}" y="${Y[0] - 20}" width="${w - 8}" height="${Y[1] - Y[0] + 40}" rx="5" fill="#ede9fe" stroke="#7c3aed"/>`,
+                  `<text x="${c}" y="${(Y[0] + Y[1]) / 2 - 2}" text-anchor="middle" font-size="11" font-weight="600">${esc(it.n)}</text>`,
+                  it.p ? `<text x="${c}" y="${(Y[0] + Y[1]) / 2 + 13}" text-anchor="middle" font-size="9.5" fill="#333">${it.p}</text>` : '');
+        }
+      }
+      x += w;
+    }
+    bg.push(`<rect x="${bx - 3}" y="${Y[0] - 34}" width="${x - bx + 6}" height="${Y[1] - Y[0] + 62}" rx="6" fill="${shade++ % 2 ? '#f7f7f7' : '#fdfdfd'}" stroke="#d4d4d4" stroke-dasharray="3 3"/>`,
+            `<text x="${bx + 2}" y="${Y[0] - 24}" font-size="10" fill="#777">${esc(bl.label)}</text>`);
+  }
+  if (!blocks.length) {
+    fg.push(`<text x="${x + 50}" y="${(Y[0] + Y[1]) / 2 + 4}" text-anchor="middle" font-size="11" fill="#777">(no gates)</text>`);
+    x += 100;
+  }
+  x += 14;
+  for (let q = 0; q < 2; q++) {
+    fg.push(`<rect x="${x}" y="${Y[q] - 15}" width="44" height="30" rx="4" fill="#f3f4f6" stroke="#6b7280"/>`,
+            `<text x="${x + 22}" y="${Y[q] + 5}" text-anchor="middle" font-size="12">⟨Z${q === 0 ? '₀' : '₁'}⟩</text>`,
+            `<text x="${x + 54}" y="${Y[q] + 4}" font-size="11" fill="#555">→ channel ${q + 1}</text>`);
+  }
+  const W = x + 130;
+  const wires = Y.map((y, q) => `<line x1="${X0 - 8}" y1="${y}" x2="${x}" y2="${y}" stroke="#555" stroke-width="1.2"/>` +
+                                `<text x="6" y="${y + 4}" font-size="12" font-weight="600">q${q}</text>`).join('');
+  return { svg: `<svg width="${W}" height="${Y[1] + 34}" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">${bg.join('')}${wires}${fg.join('')}</svg>`, cx };
+}
+
+const out = document.getElementById('out'), sum = document.getElementById('sum');
+let group = null;
+for (const f of F) {
+  const d = draw(f.spec);
+  sum.insertAdjacentHTML('beforeend', `<tr><td><a href="#${f.name}">${f.name}</a></td><td>${f.group}</td><td>${esc(f.family)}</td><td>${f.params}</td><td>${f.eff}</td><td>${f.name === 'q/su4' ? '1 block' : f.name === 'q/random' ? '1 fixed block' : d.cx + ' CNOT'}</td></tr>`);
+  if (f.group !== group) { group = f.group; out.insertAdjacentHTML('beforeend', `<h2>${group}</h2>`); }
+  out.insertAdjacentHTML('beforeend',
+    `<div class="card" id="${f.name}"><h3>${f.name}</h3>
+     <div class="meta"><b>${esc(f.family)}</b> · ${f.params} trainable circuit parameters · effective ${f.eff}${f.note ? ' · ' + esc(f.note) : ''}</div>
+     <div class="scroll">${d.svg}</div></div>`);
+}
+</script>
+</body>
+</html>

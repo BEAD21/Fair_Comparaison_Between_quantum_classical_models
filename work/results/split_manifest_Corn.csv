@@ -1,0 +1,1401 @@
+split,label,path
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6905d4fa-76db-429c-92ff-da26ef051a9b___RS_Rust 1814_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/19554ea5-21a6-44aa-8979-2ead3c73dd62___R.S_HL 7932 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5abd9233-3a0a-43a0-bee6-37080ea16da3___RS_Rust 2457_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e42857cd-7a60-4b42-9bbb-28d3154fe7f1___R.S_HL 8138 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/23c6256b-6151-407e-a4c6-188871bac286___RS_Rust 2539_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/062b0c0f-94fa-4c58-b735-2ba65e4dc9b9___R.S_HL 7947 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/83bfb1ea-c04f-4e9e-baff-396ae2b01fc3___R.S_HL 5537 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1c39f76a-ed95-4996-914e-9aeeaa10ff1e___R.S_HL 8011 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/38eac1aa-9b93-4f9e-83c0-51f47a336fb4___R.S_HL 8195 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/529b5631-85e6-48ce-b1a1-45caa42d7ff6___RS_Rust 2445_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c73b4c12-ccbf-4ba9-8dd9-aba377680518___R.S_HL 5497 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2489fa30-80d5-4daa-8f3f-9fab3ac9c208___RS_Rust 2452_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/15297d24-b99b-4c9b-91b5-c09057867aef___R.S_HL 8028 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/788e0dd8-17e9-4d1d-a19c-1d74a5e94c21___RS_Rust 2384_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/82183af9-1261-4bba-8a8b-0eb57b4d42a8___R.S_HL 8096 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/da14697d-caf7-4e3b-99dc-fcfa6419c128___RS_Rust 2007_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/280bdb21-741e-4661-a851-73928919d148___RS_Rust 1676_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2c0365a1-85dc-4c0c-85a0-60bd46b267e1___R.S_HL 5516 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bb0f8a9d-1c38-46a7-b922-2bbd3ba72fba___R.S_HL 7942 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9ceeb9f7-fef1-410b-8bcf-3e5bf3e46805___RS_Rust 1754_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2e250087-cf0d-4600-bab8-e526ba2081af___RS_Rust 2527_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/32f140ea-87cd-497f-b20f-761f5a19d493___RS_Rust 2189_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b5e0a574-7a3b-4ee4-ac41-21ff1ff70bf7___R.S_HL 8179 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a18e463e-3d70-41ca-9bab-5ad8768bf822___RS_Rust 1904_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0ee6c8d6-534f-4fc5-92bb-fac9d226c70b___R.S_HL 8011 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3deca79b-004d-4d83-9e97-25523e492f68___R.S_HL 8265 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/876c414d-eb4b-4929-819f-851476525934___R.S_HL 7930 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b5069c6e-a377-46a8-a53c-1275896c3036___R.S_HL 8235 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/bd9223f6-0fbf-49b9-ae6c-ea58f51bb063___RS_Rust 2306_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/991c7f0d-4b89-4a92-8783-ac6021242ebf___RS_Rust 2323_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0e761127-e14f-410e-aa7d-b0055c4bd888___RS_Rust 2462_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/11fe4614-719b-4951-9aec-23e3215e7a83___RS_Rust 1757_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e905ff79-0bf0-4def-a57b-d1fbe757f38a___RS_Rust 2052_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8403e7ac-4588-4af2-b000-843b1e7fc7a1___RS_Rust 2735_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/16013375-da25-4dec-b531-131bed86f025___R.S_HL 5498 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0f6d1e23-9ac3-4d2d-bd32-9b0cb91bf4e3___R.S_HL 0625 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f8f2663a-df9b-4c0b-bddc-0f0c6fc5c7cf___R.S_HL 8126 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c48488e9-03c9-4cae-8d74-d69d36891854___R.S_HL 7927 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e7a4c459-f737-4efb-b13c-13c31662f1d3___R.S_HL 7976 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e6878638-aac4-443d-9a82-75de519ef5fd___RS_Rust 1847_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9fbb62b9-78de-41c0-a6ff-1f009ee6960a___RS_Rust 2696_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9f7133da-e462-4268-bb69-7f1671e33af6___RS_Rust 2340_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/943d19c5-a25d-45bf-abcc-d76a101e1ef0___RS_Rust 2489_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7013d5ea-947b-4ba0-8f46-efda9caaad32___RS_Rust 2490_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4c7c0c9d-eade-4f48-9c77-da0e1b5f587e___R.S_HL 8104 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/220d849c-1a18-4743-bf5f-a570d2759818___R.S_HL 7911 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/740f12a2-c86a-4bed-93a0-8ee39297eea4___R.S_HL 5531 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3e17ae12-9a12-41a4-85fb-f41d028509f0___RS_Rust 1596_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/33ae3386-f7ce-4c52-92d0-13d964f1cfae___R.S_HL 8331 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b4f72d88-c066-406c-bcc6-4ee2f4774c45___RS_Rust 1594_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cbea79a3-7a68-4d16-b509-c84f333f9a38___R.S_HL 8137 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/37fa5c5c-0c0b-4f9e-b3fa-f9fac95639a7___R.S_HL 8191 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/17b31ffc-b698-4fbf-8862-9b277431229b___RS_Rust 2200_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9b5d313a-6815-4b9d-ad5d-27114e767112___R.S_HL 8268 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a3fca92a-ceda-408d-b8bd-e8a56fa3f577___RS_Rust 1630_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a56dc8d0-255d-42c6-8eb5-9b09c4bba732___RS_Rust 2015_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/854c7bc4-5439-432a-8131-4e37bcb660b3___R.S_HL 7964 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/216dd0f3-9464-4596-a45d-897e1c3699fd___RS_Rust 1701_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d00ea7eb-b01d-446c-857e-b2da93769119___RS_Rust 2458_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9a485b3f-9849-42fc-91f9-fc087bf1bf97___RS_Rust 2471_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/95e947fd-5e21-481c-b8a1-e9e797ed973b___RS_Rust 2297_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6d583dab-c7e1-427c-ac04-f15fe244daf6___RS_Rust 1968_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d64198a2-b086-468c-9428-712a173d60ef___RS_Rust 2239_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0af3d913-471e-4769-9372-e0af517ba507___R.S_HL 5524 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2f556be0-6966-4d51-a4b6-8931c0cba916___R.S_HL 8217 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e3c8bffe-60f1-4ec6-bd04-a35c4f83adee___RS_Rust 2101_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/db0ea437-933d-46ac-ab40-13ca800ee28f___RS_Rust 2224_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/24e6012e-8c52-4a5d-b1e6-060ce14675dd___RS_Rust 2451_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/450b05f5-992e-4c25-b91c-4471be43be40___RS_Rust 2577_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f066fbc0-7910-46af-bcff-cb06cef2177d___R.S_HL 7951 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b737953d-441b-47f4-9fa8-da64ff1d10a8___RS_Rust 2724_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/705e4964-204c-4a80-bc0c-fd7ce6d96ba7___R.S_HL 0649 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/76bada1b-94ff-4c8c-a9b9-2f4b894faebf___R.S_HL 8133 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2f149f3c-61b7-4827-ad40-32f971a70d5f___R.S_HL 8258 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f1049179-18e6-4028-8d2a-1d2c3569dd1c___RS_Rust 1970_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/22507fe5-42ef-45ea-82f0-d2142f3ff290___RS_Rust 2450_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a2686a31-5b86-43b3-843b-2061d4e975a7___R.S_HL 8103 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d0ed7e16-a6f5-403e-9b26-d0d9d74e1a32___R.S_HL 8004 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/30f9746d-b00f-4972-aef2-eec243d317ac___R.S_HL 8016 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/72c1371c-237d-4538-980b-a787f35f06ad___RS_Rust 2123_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e94efdf2-13e2-4ea1-8c2d-1f921a5fcc18___RS_Rust 2041_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/80a8d332-7750-4167-833e-af5ffe5c8831___R.S_HL 0622 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c08b2ac1-5c63-459d-8bdb-e40f4faa2071___RS_Rust 2194_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fdc2eb55-8546-4a6a-81f2-52d72da4e870___RS_Rust 2074_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cd7d0886-6486-4689-b45c-5e60ea79fdb2___R.S_HL 0623 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f448a8ff-08b9-461f-98f6-c17baf130346___RS_Rust 1726_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/852e8e42-c48b-4a49-9f06-cae0ecb7747e___R.S_HL 8271 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e2615ce3-f005-474b-99ab-9b935d3be9df___RS_Rust 1843_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2d40f917-4d4d-4ff4-a5eb-e04b7cf86930___RS_Rust 2627_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b00e0e7c-bf96-4ef1-a1c4-21b664fba235___RS_Rust 2111_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/466155e6-ef86-4024-9c0a-de7ca09a1d07___R.S_HL 7986 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b136866e-22e6-4b9f-b543-1fc6bbd51f46___RS_Rust 2551_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/37db6928-553b-47de-b1ea-c33bd1b2ab25___RS_Rust 1588_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fe50a4b4-0e43-47d7-afdf-de6544ebbec9___R.S_HL 7952 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8cc772b1-1951-4c32-a881-178d1e0c3858___RS_Rust 2050_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9d7fe0ec-48b6-4b1e-83ea-391d53de37af___R.S_HL 8210 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b955101f-206b-4c77-8844-32ecfc66014c___RS_Rust 2719_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fb65bef4-b6c2-49d8-86dd-be1e72bdb43d___R.S_HL 0611 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/140c237b-266b-4ea2-a13e-bbc8915dc53a___R.S_HL 5495 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5558853b-3853-4ef2-9824-a73060db0b30___R.S_HL 0631 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/607524f1-b59a-4a36-b842-e1d7225758da___R.S_HL 7920 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/becffd69-6b4c-445a-b75f-461a479f5544___RS_Rust 2245_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/184d5681-6ec2-448b-8474-f7392faec235___R.S_HL 7975 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e3648674-ef3f-464a-b79c-655aca1d755f___R.S_HL 5505 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9c774ac1-c09e-4365-bb0e-eee0dd61ac3c___R.S_HL 0637 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0fdec9d5-d84a-45aa-94c5-9b66f192dd8c___R.S_HL 8019 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1ebf7451-57eb-4a9f-a960-4d5eb8ee5ff8___RS_Rust 2008_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8e579aa7-e16c-4a27-94d4-772f2ee0c455___RS_Rust 2482_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9e7dfda2-4c7b-4677-956b-78f1ff1a00fd___RS_Rust 2095_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/96d3f95b-bef6-4bdd-a53a-f7049ccff3d1___R.S_HL 7933 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/25f938bd-45b5-4e2d-a53c-0748e99f9767___RS_Rust 1853_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7c2daa54-9402-42cc-9200-be9133305ad3___RS_Rust 2251_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1a3087b9-5974-4864-a840-0656095c8b8d___RS_Rust 2024_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d6b7b823-ea04-4b02-a687-f08a4df9d374___R.S_HL 8049 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6ea70e5d-4643-493d-bb68-112c050f3836___RS_Rust 2745_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fcfa46d6-10f0-43ba-a5e6-de37e62ccfb0___R.S_HL 5557 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b363f87e-e6ee-48e4-a0e8-6efe6e1ab592___R.S_HL 8201 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ee069f8c-3110-446b-827b-f7a229833db6___R.S_HL 8154 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/85e4fe16-e125-4f1c-8bda-d085106cce47___R.S_HL 8246 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e29df32e-9fec-4ef4-b0fd-e71cf4f567ce___R.S_HL 5527 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9b9b4173-ff47-47d5-b528-e8e32f919c3c___RS_Rust 2002_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/76384c2b-bc52-4237-b6ca-0c7b34099ea8___R.S_HL 8215 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5c0d54a3-39dd-4720-ace7-d571ec6e7b61___R.S_HL 8048 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b107b3f5-1501-467a-91c9-96d3723f7624___RS_Rust 2619_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5c007cea-468b-4e33-aa6c-803932baf906___R.S_HL 8145 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4a771d9d-4dc5-48dd-9b05-239246a8dc66___R.S_HL 5494 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a4c6f19f-aa31-4fb5-bd57-6b4ffbfdffb3___RS_Rust 1866_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c1e83dd7-eacb-4912-b8a7-9c2614b36054___RS_Rust 2165_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6b6bcf84-35e5-417a-95cb-f1b7d227eab2___R.S_HL 8189 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/89d52d05-14d7-4829-9654-0405f57b9573___RS_Rust 2578_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e2735878-7aa1-4db0-9013-6bf31f6e4e43___R.S_HL 0598 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4976825c-af34-4ba8-9e2d-2a6c25eae077___R.S_HL 8269 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/986928d5-2759-4dd8-a1d1-56c9741f9de5___RS_Rust 2353_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2182ac06-9534-43c6-a79b-d223d9281414___RS_Rust 2616_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/13e2289b-7e83-417f-90e5-d42f4796ecbf___R.S_HL 8140 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dfd47624-e713-4a9d-91cf-7b675cc5283f___RS_Rust 2638_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/adf0af30-e4b2-4b2e-ab74-105b6fabc813___R.S_HL 7993 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/47f4e388-f1d8-4a7c-a587-05dfc1ecff2c___RS_Rust 2683_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2cc203bd-1fdf-40e1-af08-5ab793586fc4___R.S_HL 7971 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6bb4c303-7e34-43a6-8eca-20a171672c31___R.S_HL 8089 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/987a5bc4-6e3c-471a-b892-4734a7b3d689___RS_Rust 1749_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/721f6f6c-9f41-487d-82cc-1bbe2fa55b61___R.S_HL 0617 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e45eb0fd-208b-4447-b4f4-1eaafcb45596___R.S_HL 0610_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/95a91761-f9f5-43ca-9c8f-f901c149b117___R.S_HL 5508 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/38d5f9d3-3483-49e0-9bc8-3efc235f84b0___RS_Rust 2188_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e6d33ffd-b753-4e39-ab03-6632a9c9d446___RS_Rust 2026_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a7f5fc47-53d2-412b-9198-98fa1d049fae___R.S_HL 8146 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/aa667c19-c384-4b21-baeb-30603af534f1___RS_Rust 1871_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/42488140-6d00-4240-9a9a-b9fddedbefdd___R.S_HL 8277 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e6bafd52-6e8c-4f53-a2f0-4b5393d4778f___RS_Rust 1992_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6897f650-f757-4436-ae90-bffa30cbdd84___RS_Rust 2280_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c91fb393-8836-458a-8389-add73a311dc6___RS_Rust 2446_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6672927f-9c4b-4c78-a733-1b6a9607764a___R.S_HL 5512 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7d9ba686-3d31-41d2-a078-588d1bcf3aee___R.S_HL 5555 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d6f5c14c-3cba-4378-9b58-928a6d679946___R.S_HL 0622 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ff78bd79-1823-4a96-8d42-e7cf12dc3127___R.S_HL 5546 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4586647b-275c-448a-80dd-fcd1431acbe5___RS_Rust 2399_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fe040033-95db-4e69-8049-03280fcc9cb1___RS_Rust 2206_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b59df6dd-124f-41db-9faf-0f0a7ec34901___RS_Rust 1846_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/61882a92-68db-4e69-acc3-3fda4f1c06db___RS_Rust 2743_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9c7cf8f8-4ca0-43b6-826b-f8a9344b6a01___R.S_HL 8202 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a30b3484-0f97-474a-92f5-5e6dc55885cd___R.S_HL 8000 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1970b015-02d3-405a-a1d7-3457a6977557___R.S_HL 7891 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/56a8daed-fbfb-4819-8edd-79be1f05b690___RS_Rust 2464_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b946fae2-b6e2-4d58-9cf0-507062b0f807___RS_Rust 2694_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7f350929-dc92-4c8d-a01c-ab561579bfb8___R.S_HL 7999 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ae439260-db67-45e4-ba79-f19547e34c21___RS_Rust 2311_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/29323400-e519-431c-b44b-aec9cfdd511f___RS_Rust 2234_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/11d4de62-bc8a-42dc-b010-421c800bc419___RS_Rust 2573_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8d7d2f6f-e15c-4f7f-958f-b2113f2b84e5___RS_Rust 1995_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/849ba0ac-0883-4fbd-a94d-ba7489e5d614___R.S_HL 8241 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bd16cdda-2c8d-4577-a597-a46c0222d841___R.S_HL 8281 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4a6aa530-32c7-49fe-a18b-a069bc49073d___R.S_HL 8304 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/546c0979-8132-4d13-af9d-af065b203d22___RS_Rust 1967_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/639a8321-f780-4a3d-aeb6-7f08b61cf6c5___R.S_HL 8246 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e57ad85b-14fb-4df2-a240-6245708a955e___RS_Rust 2726_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2391d8cf-a92e-444e-a837-28ccf48029ee___RS_Rust 1678_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/49277016-08c5-4256-8239-ad528ad850a6___RS_Rust 1830_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/620e70fd-98d9-40c4-b9a9-803080d1d371___R.S_HL 7968 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/89c03f8d-109b-4e13-87a9-00deb0f7a4a7___R.S_HL 8242 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6cc79c8d-90b8-4343-94da-98c8edc968e3___R.S_HL 5553 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5fd226ef-ae5a-45e8-bacc-c34f6d9aa94f___R.S_HL 8327 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8639d32c-4fe2-4eb1-ae6b-a2cd6608363b___R.S_HL 0623 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8927572e-48ce-4933-a9f8-0a491d7b5bc2___R.S_HL 8310 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d63c85ff-1163-406b-8c84-43b3adb2ebd6___RS_Rust 2033_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/537f6d91-ea08-4055-8736-60cc5cdf666a___R.S_HL 8154 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9bf79f09-b182-4092-b4a7-b1a00830ecfc___R.S_HL 0627 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1c8fbedd-066a-486e-b042-29641bb366db___RS_Rust 2681_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/70381b2f-7964-4252-a44a-f63a2c35a71c___R.S_HL 7914 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/bee06ee4-61f7-4122-979e-55a36eff386c___RS_Rust 1677_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ef061910-eea2-4ebb-9523-d2c0510e3031___R.S_HL 0623 copy 4_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/be5a9785-8a89-493c-945f-cfa5b5ba369b___RS_Rust 1692_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ca48bf18-8687-40b7-93b2-c85adf03e507___R.S_HL 5546 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/139db478-1c5e-4749-9b14-885376bfd8e3___R.S_HL 5493 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fdcf2bae-41a2-4c83-897f-31dd0b4e540c___R.S_HL 8225 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fde63485-cc2d-4774-9cf3-a77073790552___R.S_HL 8309 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/95afbc6c-3e3a-4d1f-8933-d7cd73f1e8a1___R.S_HL 0612 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/db9acaef-81ac-43d5-9cc2-74ca5182726a___R.S_HL 8318 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/13813915-f03c-43ab-83cd-f96ecb9553f7___RS_Rust 1879_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1270d44d-5c1a-45b4-8269-b4f47e652144___RS_Rust 2513_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7bedea19-5d9f-4bee-a1a1-091a168d4672___R.S_HL 8139 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6541e753-f5f5-4486-a19d-79cc0c1bf023___RS_Rust 1690_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a824d5d4-1a58-44ff-a188-683e5ad41a5d___RS_Rust 2500_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2e5a2c4f-35b2-4b73-aee2-2a43150b7e8f___R.S_HL 8214 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7b99de63-98be-4497-9246-714943897f3f___RS_Rust 2082_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a13bd96d-eebf-4437-821a-8b9f9bed7c66___RS_Rust 1954_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/671e7602-81f4-4fae-9b2e-36f78463ae66___R.S_HL 7994 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/06ec8081-1520-43e3-bda7-d74467f55992___R.S_HL 7935 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/382e7d55-9be8-4c69-afef-231c9d51f0ac___RS_Rust 1728_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4217406b-4bdc-4484-9670-c0c350d854bd___R.S_HL 7976 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/28772b2c-6337-413e-a6a4-e206b725be5e___RS_Rust 2418_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e3cd8f06-0635-4a93-adb4-21fe7b7fd714___R.S_HL 8226 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ca270450-47d5-49a6-8fc5-881bef1b36af___R.S_HL 8059 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2be9eb30-941c-43a7-b470-0b2538578b49___RS_Rust 1707_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7129a1ee-782e-4a58-99be-b5144ec6d64e___RS_Rust 2272_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ae2d27f3-37a3-4744-84c5-d7b093798b04___RS_Rust 2348_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b6a4900e-03ae-41c6-b2a3-dc1345aaaddc___R.S_HL 0615 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c7e75a59-ae1d-4c6e-95e1-2b4ebd9c860c___RS_Rust 1581_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2930a76c-f0f6-4880-8ec7-f06aaaf257d1___R.S_HL 8155 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c20b219c-85ab-4d29-857f-39ab415d0c8c___RS_Rust 1698_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/01c81355-a360-4a5b-a0d9-30b0b6763059___RS_Rust 1619_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3587d76f-2222-455c-b192-496c566ec7a8___RS_Rust 2517_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a9fb7f08-cb01-431e-ae32-cbeb1279e866___R.S_HL 8313 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ee329557-9c42-4121-8056-1f8e5180ae09___RS_Rust 1906_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8c555ee6-2593-4f20-a625-852679047bf5___RS_Rust 2588_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6d0cda46-6aa4-4f11-90c0-6a97797cf81b___RS_Rust 2196_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8f423e15-a0ac-4e5d-86ac-bcc240b2cfe1___RS_Rust 2673_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/04051bfd-1b07-4576-b08e-e48162e30b67___RS_Rust 1662_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1ebbb423-1127-491f-bcb9-1a279c656c03___RS_Rust 2172_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5fff81b5-afe1-4743-a94b-4dce92ddc524___R.S_HL 0651 copy 4_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b5f20d48-e6ab-401c-81b4-58e5147576b3___R.S_HL 8141 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c914ed35-d200-4b99-a40e-df0b18668dc0___RS_Rust 2197_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/03fc887f-e206-4233-8829-ff7070bb3449___R.S_HL 5519 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3496ace9-b327-41f7-92b1-9f2352977b87___RS_Rust 2708_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3524aed9-a07f-437c-8afe-a938daec4284___R.S_HL 0632 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6b5a0ff3-3827-4013-b00b-99315b00f389___RS_Rust 2729_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a5c6b475-da4f-4f43-a383-20fbaae78616___R.S_HL 7950 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/57625493-7f34-47eb-b7d4-591b39701edc___R.S_HL 0620 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e786d1da-3a80-4f33-89cd-b5fdee3d3318___R.S_HL 8197 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/116ba4e1-7cd5-4d4e-b876-5212a41a0ab3___R.S_HL 8201 copy _final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e2819ae6-5e1f-4b49-96dd-5f130d73983c___R.S_HL 8282 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b54a855c-999d-4e7a-9e0d-9da3d66f1273___R.S_HL 5490 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0fb1088a-87a4-4001-abcd-ee90ff080f93___RS_Rust 2258_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2c7a193a-2668-4a0b-bd22-3899285f00ae___RS_Rust 2130_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/079b6072-b47b-4cbf-bf1f-93d0f2c61e63___RS_Rust 2242_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f80088e4-8223-4d86-9f25-1fa1c4157e47___RS_Rust 2237_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/be27748d-24ce-44d5-bc11-ab88dac069a2___RS_Rust 2692_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4bf9482d-8953-49ca-bc10-ed2742d40e9c___R.S_HL 5522 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4ae99990-fe39-4a48-bdec-5ed4b1e0ea5c___R.S_HL 8316 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f2776250-0814-4b7a-abf6-1a1dfcdf98b9___RS_Rust 2737_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/16123a33-12e5-414e-9ae0-695b86e6cb3a___R.S_HL 8136 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0f16ec85-220f-4b3f-8a89-6e463676c8b0___R.S_HL 8013 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8571df0d-62aa-400a-a7ae-38fccf352fc4___RS_Rust 1783_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3d362b98-bb76-435f-97bf-5ba499d00c20___RS_Rust 2166_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/191bcfb4-15b4-4ffe-8ebd-b540b52ed136___R.S_HL 8092 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c97d77b5-df57-497c-af63-f175c4dd867b___RS_Rust 2143_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/886fcc5c-542f-45fa-b40b-303bba93a7cf___RS_Rust 2049_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/abac6274-4ba8-4ab4-a700-2e6c4284e9fe___RS_Rust 2487_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/625ae925-ee23-46fb-a5fb-535b92c248be___R.S_HL 5543 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/68561cea-5a99-438c-8e7f-4bd2365310f7___RS_Rust 1781_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b25fb640-7a6b-4df9-baff-55bb4941540a___R.S_HL 8255 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2bc398f4-12bf-4b62-9088-ee40851fc04c___RS_Rust 1651_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/bb28deca-4f71-4379-bf2c-8cd06f7ee995___RS_Rust 1695_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ec343df9-23c2-4eea-8682-438accb2debb___RS_Rust 1760_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9b75245d-d020-4508-a032-f7aa0e8d5589___R.S_HL 7995 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7d3f76bf-a8ef-43bc-b8e0-04cbb54f8266___RS_Rust 1870_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e07b298d-7dff-4297-a884-06c20a77e453___R.S_HL 5503 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6f8b86bb-3dd3-484b-bf4b-91c81881e8b2___RS_Rust 1973_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/69164aa5-b1d2-4f9c-af47-54b6fa610296___R.S_HL 8080 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f8445bd2-f4bc-49c8-ade8-59a7b2486d79___RS_Rust 2118_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e10cab6e-bb11-43a7-9430-5a2dd18a1d53___RS_Rust 1696_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7713e2e9-2460-4f10-ab47-a06c9322ec02___RS_Rust 2333_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/af647b0e-db3a-459e-915c-4e522cb46c6c___R.S_HL 8101 copy _final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/16d89a3d-6b80-47f6-b701-7dac2864371f___R.S_HL 8087 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9202cb6d-a5bd-4cb7-860e-47f7299712ef___R.S_HL 8117 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2b1995cb-c5d5-47e7-b0cd-0ec7fa9c2996___R.S_HL 8001 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/19c7ec0d-0727-4f08-9ff7-b62936c83a19___R.S_HL 8205 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2769e7a4-1f58-4534-b0e3-39f5646133e4___R.S_HL 5547 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e8b34671-6d1a-40e2-a888-981c0e047b14___R.S_HL 8143 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7574fb64-c68d-44ec-8d50-ec02b88dccff___R.S_HL 8118 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8d853d00-62b0-445e-b33e-788503eacd05___R.S_HL 8099 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/055406e2-c8b2-429d-92f6-61eee019671f___RS_Rust 2182_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5180a1a7-98e5-4daf-b5ae-638fbeaf320d___RS_Rust 2022_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1438fbf5-27c6-4104-8fa5-eafd1b1bad86___R.S_HL 8231 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f254b64b-d556-4f4a-b0bb-e614d7a3dd69___RS_Rust 1927_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ee4dd68c-aa2a-49d8-8bae-1060ae114eb2___RS_Rust 2298_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e6064f5e-a864-44e5-8738-e6adf8f7f991___R.S_HL 7903 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/87f58832-076a-41b1-b8d0-181077b5f478___R.S_HL 5560 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8fe2c73e-d36f-4120-9d76-86ea660c00dc___R.S_HL 5528 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ddf11a05-a096-4b9b-a3f9-f12714edcb50___R.S_HL 8333 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/30cc387b-d8c5-4eb4-bc27-a233be37cf6b___R.S_HL 5548 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/dd2b30e8-3e85-400c-bdbd-fcfb19549a5a___R.S_HL 8336 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e1bd9d1d-c0dc-4078-a5d6-a8f7dc85994b___RS_Rust 2424_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1009c64f-a31c-49fb-9eb4-b6373a588dd0___R.S_HL 5490 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/28f12cbf-1dfe-4e3b-98b1-006502a20077___R.S_HL 7948 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/052169e1-a51d-4ff7-8b70-f07f3d2500c5___R.S_HL 0650 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e07b99b8-4af5-4a4d-9844-3ec74cf716e6___RS_Rust 2315_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e24d2b46-32b2-4b15-83ec-05504c270c75___RS_Rust 2249_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/77703a98-3c3b-46ee-aeed-7017eed8a769___RS_Rust 1865_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b01dbf6b-f26c-4cda-95d6-b0583ed36f29___RS_Rust 2042_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/70b37163-3817-4d1e-98eb-75ba4ef240ea___R.S_HL 7927 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7002ace6-7293-4f5a-8e0f-74aa8d6f45f2___RS_Rust 2331_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2a8fa4c1-3bf2-49b1-8ae2-7e3a82cc1e55___RS_Rust 1938_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4ca8ccad-d1eb-413e-98e2-630ee7f1f339___RS_Rust 2156_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a0dbaaca-6d20-466b-974f-b512f7513e48___RS_Rust 2416_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a231f664-db67-4462-82ae-dcdd264d7106___RS_Rust 1936_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fa4cecf7-1353-4f24-b3cd-6107ba7c8c5a___RS_Rust 2261_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ac47aa3a-31e6-4698-adf4-5e974a4ef7dd___RS_Rust 1756_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9fc7cf37-b583-491c-adc3-a391edc73aae___R.S_HL 7973 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/aa1a62c7-319c-450f-8e01-9c89e79a99ce___RS_Rust 2474_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/43bda603-e9f7-464e-952d-db5c387a5af1___RS_Rust 1632_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/18bb5247-d11a-40dd-894a-adbb27a73ed4___R.S_HL 8183 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a52916d2-65a1-4f3e-a87b-142744eadc16___RS_Rust 2019_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/363ba8b2-4b66-4caa-ae2c-df6523aa6da6___R.S_HL 8234 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/20046515-e844-4ad2-b3e0-38d2dabcef66___R.S_HL 8002 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/00cbdbc2-0bef-477e-999f-20e0f36a2cf6___RS_Rust 2725_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a860da98-8703-4949-bab0-b6bc041d9cc8___RS_Rust 2546_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/642cc7a8-2e3f-465f-9bb2-ca5a31cd6475___R.S_HL 8001 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1762fbc2-6b11-4501-9bb9-f0a7d60a5e19___R.S_HL 8052 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/026bd735-b9f4-4eab-86f3-23df15dbec95___R.S_HL 7938 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/10d94b50-caeb-48d2-8a4d-79a9ccbae1ea___R.S_HL 8104 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3bb783b4-736f-411e-a980-01d4ad88147e___R.S_HL 0648 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b952949f-f4d2-45d8-b824-773e2e1488a1___RS_Rust 2236_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/582dc5d3-7df8-4c74-8a7d-efffdb22e264___RS_Rust 1646_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/400f78c7-b3a3-4f6d-b4af-507f951c6215___RS_Rust 2099_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/83b4342a-c9b5-4fd5-8310-327f935e08c2___R.S_HL 8024 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d1b7dccc-6a0c-4507-aa46-b46b09667dde___RS_Rust 1666_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ca38172d-5f4b-42aa-bef9-e88b94f7f47d___R.S_HL 7932 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2efdbf60-8ee8-41f3-8c3c-c8b44ade28dd___RS_Rust 2025_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e1059625-eff1-402f-87e0-01ed187dc8b6___R.S_HL 8185 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5f6ff267-dab2-4378-b07f-9057f9bdcdba___RS_Rust 1710_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/93f92116-dc4a-4448-b7c3-77b7c8d36e7d___RS_Rust 2152_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c51a737e-6394-4f87-aa13-b38711252409___R.S_HL 8053 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/24ce2f13-6f42-452c-b718-b42b9646ad1b___RS_Rust 2505_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9a99f82d-8ffc-48a1-b9fe-2f01d2c63eab___RS_Rust 1639_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/43627ae1-cfea-4924-8014-afd0116636af___RS_Rust 1794_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a00750f7-b9af-4bc0-8dbd-4bfb6238730b___RS_Rust 2305_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4c32154e-bea7-4a62-bd5f-fa8e3cf14c20___R.S_HL 0609 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/addcfcb9-d7ea-4dd4-9830-98b7e0a4ce43___RS_Rust 2566_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4b07c825-c762-4f4e-b526-c5a45477d4d1___RS_Rust 2299_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/30213a02-eea7-46a3-af9c-0078b93bb2b9___R.S_HL 8308 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4500a05e-638b-4a95-9841-777e77e7404f___RS_Rust 1657_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d712361e-bd7c-47e4-a9d2-9d9265ddf849___R.S_HL 8201 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/53eeceaf-394c-42f7-8f2f-c1127a43c37e___RS_Rust 1884_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/10c78cf3-4ef0-4225-8437-5f39676b9cc4___RS_Rust 2553_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1e79939c-ad56-48fe-b742-bee115562523___R.S_HL 8060 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6641f24a-0dc2-4e34-8423-75d43544e55c___RS_Rust 2369_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cb88517b-a05a-410c-aac7-ba6d54fb8e56___R.S_HL 8030 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4634067c-4205-49d6-adc6-94e34e71374b___R.S_HL 8341 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/57249da9-8976-4f9b-87ed-8854e6768116___RS_Rust 1829_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e6b194e0-46a7-44d0-a99f-d48840ee3fd6___R.S_HL 7945 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/48178f36-5459-48c5-97af-71a04e406e7a___RS_Rust 2508_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5ab6b645-2bf7-4045-995f-67f3434d1c65___RS_Rust 2687_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/04876bfd-d1da-4e61-80c4-34e98aae7065___RS_Rust 2153_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/49ecc957-9ec7-45f7-a3c9-d1e63cf224df___R.S_HL 0607 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ece918a6-864d-49f5-b9bb-7be1d02b6c9b___RS_Rust 1848_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2753fa2f-ea08-4ab3-88be-e1819de38107___RS_Rust 1599_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5ebfcbfa-3db5-4f11-a121-4b3b2fc402cc___R.S_HL 8250 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2a46f1cb-9c54-481c-a61f-d3729d5cfc3e___R.S_HL 8315 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7cb27bc4-ac5b-4823-9887-44dbdbcd36ae___RS_Rust 2302_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4bc2f82b-f6d2-46e1-b48a-35ce8610f05d___RS_Rust 2663_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/dcf1eb1d-f35f-4dfe-9f07-028ddf3abbc3___R.S_HL 8293 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7a9f4333-ae4d-41a7-aefc-8c1c6c9e9aca___RS_Rust 2378_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/732d1461-005e-4498-ac8a-50e3de71ccb1___RS_Rust 1765_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e974204c-fd32-4747-9369-3c5bb02a2c3d___RS_Rust 2398_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fb67e905-5cba-46ea-ad0d-06333b677ebe___RS_Rust 2364_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/43742131-ac27-46c2-b1d8-9c5f501ed566___RS_Rust 2336_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fb8ff65c-92ef-4607-9a43-ee2e2f8f4c05___R.S_HL 7997 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cc645221-e861-4780-851c-2ff57e539728___RS_Rust 1770_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/618dff3a-db0a-423c-a96c-d98f54e14083___RS_Rust 2706_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1847a479-765e-4d2a-b150-fd1877a04cf4___RS_Rust 2492_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/384dee4e-f5d5-4c86-a3f8-279946157984___R.S_HL 8278 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/37e917dd-814a-49d4-915d-34ac4a7ba050___RS_Rust 2112_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/28469ee6-51f6-4e41-b625-fbb7c169b02a___R.S_HL 5534 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1f055d6d-abc7-4f69-9d92-900d33834845___RS_Rust 2192_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d12e9409-9a3d-4045-9042-729b5c29a7cd___R.S_HL 8090 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b16d14f2-4fb2-42dd-a6d1-08bbb242fccb___R.S_HL 8082 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1f618ad4-7c33-4bfc-9054-f1acae89e776___R.S_HL 5504 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b1034c8c-c98d-44ca-a702-a0053e16d7c7___R.S_HL 8252 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0ed29e85-e97d-4887-87c3-15d3033421ad___RS_Rust 2618_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dfec27d8-b03d-402c-ac81-b03176487f35___RS_Rust 2339_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b6b9231f-639a-49d3-b8ae-0cde9047a17f___R.S_HL 8311 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3cdfb19e-a67f-4944-8b4f-89b60f9f36fb___R.S_HL 8221 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/60d41965-10bc-4799-815e-5b1f099fae4b___R.S_HL 8003 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d82d7716-06d0-4309-8a57-ce73370ddad7___R.S_HL 8308 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b354e609-fd0d-44e0-bfcd-3ed3354932d4___RS_Rust 2520_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1cfb8ad3-9323-4d9e-b299-2600d687f786___RS_Rust 2205_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fae3d9dc-478c-48a0-bb03-58934cbdc568___RS_Rust 2048_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0673a42c-74f8-4fe8-b07b-401592875c57___R.S_HL 5536 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d497c6d2-6bfd-4de6-be98-5d3d4ab525fd___R.S_HL 8338 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4375eeae-d9d5-49de-be1e-d58d0909013d___R.S_HL 8078 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8e55ed6a-8cb1-4fff-b098-a6f39083c731___RS_Rust 1991_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/13b33853-ad75-40ca-a00f-07281811638a___R.S_HL 8088 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5e6a8bf0-16ea-4404-a9cf-04fa9abd43ce___R.S_HL 0606_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/06f252bb-2ceb-4ca3-a25b-3c8016ee7ee8___R.S_HL 5498 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e060b919-e592-419a-a0bc-4bad36924d7c___RS_Rust 2742_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0b3a7abf-721f-4900-938c-b69e13462a03___RS_Rust 1767_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c4a93031-f6c0-4a14-803d-04d2bb536718___R.S_HL 0596 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fa68b0df-6b2d-4f63-b780-757a63e16e34___R.S_HL 8329 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/21bcd072-87a4-4a25-b6fe-3d6cb261b879___R.S_HL 8012 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e8bc6e83-4de1-4791-a1c0-056061948f4f___RS_Rust 1974_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c13a3bde-19ca-4c5d-8deb-0ec11c614fcf___RS_Rust 1733_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2c697e7e-9f30-431f-a092-8bad51d5eb5d___RS_Rust 1859_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/21adf1bb-f785-4a3d-9504-c83464135b01___RS_Rust 2423_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/eea6fb7d-469e-446d-9383-92098c9f495b___R.S_HL 5511 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/935b0050-1d00-424b-9aed-192a553910a3___RS_Rust 1826_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/98e74e4a-3214-4584-9249-8df4876d8c6c___RS_Rust 1851_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/be282b32-9147-4320-a52e-183dd3018bbf___RS_Rust 2441_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/bb1b8cfd-e9ca-4d85-b343-8d746434e6d9___RS_Rust 1649_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e3b3116e-7f2e-42fe-a50e-6001dc20dc84___RS_Rust 2524_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/96d27fc2-b7e3-4ec6-9844-e20b70f69af8___RS_Rust 2747_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/08b6cf2c-a94f-4b8e-b63b-13dbe8d3d6d0___RS_Rust 2317_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/60025bd3-9fff-4079-89b8-dce9e9756f93___RS_Rust 2137_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c14a5756-f755-4673-bdf8-6146f4756e87___RS_Rust 2651_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f2f39682-e9ac-4466-8020-79844040214a___RS_Rust 2017_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3a50230b-09b4-4d82-9df7-1ae4b2945464___R.S_HL 8317 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/73f5fba6-9703-4734-a1ff-ae887d3134d2___RS_Rust 2707_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d9427888-3c45-426a-8211-944d9ed62977___R.S_HL 8200 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/62448b26-b1ad-4670-9f8f-1c320a3187f8___R.S_HL 8260 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f83d3f91-9d80-4340-a575-17ea7363b6f8___RS_Rust 2481_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bb8f35ea-47d6-410e-911f-8bde0e62d6be___R.S_HL 7923 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/602d933c-1e3f-4e3e-a408-760cc9d94be9___R.S_HL 8304 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/380c63d1-1c28-4ff7-9bba-96a3183f3d01___R.S_HL 0631 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5b7184c1-7606-421f-b44a-63d2ca1e3bba___RS_Rust 2594_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/53c211a4-96bc-4f7b-baa2-25eb66878c3a___R.S_HL 5514 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/40e5e314-1484-40c0-8297-3efde6fb5e89___R.S_HL 0613 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/aabcc73c-187b-4fed-b318-3ad529e6ee15___R.S_HL 8244 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0a966c0b-85d0-41ea-82d2-3121f9325460___R.S_HL 8180 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/de0baaf0-bd8c-40a4-924b-e7b3ad0a83d4___R.S_HL 8107 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/538c1187-b828-4a1d-a036-f8cf23b8270c___RS_Rust 2404_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/85722413-6bba-48e2-b5e7-1e7bc27c392a___RS_Rust 2046_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/44f2a3c4-6e69-40d8-9aec-ba79a37a767d___R.S_HL 5529 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bda90983-a55a-40d2-bcbc-f2279e82d937___R.S_HL 8320 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/57414792-9bc5-40c2-b7cb-b764a2531225___R.S_HL 8152 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c5a0d31b-d674-4f4d-bd7b-c2102168fccb___RS_Rust 1683_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/db659886-48bf-420d-9d62-010203d2ba41___RS_Rust 2271_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/27dfdace-af7f-4204-a740-74a72ea4ef0d___RS_Rust 2204_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3b9ea4e3-9d6b-4fcb-8f19-db089a48d16d___RS_Rust 2523_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/21f7da6b-c22e-4f1a-9a22-39aaaa6cc38a___R.S_HL 5551 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1ce2a4dc-0c4e-4496-87b9-feae602cc23d___R.S_HL 8204 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cddf5eaf-ec60-4a8b-81af-2ea4cfdf3d48___RS_Rust 1702_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/374cdcb2-986d-4935-9aa0-0e8ea886549a___RS_Rust 2623_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3ba89005-c028-4ecc-ae0e-af02e548f2e2___RS_Rust 2279_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dd2b70d0-724a-4bf8-b6b2-b3f8c512eef6___RS_Rust 1652_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e916a92d-61e3-495d-b56c-cc1b97d6ab01___RS_Rust 2570_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/da36af23-dec4-4450-978d-1d653977075a___RS_Rust 2461_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2f4a3809-ed9a-4929-ae47-16e4558bcc58___RS_Rust 1586_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9fd2b7a7-1ac4-4e6e-9c6a-34bacd208df2___R.S_HL 8341 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2e475324-1eab-4ec7-94ef-879e3ed042c3___RS_Rust 2370_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b1dca99f-0521-4b0d-8e33-3409c4a4bd80___RS_Rust 1885_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/faf9f997-3a4d-4723-bb16-ce26362afd77___R.S_HL 8114 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d4ec84d5-69d6-45e9-a846-c8976446d31a___R.S_HL 7906 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/dd0c0a2c-ed38-4ea1-aa13-077389adb7ea___R.S_HL 5553 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3530ef6f-503f-4ccc-8122-9b1b84ae01b8___R.S_HL 8178 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2e53f610-f515-41f0-8065-40eb7fc8362b___R.S_HL 5515 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3865ed98-f848-46b1-b83e-a1f1468b75dd___R.S_HL 8171 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/300fb912-23a3-420d-af70-e0dfa852b81a___RS_Rust 2215_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/07f8131a-8fa8-4afc-853c-701db8dca4b5___RS_Rust 1817_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d0ad6a99-d92d-4c82-9a4c-e3427ebc2fea___RS_Rust 2486_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/10f7f563-e9bf-4ac6-8fc9-497ba8d01024___R.S_HL 5495 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/190dd15f-d1b1-4ca6-a8ef-5e9d7a673fd8___RS_Rust 2717_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/189989d0-1f32-4578-85f0-f79b00871440___RS_Rust 1825_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/aeb4626e-59e7-4fc8-90d8-da576ef6136b___RS_Rust 1725_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/55df0bd3-b665-4f86-ab56-fc9dacb85b37___RS_Rust 1642_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/526e6386-1a1f-4ac3-a49b-770d588faf4f___R.S_HL 7961 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e7aa584e-4bbb-470c-9bd0-ffae20349a96___R.S_HL 8169 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5c179b07-7853-4f7e-a274-c981090d2e0c___R.S_HL 0600 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8063bae7-2a39-449b-b3f4-7004e86c45de___R.S_HL 8277 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/358171e5-5aef-47a3-b9c5-6c8fbb593584___RS_Rust 1722_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e1385665-c7fa-472d-b8de-ee22e5df5597___RS_Rust 2715_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5bf8d800-a3be-443a-b77e-84d3f2a37e3b___RS_Rust 2133_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e7f2a482-6103-4727-9dc3-c6b4f3c19876___RS_Rust 1616_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dd21f3ae-1d85-4ac1-9151-3cb958f1ae68___RS_Rust 2409_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4bffb932-0f73-4ea5-b1b3-ffbef8c5f07d___R.S_HL 7895 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c9df4a59-99bf-479e-a3dd-7aef4c6706a5___R.S_HL 8211 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9275afa7-daf0-4052-b092-47d36132e69d___R.S_HL 8189 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5bdcd0ad-e74d-4595-be53-d1b4aec9ddda___RS_Rust 2564_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d0105d05-1f39-48e5-98d8-f01f50632182___RS_Rust 2190_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5a2800a4-15ed-43a5-864d-01d16d37ed67___R.S_HL 8219 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8f5c3f84-4ecc-4298-a5a0-d8a853f991dd___R.S_HL 8147 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e79d33b8-9a57-48d3-b2bb-523ff0f4a384___R.S_HL 8337 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5f5bea51-4735-46f8-9e41-d885172532b7___R.S_HL 8325 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c9b73193-f328-40f5-80e5-3b833c66850a___RS_Rust 2548_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e6f7d1d1-3233-472b-bc11-597eeb02a120___R.S_HL 0596 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8a843207-4baa-4192-bb77-c5a099c9784a___RS_Rust 1584_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/13b74f08-faed-40d7-8771-b1fc384e5e4a___R.S_HL 8259 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b1b4136d-c9f1-4088-adb2-6354b709d35b___RS_Rust 1716_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/39569763-d4ed-4687-82c6-c389496b7819___R.S_HL 8183 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0a544b8b-6040-429f-b6c5-8cc6f6cada90___RS_Rust 2115_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/01f900b2-ae38-4884-9bcf-e9321f09f26c___RS_Rust 2351_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/06fc07d3-2c82-4538-9d0e-bff9808cd3fe___R.S_HL 0639 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8a6c6e2b-ac52-4050-9eb2-e6fafc12acd8___RS_Rust 2136_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/16826b2f-b614-47ed-bd5c-198c0054723a___R.S_HL 0634 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9d894f77-304d-49a1-8933-184967320c28___R.S_HL 7884 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/659a0087-4ac1-4956-800f-d14c619bcf47___R.S_HL 7900 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e3423491-ff2a-4fcc-ad1b-2c0eb5b9adac___R.S_HL 8316 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cfbcf2d3-3c21-4ae2-a310-5335c7c5ddde___RS_Rust 2124_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/73bd0599-1ed1-4a73-9b46-553dcedd2a8a___RS_Rust 2574_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5bff4c26-7193-4718-9065-6fca92afa398___RS_Rust 2055_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9a38d731-25f5-46bc-ab91-ef269caa493a___RS_Rust 1809_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/660085ff-5593-4fdf-9830-ebc93bf21a27___R.S_HL 8203 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ad444583-b4be-420a-8cbe-935cb462bb05___RS_Rust 1806_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4e78f502-e486-4057-b157-3065dd4abd86___R.S_HL 7993 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/063c2e68-e849-4673-9083-ff21922673d7___RS_Rust 2313_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/87fc0107-bdc1-417e-a428-9a9cfe2e011c___RS_Rust 2746_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0e4cbb50-3176-469f-a24e-9e38292d78e8___RS_Rust 2711_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/bb9d7337-0df4-4cb3-9ae8-7d9303cc3b3c___RS_Rust 2439_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/73aec52b-49ff-4ec4-a774-2c2ddc71a9ae___RS_Rust 1828_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/53ed74e8-9420-429f-8f49-ad5c40eed3a7___R.S_HL 7944 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b1565e81-b8c3-4ba3-8b57-94395f82a3f2___R.S_HL 0595 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f60d1557-0903-41b0-a640-be7f4353636a___R.S_HL 8345 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/960290a7-64f3-4d17-88b2-de8772c5810b___R.S_HL 5509 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b457c581-2df3-40b2-ab8f-6b79df008c82___RS_Rust 2550_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e2afcb79-0a32-4ec5-bbc4-59f45233bd43___RS_Rust 2161_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9ae59070-5406-477c-b806-028e83e60cb0___R.S_HL 8234 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c80028fb-0d2b-4090-b858-a22720145dc2___R.S_HL 0627 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6b385016-00c6-439d-a0ff-44e63b21d93b___RS_Rust 1831_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/42629a94-b48b-412e-8f60-70f915fe1beb___R.S_HL 8100 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/300176b4-2001-45bf-8699-95d6a9896d02___RS_Rust 2359_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1b969db5-ff14-4340-94c2-c4bafd6e35b9___R.S_HL 0639 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/24c07fbc-2a61-4135-8309-8ec45ca582a5___RS_Rust 2411_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/61088927-8b39-475f-a426-15b4f9969871___R.S_HL 7996 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/98bd5204-b56e-47c1-ad38-5daed6976ba7___RS_Rust 2012_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/96159fdf-b6cd-4219-af1a-f2d4f6712073___R.S_HL 8334 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e478f7ca-7f30-49d0-a102-d638b4cf9e87___RS_Rust 2011_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4f37b747-03ee-473a-92ea-9e2da681668b___RS_Rust 1857_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/27e5b0d5-5d0b-4695-a3da-e1b0cdbda626___RS_Rust 2248_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/735da592-2081-42bd-9652-3d12e19210cc___R.S_HL 7918 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e8d9a118-b85a-475f-9f3e-f062fc6bdb83___RS_Rust 1849_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/62d2bd35-ab04-4112-9de3-1585681aa42b___RS_Rust 2693_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/92f9523a-8cc4-4cab-8dca-be0f41dbd473___RS_Rust 2695_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7bb1e862-b5e8-4d34-9612-c8b5054884c5___RS_Rust 2267_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ff0cbd26-8fd5-4a00-b47f-f0f4795f43ff___RS_Rust 1832_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3d1a760a-d105-44d3-9736-11a4c3109c74___RS_Rust 1714_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9d205e36-c1d6-40d6-93b8-ebd1c732ff00___R.S_HL 8085 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0e056ce8-3e28-4a07-bae2-33c9e96d1ada___R.S_HL 0652 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1921de47-d028-4212-ada1-bdcf8a16e52e___R.S_HL 8343 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2c832929-4ee6-4e36-b473-436d49f26413___R.S_HL 7940 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/41b724a9-143e-4214-bf5d-7995325aae22___RS_Rust 2063_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3cf29479-8ca6-4ccf-a5f5-e5f94e05b6f9___RS_Rust 2259_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f628feab-5301-4c63-a40e-760ff378e687___RS_Rust 1816_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/60c28fba-748e-4979-9338-4d7d16a92e60___R.S_HL 8324 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1ff28fb3-ab56-47c2-89b9-51004e2aedf7___RS_Rust 2431_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/592b6242-4900-41f6-8ec0-d2549c3bcb73___R.S_HL 8043 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ce377cfd-9953-4754-ae9a-fb715b01e421___R.S_HL 0610 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c1ad3448-a7e5-4541-b7a4-4bd7b3e3f65c___RS_Rust 2186_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8fc8bd89-8ca8-4647-9804-2d111e78b3a6___RS_Rust 2506_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1b09df12-1916-47e7-b3d2-8c03d3bb6616___RS_Rust 2560_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b864ee2b-ac6a-4cf9-a5ba-845d9ef3a403___RS_Rust 2460_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/675d9852-68eb-433b-b0d7-03b0642c9e2f___RS_Rust 2543_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ffe53930-c98f-4c81-b82c-3eeab5da42a5___R.S_HL 8327 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a72de5a7-34e6-484d-b4a9-b047ae3a77b2___R.S_HL 7881 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7623c2f0-68ee-4b41-819d-d49029987c5c___R.S_HL 8125 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8e37dc96-35a6-4073-8ec3-c6c510db95e9___RS_Rust 2314_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e7b5721f-03b2-462c-abd0-e03b6f915a87___RS_Rust 2363_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f092f9e8-3b8e-4ec5-b5a4-024f74c1d5f6___R.S_HL 7997 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a0ffc2c5-bb8f-4713-811f-20d35a2227ce___RS_Rust 1762_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b4e0252b-132f-466b-b347-aaa8c75947e0___RS_Rust 2430_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/eafca683-d2e8-4edd-b62d-3e1a31bba4cb___R.S_HL 8267 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4d912313-c5f4-4058-b2a0-3d3832275f29___RS_Rust 2727_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3ff613ee-1af9-4f12-9cad-10a3299b7988___RS_Rust 1569_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8b4dc6b9-d18a-42bf-b417-e2f3da7d3864___R.S_HL 8276 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1c9038f1-5a0b-48ed-b7b0-9c0606eb1f9d___RS_Rust 2598_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b98d2510-3f2d-445b-a421-6cc6a38c62bc___RS_Rust 2356_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d8951584-3661-4841-916c-faa8457e443a___R.S_HL 8158 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/496b63e8-74c9-4f41-a0d9-941c8cf44eda___RS_Rust 2120_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f593fbdb-8a2b-41b5-affd-496d9bce6195___RS_Rust 2555_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d1ee02ca-8695-4767-94fc-d7b94774df57___RS_Rust 2467_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/40457fb6-406d-479f-a788-36851a0ff426___R.S_HL 8303 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ab411c50-ec70-4908-9091-a5524468bfbe___RS_Rust 2031_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0d1284c9-f409-4846-9b2d-13edbed21669___RS_Rust 1820_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bea3239f-b794-42ee-bc3b-249fa2a53669___R.S_HL 8100 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8e1480d8-2b13-4b0e-83a0-6f8d8e37d888___R.S_HL 7911 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/99020386-3a33-4b62-b707-2986786393c3___R.S_HL 8200 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d8ae3a89-9949-48d2-ab69-e83a011585d1___RS_Rust 2425_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1831304d-96dd-410b-a246-e267a3f61577___R.S_HL 5524 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/43931e08-e92c-4c68-9334-b8554adb41fe___R.S_HL 8160 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1736a482-ae97-44f4-927a-d4ec10521a5b___RS_Rust 2365_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5aff9c65-1ddd-49da-b03f-a68b5bf663ac___RS_Rust 2375_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/84066865-8e7a-4325-914a-05695ac5f470___RS_Rust 2070_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a359473f-0671-4c8d-babd-64921e1babe1___R.S_HL 5552 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a55e07ea-e11d-443d-bc3d-d88aa8038d2e___R.S_HL 7923 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cc668ee3-06c8-4bdd-8fbc-231ffb7e56c8___R.S_HL 8113 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/af750927-82e2-4089-a40f-b4c86eec3118___R.S_HL 7883 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/517ec087-7ba7-4695-a824-0d3954e1e251___RS_Rust 2036_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/99718aa9-ce6f-4eb5-b5cb-1459a7be7143___RS_Rust 1779_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/34074440-8163-4cbb-9c8b-0bb6408670f7___R.S_HL 8069 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2854f11d-f6ce-4c3e-8a9d-026ae2cc9747___R.S_HL 8179 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ab077499-4113-4aec-b483-e2e23f9ff109___R.S_HL 7931 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0b0f77c8-bb02-4d5d-bb77-e01a85697f69___RS_Rust 1723_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/42659a9a-eebd-4f90-993c-f27c7434324f___RS_Rust 2193_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/abb9acc2-ef6c-4a31-a8d9-f54d502efcff___RS_Rust 2677_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8a1628f5-5315-4340-b0af-c910f4c6fa06___RS_Rust 2275_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4ea4d667-2e5d-4440-83ee-5b0d68217272___R.S_HL 0651 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e955d722-98b7-4d5f-bc44-f5ca0c8bb73f___R.S_HL 0609 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/645267dc-6060-48d8-8a8a-80f01bd2e8c1___RS_Rust 2595_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3badcba9-3e9a-4e9e-b6f4-cfa57022c187___RS_Rust 2212_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3a7861a7-1fc8-4986-8c21-5bef0ebeb3cb___R.S_HL 8087 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5e331054-4cef-4abc-984a-da800113f8eb___RS_Rust 2401_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a06f622b-e502-4e40-a19e-233b98fedfdb___RS_Rust 2132_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/816bd8fe-3209-4aa5-8e10-10da14f78508___R.S_HL 7967 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7c09e620-aa1a-4516-b97c-fafecba84622___R.S_HL 0637 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/74c048f5-c421-427c-a63a-df0f5db11af3___R.S_HL 0616 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bf91d1c5-83ae-42d4-bb95-a4a994ea8ed9___R.S_HL 8257 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8585131c-7e29-4631-9eca-086f591dc43a___R.S_HL 8276 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0f9d8b9a-a49d-4641-b956-dc0963d7b6da___R.S_HL 8148 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f741de14-0e76-4922-8c59-3281d55f019a___R.S_HL 5491 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1b0041cb-01b7-47ef-9b00-826669a43c0e___RS_Rust 2265_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cbf52e27-af4f-485c-9bd3-5c33655a3873___R.S_HL 8322 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/51e04620-64d1-4a1f-86db-408a27457b56___RS_Rust 2327_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/79fbc9f5-464f-447e-b623-6cbfa7ddfa17___R.S_HL 5542 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/57c11419-abfb-4e29-9079-38c21c3a5f77___RS_Rust 1833_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0b05e3ef-4687-4fa9-97bf-68563ee93a75___RS_Rust 2174_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0dbd11d8-bf4d-48e1-a154-bf99de9caf64___R.S_HL 8227 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1c57479b-858a-452b-8fad-654c2f15e82e___RS_Rust 2145_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ec6bd63a-a722-4986-9d47-c7d8c07915d3___R.S_HL 8031 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a9b8dca9-da3d-4206-94b9-38fd2781bfc7___R.S_HL 0619 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0f1f7e10-1ca9-488c-8c59-a736d0d7fb4d___R.S_HL 8040 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5fb83fde-b027-465f-a126-f62ebf450be3___R.S_HL 5502 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f9d7743d-5157-41ca-b6ef-1180dff07443___RS_Rust 2764_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/989e75b2-22c6-47d1-9385-dd2e7b4f1bed___RS_Rust 2698_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/69a9dfab-d6fd-42da-a0fe-6f46b4bb0a1e___R.S_HL 8272 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cb4cd602-6771-45f2-9235-6e6590707998___R.S_HL 7896 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/75965f70-ce23-46ce-97b1-a712e721bc37___RS_Rust 2442_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0fff1d95-73e0-479d-85e5-c94551de93d0___RS_Rust 2318_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a5a5c12f-ed24-4ed0-9b27-fc582210b907___R.S_HL 7937 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e5c228f5-cb4f-459d-8559-81618714a0c0___RS_Rust 1740_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e517d2aa-8ab5-4c2b-833d-5c7d3afc7783___R.S_HL 8163 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c0205884-f49b-4194-b0cf-c70227be5555___RS_Rust 2429_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/77c77a08-0243-4ab4-9870-123c6064cf3b___RS_Rust 2437_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/16fe7664-2184-4e20-9682-f913ee4ea94a___RS_Rust 2613_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ea2d7b2e-16d9-4d40-8b88-9013fa8cd711___R.S_HL 8034 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c576e863-da6b-4f02-8c0d-ed7a19cef55e___RS_Rust 1745_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f54098ca-dc02-45bf-b50c-26e3533d1a1c___RS_Rust 1575_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/eb4095e8-2f8e-40a8-bf8f-b49d3dd66c27___R.S_HL 8237 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ad678aed-6e1c-40fd-8fef-41a44389f8fd___R.S_HL 0638 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6fa2365c-475e-4fae-aab3-f2b49aaf1a09___R.S_HL 8144 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/667a7563-a2da-4301-a664-6772471d1305___RS_Rust 1837_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/aeb277f0-d22a-4c97-b9ba-4cd7f8c9f716___R.S_HL 8271 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b21a07b8-8ede-4038-a837-6a7798b51327___R.S_HL 7917 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/098a17fd-0351-4f0f-a4a8-6f2a638b4afb___R.S_HL 7897 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ec1634bd-5b87-4072-9306-176a85f58ba6___R.S_HL 8202 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b8bffa6b-fda9-491f-a757-56b51caf5157___R.S_HL 8135 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2c52d7ed-d259-4ce3-b38a-9ecdb86b7e85___R.S_HL 8065 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ebd40048-5e19-48d7-a154-1db8da3edddb___R.S_HL 8319 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/53855ae1-aa24-416d-bb62-987af335e844___RS_Rust 2037_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/63067c56-0462-4548-9b58-ffec723a5875___R.S_HL 7915 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4e4f9d61-315f-4f88-aa04-014a42ea4449___RS_Rust 1585_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5d0e77eb-3821-403d-897d-5da32bd13656___R.S_HL 5513 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e55e0dbd-5b63-463f-8556-ae18f1e50f7e___R.S_HL 8222 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7fc25a23-0432-469b-88a8-a5747f216b14___R.S_HL 8203 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/39ed1bac-2dbf-431b-9f03-36f7605edbea___RS_Rust 1618_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7603e758-8c84-42ab-b838-c254e218b5f5___RS_Rust 2536_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b1b0761e-ff5f-490b-ba2a-c2df04fe2e4f___R.S_HL 8159 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/36efb7fd-ee73-4823-940f-966d66a56ae9___RS_Rust 2117_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dfea3d91-0f68-4f46-bf1e-a01eacc3d883___RS_Rust 2288_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/df0cf633-e4a6-4438-9f6e-0f407673b0e8___RS_Rust 2199_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7d6650bc-9627-4e3b-bc7e-d247808e6f08___R.S_HL 7913 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2faf15e4-6297-415a-b241-329d8031e2a1___R.S_HL 8193 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/88bb3bc0-d78d-4446-8a5e-e050c3a60e14___R.S_HL 7888 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3de4d942-c56d-43eb-ae91-fca4dba1e4e3___RS_Rust 2030_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1eb886ff-53ce-4164-b633-d4002da3548a___RS_Rust 2599_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4e486f0b-6336-4507-afe4-ba9fe4cab012___RS_Rust 2637_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d61d1f5e-f529-4957-b13b-b3b0be1b06a3___RS_Rust 2504_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e30f6f58-1ca0-44a0-bfd6-e3472122a5c7___R.S_HL 8305 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6cf96e25-3d14-4074-b401-284fce0b8155___RS_Rust 1648_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/57e69775-d8c7-4701-9f93-f88dfa27e7f2___R.S_HL 8190 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/aa34113c-7980-4116-be01-e7a302144ead___R.S_HL 8279 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8247acdb-3c47-4f4d-b1fc-bf806dc581ee___R.S_HL 5544 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/05f73ae8-b20b-418e-ae5c-ace1f387fc3c___RS_Rust 1706_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9822967e-a218-48cd-9c31-632481bb8091___R.S_HL 8008 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/13ed3713-a828-4cf1-ab4d-e5515316379c___RS_Rust 2376_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ec37296c-3f99-4052-b2b6-67bcb333f166___RS_Rust 2718_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/53b73553-110a-4dc1-8320-332c4773b8e9___R.S_HL 7907 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/89cd0a72-f4cd-4f4e-bc89-14ead790d281___RS_Rust 2407_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a0e805c5-c948-4c5d-b4ae-4ba117540d78___RS_Rust 2086_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7b876e0e-d6bd-4b8c-952c-d0899053246c___R.S_HL 0604 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/290bb59a-1405-44b8-af6e-8b1384b76e00___R.S_HL 0614_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/461baed2-cdf3-4ce0-9812-65f34484bb35___R.S_HL 8031 copy  3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/662b5ad2-c80d-4c4b-ba98-7075c52698ac___R.S_HL 8008 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6af462af-d8d2-4ecb-9ff3-a512c64dfde6___R.S_HL 7888 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8d87465c-3b0e-4763-a264-6d3be38514cc___RS_Rust 1797_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3ddb5798-8a7d-47e7-87cc-4189675cae80___R.S_HL 5496 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9efa54ca-295d-4af3-884b-b254095329db___RS_Rust 2765_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/db84d472-9121-486e-bc32-429fd0e3da49___RS_Rust 2712_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4dba1a07-a7e4-4de1-a009-7db7240fbe5e___RS_Rust 2750_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e23676bc-f581-4cde-b33d-2960daffc210___R.S_HL 8255 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4ddd376b-7972-4a58-88cc-63aac4b33a1a___R.S_HL 7894 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bec2693a-e731-49a6-8ff8-cc07170bed12___R.S_HL 8098 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1dbb4503-2025-4c04-98ac-eb8f49c51d12___R.S_HL 8221 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d665d2c7-6f91-4852-a1e5-923a9b494ae5___R.S_HL 7992 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ffdbdc83-b309-412d-a64d-61e08c1fe8c5___RS_Rust 2355_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4c19c40c-7d13-46ea-8f1f-0aec1407e76a___RS_Rust 1842_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4bc810ef-9132-4efc-ad4f-41011549f98b___RS_Rust 2109_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6b1b41a1-16f3-4d6f-ae52-de5d93b6c368___R.S_HL 7959 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/dc1b347c-03b4-468d-9c9a-bebdc467d3c0___R.S_HL 0650 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d29534b3-d6b4-4a08-8c52-823b47c1f03e___R.S_HL 8288 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/58d32b43-d61e-40b1-a28b-ad80c58e7811___R.S_HL 7918 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b7b28828-2aac-4df7-90c2-5512275b1ccd___RS_Rust 1985_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f18718d5-81aa-4688-9ad4-3179ba55fa34___RS_Rust 2201_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ada5e646-995b-43da-b3e1-6e497e39bce0___RS_Rust 2301_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/622963a6-bea9-4a84-9509-c492f019ce36___RS_Rust 1739_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3ef18666-73e2-4ff5-965a-4222af9625fd___RS_Rust 1947_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ae06c7e3-e283-4359-9d98-2c97a1dd3e83___R.S_HL 8062 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3d760d50-9c32-4532-b3a0-e56066a43ef1___R.S_HL 7891 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4ab941c7-25ca-4af2-a74a-ea6a0ca48625___RS_Rust 2175_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e753f9e0-cfa5-482f-a361-ab3ad2ab151e___R.S_HL 7921 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/68690874-dfcf-4b02-aa7f-eefb9994b958___RS_Rust 2287_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3d85d62d-8a88-48eb-85a5-a283c670a453___R.S_HL 7972 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/96db7ce5-c5ee-47da-a41e-2b0650dc94b8___RS_Rust 2569_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9c1998ba-4dac-4309-8d5d-c9e71e5f9ab5___RS_Rust 1897_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d208d8ad-aa94-4c86-b255-0bca480fdeea___RS_Rust 2494_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3e8fdc08-dfe5-422a-9d07-c8276fb33030___RS_Rust 2641_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/607dc5cc-2125-48ad-b4b4-8e1f08aa6e2b___RS_Rust 1570_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6a3a53af-6603-4ae2-85cb-9a5bc0d3c39b___RS_Rust 1801_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e6701759-e9e8-4261-b3aa-4d255bfa573b___RS_Rust 1567_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8514a453-03ef-4951-a03f-1d86821b74cd___RS_Rust 2138_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dc275a36-bbe3-414e-a791-7a9752885209___RS_Rust 2631_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/867d1311-1976-4387-8fb0-28c9ce135f0b___R.S_HL 0595 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/833d16ec-bdc3-47ec-9a67-d5080a6e0c91___R.S_HL 8106 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/847fd306-e1a9-4e3f-a8b5-3e8eca322535___R.S_HL 8226 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bebf32c0-2daa-484c-804b-a6552f30d58d___R.S_HL 5532 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/4288d50f-d098-4b94-8824-ea476094c68b___RS_Rust 2291_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4c5a712f-aed9-462c-af79-4a5e215c3bf2___R.S_HL 8175 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d48c573b-3268-49f2-9c54-c04a4851ef4e___RS_Rust 2521_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a734f999-8a2c-404e-a46c-7fc8d6f7883a___R.S_HL 8047 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/84cd474e-d359-45af-bd3a-f9c434a7a58f___R.S_HL 0598_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d0378d5a-47f6-4340-950b-18b4c2a8a598___R.S_HL 0600_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/730f4f72-744a-46a7-9bc8-a0c4b3c39d74___RS_Rust 1811_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4de6bcf9-a5d6-4cca-b412-c9cb1fabf34f___R.S_HL 8284 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d128a635-3090-4ca1-904d-d471f67134e3___R.S_HL 0623 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7ebb0c77-b07d-421f-b593-3e2dc3f92254___R.S_HL 8306 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/975bf2e2-458b-48e0-a941-7afccabd69cf___R.S_HL 0634 copy 4_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d2d6eb51-8cff-426e-9ca1-6802f880b120___R.S_HL 8287 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/46277fc4-d989-4a82-ac74-719142e16f21___R.S_HL 7943 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a869710f-363f-45bd-b4fd-f8de0380f405___R.S_HL 8170 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bda652f8-90f3-46c1-b5bd-bda8577761d7___R.S_HL 8149 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cb888c51-0601-42f8-8f58-4f5199c830e5___RS_Rust 2609_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ed78d0eb-66a2-4e3c-833e-c8b094bbd322___R.S_HL 5503 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0b799242-624f-46fb-acd3-a9352e8b4213___R.S_HL 8216 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8f83986f-c2c8-44f9-b433-97222f7adc05___RS_Rust 2389_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9d47547e-512f-49d0-9589-081a50333382___R.S_HL 7985 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e6c4eac8-1cd9-48e9-aaf9-50a66c193529___RS_Rust 2300_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0630fcdc-33c1-478b-882f-07da48cf8002___R.S_HL 8026 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3b5fb954-c041-4c77-87b8-b8ac37aef705___RS_Rust 2741_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/641fd2fc-a98e-44c7-bac6-5e626aad8747___R.S_HL 8140 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/79f08852-1888-40bd-93fe-b591c991c7e4___RS_Rust 2220_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b557da0d-48ca-4f2c-b820-7dc94f3d907d___R.S_HL 0604 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/3d03268f-ed6d-4dcf-af46-0197dd518e4c___R.S_HL 0621 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5face5cd-e150-42f5-8ae6-eef79c43b05b___R.S_HL 8010 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c5393e97-7e48-4d6f-a9b6-6391cef74d8d___RS_Rust 1844_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f3944213-7339-4b29-a00a-c235b4c5a2c1___R.S_HL 5533 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/aa330d9f-d7a0-4bad-8f95-d6e11a1f95bf___R.S_HL 7893 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7a1314d4-87e3-4f4a-99b3-ba633301095c___RS_Rust 2227_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/eff27c22-9bab-484e-bdd7-125c0319c7ba___R.S_HL 5500 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/600f5c3a-2156-4485-b74a-c14a16534706___R.S_HL 7958 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a89686db-6099-488d-930a-808f33a63891___RS_Rust 2141_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/512a6f84-c287-4f78-bfbe-311bbf1ca548___R.S_HL 0626 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/da51dcb4-4153-45b3-9fbe-a64a0ed51858___RS_Rust 1920_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c6d72b1a-9f34-4d50-8c80-a5628f60fc21___R.S_HL 8117 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6c6400e5-cbd1-496f-afae-e8e448ee5a39___R.S_HL 8028 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/be06e80d-9397-4c66-b883-f8e0f88e04f0___RS_Rust 1918_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/8b2efc47-59a0-4219-a053-e441d71914c7___RS_Rust 2662_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/81ddfdc4-79fe-462c-b438-d176abad814b___R.S_HL 8041 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/49231c3a-0132-451e-820d-d3357618a3eb___R.S_HL 8019 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4a98a740-26d6-412e-bd44-1936c506906a___R.S_HL 8273 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/98856a6f-14d6-470a-af62-3791696b8587___RS_Rust 2149_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c6f072f7-6046-4e7d-8c10-39caff501b64___RS_Rust 2515_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ca8de3a5-62e3-406a-a54e-60e4e2b84b31___RS_Rust 2688_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/75541962-454d-4416-b128-55c75cb5f043___RS_Rust 1914_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e5a2b441-8173-4c41-a56f-d359b1196719___R.S_HL 8119 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9b89434d-522e-49de-9587-80055bef7a7d___R.S_HL 0609_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f62589a0-cc32-4f92-82f1-cba3292eba92___RS_Rust 1892_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b7a7d045-ecf8-49c8-aff5-6e42762a2139___RS_Rust 1752_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0a72d779-4df2-4365-9251-1733a1a1085c___R.S_HL 7992 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4c7db7c9-685e-4b99-ac79-f37f5b5f1974___R.S_HL 7946 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fa7637b2-bfae-41c0-ba18-b9f3d0778ec3___R.S_HL 0622 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d8a72016-5579-43da-841b-d13030eaae6d___R.S_HL 7968 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/cb4a3d83-e307-4eb7-8723-21ae84d4fb64___R.S_HL 8244 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/433a363a-c354-4972-bd8c-b3fcee49a336___R.S_HL 8302 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/af25549e-f09a-4fa5-958b-aa9c49ac6119___R.S_HL 8122 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5048e022-c5a7-4215-a55c-c9576e45f4e2___R.S_HL 0602 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ab0fc79a-bd95-406c-a008-21985ddcb71a___R.S_HL 7985 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2130487a-e25c-4ac3-ac90-a404f2528f91___R.S_HL 8158 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e7390b09-74e0-4ce3-af38-95aa97c78e34___R.S_HL 8263 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2bcf6ae6-5dcd-4330-9338-e38e54d90f32___R.S_HL 7964 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2ce5a5ee-f03c-4610-a947-0824c396d9b2___RS_Rust 1629_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/820a4417-018a-43f0-8f29-4d1367f00e72___RS_Rust 2453_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6747992a-6f4b-4ecc-bc4e-69a6fa3f71da___R.S_HL 5492 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/52cbda86-7bbf-45fe-bfd6-ec56145e4bb8___RS_Rust 1672_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/116e19d7-8948-4eaa-8309-617434b47f57___R.S_HL 0615_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/13dc56cc-47a0-4677-8355-5808f86580f3___RS_Rust 2347_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/18fb5907-fb42-407e-8ad7-baee0d01f60b___R.S_HL 8168 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5729cf32-0b39-4661-ad91-7b79de2ad34e___RS_Rust 2343_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/54771de1-8262-4207-b15f-ad48a1362ea7___R.S_HL 8249 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bec8d29c-5eb4-488b-a4fb-baef5ae7a2ec___R.S_HL 5521 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b7214149-73ad-481e-9227-c9fe77f10477___R.S_HL 7896 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ab90a3d7-ab29-4efe-a5f1-b9817b09d4e2___R.S_HL 5541 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/e2f25942-e7f3-4ca8-8177-f029da9ca151___R.S_HL 0601_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7c28a1e2-08fb-406d-9fad-769be3096e85___R.S_HL 0603 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3093e693-5c96-4672-8969-2691541b6649___RS_Rust 2240_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/24b7217d-11c2-4737-a7ba-355a04e4c284___R.S_HL 8153 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/7efbf042-16cf-47d0-9ed0-7d7a10d9c86f___RS_Rust 2266_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/814ab6c3-0b7d-42ab-8058-53cde59f0daf___R.S_HL 8312 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2962f63b-7205-4318-af49-2eb03f16e135___R.S_HL 5522 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/64150a14-e8fa-4301-a7ba-52ca7d592b4a___R.S_HL 0599 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ef91f02c-dc0a-47ce-a280-5008017655cf___RS_Rust 2203_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/1fb30be0-c5e0-4e31-a9e4-329194e87cd7___R.S_HL 8134 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bacefe60-7898-4940-82b3-2d26001e3ba9___R.S_HL 8186 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6cd7d8bc-acf1-4f2b-a381-d7950b5b94f7___RS_Rust 1905_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cf6d260a-6442-4917-80c6-c13e0cf0eed0___RS_Rust 2652_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9b6f7782-2244-4575-8226-d5083c2d0223___R.S_HL 8144 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d0ed477d-3c8e-40fb-a6cc-49c1c110f4c3___RS_Rust 2154_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/89bb38f9-2b37-446f-97db-58e856f339ad___R.S_HL 8281 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/abcb076f-c7b8-4feb-98aa-2e65669af656___R.S_HL 7886 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/71ad45ed-acd0-45ed-baa0-c4ad18ca0244___RS_Rust 2760_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/020de84e-d9e7-4bd3-8890-0735f1c5fc0b___RS_Rust 1671_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8adb9e1d-8e13-4814-b06e-9a4dd1e000c6___R.S_HL 8282 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4e65846a-3154-486c-b58c-cbaf698e0f97___R.S_HL 8151 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c61a25a0-5163-4c93-b487-f73220bc90dc___R.S_HL 5560 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/40016f08-81b6-462f-b6f5-f1c8cf9cc519___R.S_HL 8084 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7f350cf2-c946-4546-a5e0-1ae22389530c___R.S_HL 8146 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/19f6234f-30e6-41e1-90bf-8204612bb150___R.S_HL 8223 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7822a499-ca5f-479b-b90a-f3308f262f6a___R.S_HL 0597 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/61824665-0adc-4976-b974-5d604c2e1bec___R.S_HL 7949 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/34e95cb5-6121-4ac9-ab22-af6b19b6939d___RS_Rust 2344_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9f0564fa-2184-4df2-b0b9-bec3f36294e8___R.S_HL 0651 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/79548859-be87-4f81-b6db-62fbd2505b9c___R.S_HL 7916 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/295e7512-bcc4-4412-a786-424d66dd3980___R.S_HL 0596_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d82f0762-c086-4358-aa3a-76b2aa6e9831___RS_Rust 2231_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/07eae7fd-96f5-4f09-ba7a-1b108987c6af___R.S_HL 0600 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1b5ab4ad-8655-45a0-b2cc-63c827b6784e___RS_Rust 2656_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1312fda7-8872-4653-835e-e3775f7028e8___RS_Rust 2310_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/90548ed6-1573-4a72-9f60-6188a1fbd2ff___R.S_HL 8150 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/69cf9d2e-4d85-4621-9cf6-d5f7c5843a79___RS_Rust 2003_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/44e96085-531e-4ed9-bc43-88a388eaee3d___RS_Rust 2722_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1069c5c4-47c7-43ad-b3f4-a7835a88cc32___RS_Rust 1969_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ff3d5051-494b-414e-adac-dd9c0e313dda___R.S_HL 8055 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/784fbf2d-4079-48fd-82eb-aba296c7457b___RS_Rust 2589_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/00665f92-adb0-41eb-bba7-9eeadecfe10e___R.S_HL 8325 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8d41c88f-764d-4cdf-b12a-f71226f88c20___R.S_HL 8078 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c891d142-3665-4860-b585-193d2477cd94___RS_Rust 1589_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/999f21e1-a435-4cd3-a4ab-2ac0756485ad___RS_Rust 2689_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/dddc5d4b-b6fc-4ed9-8258-ac885d7f0d1a___RS_Rust 2110_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5fdb2c07-65e6-43d4-9279-b05f6efd53ba___R.S_HL 8050 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cde7cec2-3b8d-455f-a75d-efc920d56e53___RS_Rust 1984_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/34c6b5a7-11ce-4be0-a7ae-e906e548d557___R.S_HL 8256 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/068794e5-0a99-405f-bbb9-1f954e11942d___R.S_HL 7909 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/474a66af-aa43-4ad9-a7ba-ad98b32bde21___RS_Rust 2532_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2215b561-b42b-466e-b7ca-a4a3e5d6848c___RS_Rust 2106_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f6116423-42c0-4ca8-82fe-6a859a95aec1___RS_Rust 1705_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/50fe7549-e9f5-4104-abdc-b78630c0483e___R.S_HL 8185 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/426bfdec-737e-4998-99b3-6abac5542f68___RS_Rust 2309_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ef21bc27-7f69-4eba-87e2-6b1f348cc846___R.S_HL 8279 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/10416d7b-f426-40c0-8661-72d359e51d15___R.S_HL 8328 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/af6b3f3d-7d7d-4120-8c37-bb196cc3aed3___R.S_HL 8070 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/22debbe1-30bf-446a-a19d-e8d6abbb8315___RS_Rust 2581_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a5964bbc-97ad-4ee7-a5e4-2463d49b2d5a___R.S_HL 8214 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/09710658-c765-4ef4-afcd-a845b437db9f___RS_Rust 1800_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5192040a-ddcb-4494-b0f0-f7892a3babc3___RS_Rust 1564_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/17c724c7-0586-48fd-be6b-2a55e8edc5d0___RS_Rust 1669_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0305800e-de91-4742-b923-f9a1c0799392___R.S_HL 8116 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c89eaf3a-2123-4551-adea-e79d897cdd43___RS_Rust 2304_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6236ca74-0933-4f61-ae47-9b3509d3cab2___RS_Rust 1635_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/88966c55-4abc-4e8b-9b21-353186513806___R.S_HL 7953 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/71a33d5a-0037-4fe3-8afd-3cfae3e5783d___RS_Rust 2346_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/99df00ea-3fb2-4da9-82e6-972dbfd9e6c2___R.S_HL 0605_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/1d14e0f1-2d6f-4d5a-8d43-2bfd13329d0c___RS_Rust 2246_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b310ec18-2f8b-4ef8-a35a-c1238769316c___RS_Rust 1665_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/829c135b-d65e-4a25-b2e1-3e32781a3e06___R.S_HL 5513 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/74d0b40e-57a6-4467-b0d8-98b3bb0b1c16___R.S_HL 8229 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7784be50-f9e7-4268-aa17-80359bc7688a___R.S_HL 8231 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/9e48700c-1b24-4f5f-9ee7-11dc81f50158___RS_Rust 2675_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/68a2cb35-42af-4760-ab0d-0abf06e2429a___R.S_HL 8270 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/887d9d4b-3432-46e2-9f2f-e2753005a58e___RS_Rust 1841_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/78a25387-e76b-4b03-a7dd-edbad217ffd1___R.S_HL 8252 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f0dfc26f-2dfc-4d07-aa8f-b712b261028b___RS_Rust 2171_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ed73b133-31d4-474d-bf17-126021b88307___RS_Rust 1724_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/feddfdfa-14e3-4919-a527-814888364871___R.S_HL 5530 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a69fb110-6abc-4025-b22a-9ce26e02a4e4___R.S_HL 7961 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bc2d6546-a407-4353-b903-93c5b68bfa2a___R.S_HL 8254 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/929059e9-f3ee-4e71-bebf-3b2ee2974024___RS_Rust 2568_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/69d5f8d1-0eea-4841-b34b-acd8d51ea095___RS_Rust 2584_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/534fd39c-70fb-40a2-8cb0-bf117974c67b___RS_Rust 2089_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/201141a7-69a3-40b2-90fd-da538cf10ffa___R.S_HL 7908 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/7a326001-2b9c-4a22-a7d6-53b91e7d79f9___R.S_HL 8192 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/d45a8270-1e69-4b48-875a-bd2a7f737188___RS_Rust 2472_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/690aa499-e65c-42a5-ac1a-2eeebeb9ee9f___R.S_HL 5554 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f6c01e2c-02a2-4058-9d24-7dbaaab7fee6___RS_Rust 1782_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a8ce309e-86b8-4a8c-ad2e-0def8c89382c___R.S_HL 7890 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8d131c52-5327-4883-bb72-9b3df34dd7a9___R.S_HL 8220 copy 3_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3757d94b-09a0-4561-afca-93aede79cb32___RS_Rust 2463_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/254d1f23-8a22-4f21-9d5e-0c66733f102f___R.S_HL 8083 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cd83a7b1-bc6d-41d2-a98d-28a08a948389___RS_Rust 2129_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/00db1ede-2fbf-42ba-bbe7-69d974be3dda___RS_Rust 1675_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/de4648fd-1910-4929-a644-af090a8031ab___R.S_HL 8242 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f5b5175b-c367-4f3e-aaf5-5bb4540cab20___R.S_HL 8105 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/23e5ca0e-c7c3-4b27-b3b7-a0bb4ecbe177___R.S_HL 8245 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2b62f648-2a9d-4dd8-88fa-b12c037b9e4b___RS_Rust 1624_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/6ccee9e9-a7b3-4284-a4c7-d8bbfb0600c2___RS_Rust 1623_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/13a5da6a-a696-44f7-ace0-724edaad7817___RS_Rust 2537_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8ebcdebd-d838-43da-b6fe-395879008848___R.S_HL 8145 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0b2282ef-75e9-47e8-878f-6e1557dc1f00___R.S_HL 8312 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e14c7811-28ce-4ecb-8c86-0d09aecd3f0d___RS_Rust 1780_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/eceb1924-2833-48cf-a145-f13b9b6a11e0___RS_Rust 2361_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c0f42e04-bbd2-4006-8d24-a22059295286___RS_Rust 2666_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2f01493c-392d-41e6-8ad7-dc002cd3bbea___RS_Rust 2195_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b3859368-d0b9-4e38-b01b-c48a036e1d48___RS_Rust 2000_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/d2cb6bf0-184a-4e5b-be04-d447f509436c___R.S_HL 7936 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2500d247-7e34-424d-b7ec-6eb9c6686ed9___R.S_HL 8112 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b632d503-8441-4a66-b838-36e1995d950b___RS_Rust 2016_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8edc3c56-97f0-4bcd-8f77-968048928cdd___R.S_HL 8042 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/81558ebb-85de-4478-96e2-df6e4085c8a1___RS_Rust 1901_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0965dce1-f6e8-47f3-9d4e-1a06a571fca6___RS_Rust 2499_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a82bfbed-b2cf-436c-a2e0-979541750025___RS_Rust 2592_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/388becdf-55dd-4fcb-a32a-b8b5e01de2f3___R.S_HL 8054 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cbf38432-ef40-4045-9c36-038f09358ee4___RS_Rust 2390_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/938c84ab-f351-48c9-8383-bebc97d1dce3___RS_Rust 2083_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/5485f440-698d-4d40-9006-db048a14c41d___RS_Rust 2285_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/affe3a8d-596f-41d9-b2ab-2d494c3eaac1___R.S_HL 8141 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/fcfa5fad-9788-4104-8a33-bd981661ae3d___R.S_HL 8320 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/50d502de-24fe-4929-bd9d-9bbe9bdb6541___R.S_HL 8052 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/a797dcca-bb84-42ae-bb58-18020c6c3f52___R.S_HL 8343 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/fcde26c9-e8f8-4f79-a29a-8220a72b6edc___RS_Rust 2635_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/f3315b22-9d16-42b3-82ec-7a4e18ef647a___R.S_HL 8118 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0a2dec45-729b-4825-b814-a73d14e8c7fe___R.S_HL 8211 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/ac697b79-40fa-4d91-91e6-775982de76e5___R.S_HL 5507 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/823dc094-df82-4625-8870-468387eae01f___RS_Rust 1625_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/26f3cea7-cffe-4d2e-8e72-491a61653fb8___R.S_HL 0626 copy 3_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c5bb2153-fbb8-4394-a911-1fbe186cafe5___R.S_HL 8044 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/247cf021-2864-47ac-9f14-f89e12e4faef___R.S_HL 5514 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/624c0cfa-3729-4f6c-9236-1c3a4ee66431___R.S_HL 8214 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/643ac3c4-62e3-4504-a887-fac979b9442d___RS_Rust 2600_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/94203353-1fc1-4092-95d1-c8672077776c___R.S_HL 0635 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/6792a3b8-444b-48fb-bc25-85529d7c2693___R.S_HL 8319 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f6aed84d-e820-4905-b835-b3b3c2a5818b___RS_Rust 1819_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/60e614c6-47f5-49c6-9058-00c1558a382e___R.S_HL 0646 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/0cff7eca-bb9e-4cc3-ad7a-23694bdba903___R.S_HL 8289 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/209c5104-e828-4541-b015-b22de81e55d5___RS_Rust 2040_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f6a3e741-cd8c-4680-ac5d-147697cbaab8___RS_Rust 2410_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/2255588b-9281-4d7e-959f-cff61f97eb6b___R.S_HL 0608 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/b77d2f7f-6323-44d3-9316-f83fc75ff208___R.S_HL 7935 copy 2_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8254e846-2b6a-47bd-87a0-23a1b435eb20___R.S_HL 0599_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/88bd7c7e-4610-478e-9a50-e76ae5d69f00___RS_Rust 1719_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0e183697-a9d4-4d74-8f2d-7f4d64c20d7b___RS_Rust 1621_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a5e3d880-977a-44d3-be2a-6e23a1d0a595___RS_Rust 2045_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ef80ac56-e269-481f-b359-b7672405222f___RS_Rust 2447_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/52e005b2-683b-432d-a535-a11d3403a25d___RS_Rust 2126_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/94d1fec8-ded3-43a7-b771-41571f8f5ecb___RS_Rust 2243_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/64d031fb-bbba-46bb-86b4-920899630901___RS_Rust 2178_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/cb6f530e-f626-4ced-846f-f88528f10da4___RS_Rust 1963_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/9f180540-3445-4b8f-8c7e-6a07d7b6aca5___R.S_HL 8272 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/db78ac05-0df7-4363-9606-033bb586be12___RS_Rust 2470_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/028ed539-32f5-4540-a6af-466179837de9___R.S_HL 8212 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/b54af47e-d2a8-43dc-a428-600e3ae62d97___RS_Rust 1975_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/8b05f3d8-87a6-4a3e-8ff9-62bce57f9047___R.S_HL 8057 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/a3771f3c-448c-495b-a062-49064ae0e750___RS_Rust 1932_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/59453ef6-bc9e-4b40-8a2c-e40e39cfd893___R.S_HL 8153 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/42cb98f9-06ea-4536-8372-b0ed2c4929e8___RS_Rust 2762_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/5a92ab9e-726b-4f63-9629-736509128ae0___R.S_HL 8294 copy_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/c2c77995-0b78-4864-9dc6-2f6cb2183347___R.S_HL 5499 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/353bbbbe-7c61-4764-a42e-8d40eefdb498___RS_Rust 1713_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/c40e4d39-9695-4b08-81a2-d3394d295409___RS_Rust 2290_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/2d5bc97b-0e6a-44fa-b70f-b08c52a89744___RS_Rust 2590_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/ef063eeb-3274-4fd9-ba29-dcc7dda1a84a___RS_Rust 1965_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/af823cde-a5fd-42e9-95a5-9975140656bc___RS_Rust 2518_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/70fcbed7-8e7d-40d3-946d-37b76b1efde7___RS_Rust 2496_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/f2d1d2e0-f464-4423-bde8-99b5fce93f3a___RS_Rust 1988_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/3e3d0f4a-8d29-436d-81cc-7d16e5daa09c___RS_Rust 1971_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/4072df91-b71d-4b65-abc9-e843f61a9544___R.S_HL 8210 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/0d42f5bc-0439-4f6d-a79f-ec2433d4d2da___RS_Rust 2067_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/67f39579-aba1-4989-a9b8-6e85544cf210___R.S_HL 7991 copy_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/24f8b59b-2e23-4e95-a583-96185bfdfc30___RS_Rust 2303_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/37cf2e1c-9145-4204-9ee2-44b81c45872b___RS_Rust 2699_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/92c80411-7891-4936-b9db-a50d73247ced___RS_Rust 2147_final_masked.jpg
+train,Corn_healthy,Corn/Corn_healthy/train/bb63915e-8282-4c2b-ae08-0f0777ce27b5___R.S_HL 8074 copy 2_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/e5793ec9-bdb5-453b-b8a8-5ede4af850e0___RS_Rust 2611_final_masked.jpg
+train,Corn_Common_rust,Corn/Corn_Common_rust/train/35da891a-b666-46a6-8884-5b9ac2c77e65___RS_Rust 2209_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4444eb1e-6edb-4266-b1e2-44f6edb3c53d___RS_Rust 1680_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a9fcf4e5-73f1-4c51-a3ef-a5800cc6df62___R.S_HL 8025 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d63ae1d7-dc23-4aea-ae83-fd7ad0b59bc7___RS_Rust 2563_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f09ff96a-fb4b-47c4-887e-2734dadb7feb___R.S_HL 8166 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/a0ea2fd9-e662-4b87-926a-82a407d8563c___RS_Rust 2155_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6eb8d5db-f4ea-4337-a765-7dbf6b568ff3___R.S_HL 8342 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/6469f96a-8fb3-46f5-aa39-c42d0d3347ce___RS_Rust 2674_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/bd387a28-3b26-47d8-827b-062ae0a0f234___R.S_HL 7990 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/1614b836-4cbd-4091-953b-91e596152852___RS_Rust 2511_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/e4b7c7b7-0bd1-4ca1-8bfa-3768801269b1___R.S_HL 8292 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/4dd0d54d-37bf-48cf-a3be-420949d5b2fd___R.S_HL 8235 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/ca005f55-ec22-41ef-b162-66724347da83___R.S_HL 5518 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/fb47273a-ffa1-460e-982f-05cb4be25094___R.S_HL 0635 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/370ef13d-e998-4e6f-a179-5f4a3bf0f054___R.S_HL 0635 copy 3_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/20f431b6-f9b9-4613-b621-16f9b4b224ce___RS_Rust 1840_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/c01ae922-b51b-404a-9a90-d767bb388d06___RS_Rust 2400_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/993fce59-927c-405d-9761-784d15d8c799___R.S_HL 8064 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/25e784f3-1660-423c-897f-be4629abe28c___RS_Rust 2622_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a249e3ec-00e8-4086-8c82-ab872fcbb4fe___R.S_HL 8342 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e4ba0da5-4d92-4e0a-965a-fa4a54aa6dd2___RS_Rust 1784_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/c3d86c21-4020-45be-9de2-6836cf15a709___RS_Rust 2465_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/9b89d8da-c000-473c-a9ad-86dc75bfa956___RS_Rust 2604_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/62d6481b-2d3f-4998-83f9-7071b5fd9446___R.S_HL 8290 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/0b03beed-0247-4d38-87ba-eb5b94415312___R.S_HL 8233 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/0ad1f85a-765f-43e5-8b7b-4a7521be768d___R.S_HL 5520 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/59c6e1f0-eef8-4e82-a113-07f5056a5f37___R.S_HL 8030 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/3818e3d0-e62d-40c2-bae9-ab9d4e1c4717___RS_Rust 2286_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/2dea9c22-b644-47f4-905b-ceaec13c929a___R.S_HL 0632 copy 4_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/212d2129-6f09-48f8-a5df-321b158aa43e___RS_Rust 2077_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/ac10769f-266b-452e-b8ab-671bd3df69c2___R.S_HL 8344 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/d83ea494-b075-49d2-9c86-07e988bd6033___R.S_HL 8095 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/b6f0485c-7285-4800-bf1d-77ebcfc554c7___RS_Rust 2140_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/f4d5ba8a-6296-4554-b038-840c65a63493___RS_Rust 2005_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/b602527c-8be0-4515-9e68-4c469e5aa10f___RS_Rust 2374_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/fa058a24-6c13-4525-bd77-9d02c8f2d65e___RS_Rust 2530_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/48296a13-4359-4df3-b19d-d457c14721ba___R.S_HL 8157 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/b14bcb73-04d0-4e27-8cf3-9d26bdc1a8d7___R.S_HL 0612_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e7f90619-ff73-4a97-b098-8eb5b09da0b1___RS_Rust 1656_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d33def50-870d-4c43-adc9-dac27ad2fffd___RS_Rust 2488_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/7e705f3a-846b-4815-bb4a-99c7024030ab___R.S_HL 7989 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/e83663a8-93f0-470c-8f43-7366bb3d8233___R.S_HL 7908 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/8a28b72d-78e5-4929-b7d9-3b4449159af9___R.S_HL 7939 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/695000c6-5857-45af-a8cb-470bfeedf274___R.S_HL 7970 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e80d122b-e63f-4c2e-ad14-7a647311cd37___RS_Rust 2703_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f1fae7bf-f759-4712-82ed-3e5fb548252f___R.S_HL 8079 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/b6d6272d-47d9-4506-a0f6-35edc3dddd38___RS_Rust 1804_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/702dd799-fed6-46a4-a6c9-6f0e42186823___R.S_HL 8091 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/db0017dd-f796-4012-9b23-c17b1c01ab36___RS_Rust 2216_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/f2643aeb-4398-421e-a34a-78d23ebb248f___RS_Rust 1758_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/5353c073-d10c-46e9-b84c-abbb7de314e7___RS_Rust 2572_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/303a8e9c-48fa-47d7-846f-21fe9e6138cc___RS_Rust 1867_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/be7c9d7f-2a89-4364-9173-76eecdd3d29e___R.S_HL 8298 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1cf6abd0-261e-4a8c-92b4-92320be88999___R.S_HL 8121 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/43810073-d404-47a0-a9de-85ec6a950ab1___RS_Rust 2098_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/2611c8b6-9a80-4249-be57-820b1e10c831___RS_Rust 1609_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/4da561ff-1720-4174-be49-d9680cc1cec3___R.S_HL 8321 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/53be8546-8213-4568-a469-31e19edd1ec4___R.S_HL 7892 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/b3167074-fc4f-431a-9667-4ab89949e77b___RS_Rust 2373_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/afeafaea-6909-4a2b-8078-1a7c79b99706___RS_Rust 2121_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/0e419192-5d20-415c-b5b5-40e65e5e7d7f___RS_Rust 1691_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/5dd5c601-a601-45bf-90e9-1335869056cc___R.S_HL 0621 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/9dc32c39-e62c-4fd1-b25c-7ae9d5b050e2___RS_Rust 2208_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e8f29d00-b97d-46b5-bf36-1d6c79aa21c6___RS_Rust 1939_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/3a668261-388a-45c1-8a8e-584cb3966bf0___R.S_HL 8071 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d00501b0-64a2-4d45-8657-e9a0afe09353___RS_Rust 1776_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/fa7d8ffc-4e21-4a6d-9042-63fa7e4a1df0___R.S_HL 0636 copy 3_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/fb7c73e2-6f3a-4dcc-bc31-217f37512d68___R.S_HL 8293 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4463d1ea-87bb-4c11-8583-37ac291f4ed6___RS_Rust 1750_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/1b4d1fc8-f7fa-475e-8453-833df60085b3___RS_Rust 2469_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4ed1c1f5-fc4d-4478-9be6-107691db956f___RS_Rust 2091_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/3de052fe-8bf9-4d1c-ac1a-19605ce27f00___RS_Rust 1700_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/60467e64-3617-4a09-b5f0-1abf123297ae___RS_Rust 2728_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1a168fd2-309d-48c9-8253-889361a7a30b___R.S_HL 8251 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e916dafb-30f0-4b96-84cc-7e6feb662a7c___RS_Rust 2233_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/5bed19a9-9318-4160-926f-c2c641995c1e___R.S_HL 8167 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/877c7bf6-cf8d-4a5f-8e83-8be1de5b30b6___RS_Rust 1595_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1d424e91-e89b-4cf8-a0e9-48fc345cb9c4___R.S_HL 8299 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a599c53f-dd93-4629-b2b4-0b16c9714bd8___R.S_HL 7963 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/c48a0c60-64e0-4f9e-9fc4-0b534df78d53___RS_Rust 1766_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/595c0050-22d3-4e46-be03-72f86a695630___RS_Rust 1934_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f67649f1-0d9a-4015-a943-e13a79ace489___R.S_HL 5490 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/ce871951-8d0c-4c3a-a62f-843758ba01da___RS_Rust 1603_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/2d04e6d6-acd5-4af9-887c-f76fc8371669___R.S_HL 7959 copy 3_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/38e695a0-a1f3-4c82-81d9-34bf737ae8be___RS_Rust 1827_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/55efba35-9d8a-4fae-9096-dfe1ade5b381___R.S_HL 8184 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/b027698d-850a-4adf-b70e-8c700dfdde5d___R.S_HL 8023 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/24ff01e1-c073-45df-90d7-da86e8fcece7___R.S_HL 8262 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/03f21e10-d906-42ec-a4d2-880b1419691b___RS_Rust 1808_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/cdee5ba9-f4a6-42ea-b1da-3323fb8d4687___RS_Rust 1607_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/6be5a480-8081-4dda-af33-176d1dfcbea3___RS_Rust 1911_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/37f6cdf3-3424-4ff9-8106-7840c506ddd8___R.S_HL 8166 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/16e1b4a3-65fb-405f-964e-9fa8c45e4e97___R.S_HL 5551 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e17192fb-b50f-425e-a876-1e04bf44d020___RS_Rust 2150_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d949f660-3669-4003-a449-249cce36df21___RS_Rust 1874_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/57f92b15-58ae-4e5f-a979-1c83f9c0be94___R.S_HL 8008 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/51fa82be-2382-47b1-9506-83ee663531b7___RS_Rust 2704_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1d45f289-7aef-4344-82f2-8a53e6fff2d6___R.S_HL 8082 copy 3_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/a4bc4a18-6ef1-488e-9b3b-57277af2e2a8___RS_Rust 2135_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/28c2f781-472a-4864-ad9f-de6f3681554a___RS_Rust 2316_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/5120c19c-8834-4b88-b406-f26c0784b74e___R.S_HL 0649 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/16c3cff6-3abb-4af5-979a-9ab375e4a9b1___R.S_HL 5562 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4b8d3cae-7777-4f67-9291-0dc4185c9db5___RS_Rust 2454_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/1af809cb-7c79-44a6-a915-4fe3e7118078___RS_Rust 1960_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f924ef4a-eb10-4bc8-9a3d-24a2a3090798___R.S_HL 8336 copy 3_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a0737ce0-3cdb-4773-95eb-377efa68bc06___R.S_HL 8174 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/0eb8c2aa-4e80-49ce-b922-9edf9b5266e9___RS_Rust 2228_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/3ddc84e6-37ce-4a11-97bf-cbe5f4c0e840___RS_Rust 2395_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a5a8e949-a121-4093-b1ca-2ef99c8824e5___R.S_HL 5526 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f3c516b2-43df-4646-a8fc-a6fe2a81b305___R.S_HL 8332 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/5c2c74b7-5687-4109-a5ce-0694f72f8095___R.S_HL 5534 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/0b410106-b5d5-4f8f-9d24-a0545155fc1f___RS_Rust 2054_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4b1787ee-de28-48ae-8717-077c0bfbd57d___RS_Rust 2646_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/185137c7-4f0b-4c82-81af-97a710c89e0b___R.S_HL 7962 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6ae624a6-83c8-4437-ba23-2a7b0460c7a4___R.S_HL 8332 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1dc85ac0-f1fb-4acc-b50b-5625d4a53f87___R.S_HL 7900 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/dbbbc6e0-d26e-443d-a962-5ee4dc35ba79___R.S_HL 0636 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/193e6262-e589-4f7d-93b8-c707368ee3b0___R.S_HL 8262 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/17ac968d-69e4-405f-a8c2-b82799033927___RS_Rust 2053_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/a78c9457-36dc-40e7-a038-d690a111eabd___RS_Rust 2751_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6485e415-6e67-4be7-a198-9c3c6d3edc5c___R.S_HL 5528 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6be24373-115c-42d4-9e57-35a7b208a021___R.S_HL 0614 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/afa863a3-deb8-4391-9478-ae877c49ad00___R.S_HL 7982 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/007f6e89-3e7c-4e6a-8ef6-8058c7133799___RS_Rust 1933_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/cf700a80-b413-4b95-ad88-d916bc9ffc93___R.S_HL 7946 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/c1a74057-c9e7-416e-b31a-17a670d7c1ee___R.S_HL 0599 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/ba187464-211c-40ae-a5d0-ba5e7850143c___RS_Rust 2173_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/8afc9635-c5e3-41be-aac0-74109d6112ed___R.S_HL 0601 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/af935cf6-ef8a-43b0-910d-773641afa7bf___RS_Rust 2483_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/63675c1b-f9ed-49c6-bc22-7c8489f999ed___RS_Rust 1982_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/4f3347e6-ed68-4659-aa26-5591ea8c923e___R.S_HL 5505 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/552abca3-bd40-4582-b671-d25c241d9ecd___RS_Rust 1822_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/2950037b-0650-4dfa-8102-26c3f1ff8068___R.S_HL 8314 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/2ff13fc2-7b35-4c00-8555-7b297d5f7e88___RS_Rust 1928_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/764ab13c-df6b-44f5-993c-180aa14ed89f___R.S_HL 7911 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6cfd6ab1-91fa-4b07-ab39-d3fba8b174cb___R.S_HL 7889 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d2911546-d38b-4b38-82da-b86d13fcc2bb___RS_Rust 2168_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/54c61ac9-b9c3-45f8-85ac-0de308294c90___RS_Rust 2709_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/b018b098-e68c-4ad7-88b8-371959829b79___R.S_HL 8245 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/73c1daaf-56ac-46ac-9dbf-5d47a0331c39___RS_Rust 1881_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e599894f-ed58-4dc9-928c-0d88827f7032___RS_Rust 2697_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/849fb38b-c077-4bb7-a067-21824d5bb817___R.S_HL 8080 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/63180961-34ca-44f2-9fb4-93f0f303c70d___RS_Rust 2549_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/5cea75f9-09bb-4840-8646-35fe12841bf3___R.S_HL 8127 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/054d3987-ead1-4262-8647-8c746f25e52c___RS_Rust 1790_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/03000565-29dc-4d56-8132-a5d0d36a8359___R.S_HL 0602_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/8cc99a38-e111-4e31-a747-61ee3532ca30___RS_Rust 2678_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/482efe83-cbc6-474d-87c5-e28a3a528541___R.S_HL 8273 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/d16351b3-76fb-4d80-b2e4-2809bcf06380___R.S_HL 5538 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/8d6e7517-6adb-4301-88ea-ded52dae7da8___R.S_HL 8172 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/e163c122-d4eb-4a3d-b34d-4911aa4fd267___R.S_HL 5549 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/809b6e54-681f-48e6-be39-a98ba31d09d7___RS_Rust 1931_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d09e3cf9-50a3-48c5-9b94-bce61fa340c5___RS_Rust 1653_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/4d4c5565-9d55-4294-8c02-d6e9856b0f88___RS_Rust 2740_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/11ac306b-dd21-4297-9cb7-e5ec10114a16___RS_Rust 1563_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1383b6ed-14cc-4418-89ae-7262fc41771c___R.S_HL 7924 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e1f4062b-60a8-46e9-b349-47bce4bbb074___RS_Rust 1717_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/d393d325-8c36-4fd2-8592-8ba6696467e9___RS_Rust 2575_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/c9272300-fc37-4b47-b09f-6a0f4e59f1bf___R.S_HL 7887 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/d518aedb-9e6e-4567-bb79-1f019415d61c___R.S_HL 8010 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/dc2bb80e-ba5f-4d55-aa7c-3b530956618b___RS_Rust 1962_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/11dab5e0-f7ca-4783-a2e9-52d0de91bdba___RS_Rust 2614_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/1b4d4fc4-01a6-49be-859a-7c25f4cbfd50___RS_Rust 2540_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/9fe732f5-c454-4dbd-930f-58fd4924c7de___RS_Rust 2758_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/bc45e1c9-7937-4fe6-9601-371df46a60da___R.S_HL 8025 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/43c48ef9-6312-48e2-a6c6-1282ad331cf5___R.S_HL 7960 copy 3_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/215ba786-6d3b-48bf-8b72-f06f7b00ad08___RS_Rust 2606_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/9faacf6a-f638-435a-8994-f1418b332199___R.S_HL 8102 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/bfebf292-f0f4-4ced-a416-2173f2fb5cdd___RS_Rust 2013_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/c5a2c1de-cd48-417c-ae48-0394fe2f39ae___R.S_HL 7883 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/4d603dbb-3e1e-4acd-ab00-8bdf858191a1___R.S_HL 5535 copy 3_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/adde8d22-15d9-42a5-a75d-6befa661ff4d___R.S_HL 8012 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/da6eb23a-534c-47cd-ac20-4c3de9c54d67___R.S_HL 8056 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/a7cd9678-571c-4615-bc2f-0c2e2673ba38___RS_Rust 1591_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/8df2900d-a46c-41b3-a008-b4e2d4214e30___RS_Rust 1921_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/06ebb8a5-b811-465a-923b-849b27969bad___R.S_HL 0632 copy 5_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/854c9a0c-d7ed-46c5-b070-45c3a4ae57a5___RS_Rust 2158_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/ac3f03da-04fa-4c1d-a025-a547ed3a2368___R.S_HL 8243 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/faab655c-70a6-4888-9a14-48a4bfedc46e___R.S_HL 5556 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/a4403c1b-ad05-4b03-9d13-7367a2d16a16___R.S_HL 8272 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/9f7fb67b-bd35-4209-ab8b-78d21b1c2223___RS_Rust 2108_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/77d70cb3-359b-4d83-a6a0-2a4b26d2f413___RS_Rust 1812_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/dbcf183b-58a9-4bbf-9763-e85d72c3428a___RS_Rust 1577_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/28046a7c-18fd-47e1-bf12-2e2b0d99370c___RS_Rust 1613_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/9e78560f-7c91-4d8e-a855-a2347a7cfe38___RS_Rust 2522_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/82bee6cc-67db-4e6c-a430-30791dfc0c60___R.S_HL 0629 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f6701648-427e-41ff-a375-96821ff63f26___R.S_HL 8076 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/3fcbe762-9784-4c0d-9e9a-30ce8a97502e___R.S_HL 0605 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/530b6aee-7af2-4a9a-880d-a3459690c78c___RS_Rust 1916_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/70e40ed3-9913-451d-8484-8155d38dac04___R.S_HL 7916 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/f04a787c-6669-4a8e-8b8c-5d01d46ca724___R.S_HL 8105 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/01b9df41-d0c6-4935-8005-c3895071da5c___RS_Rust 1644_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/899a9506-4d5a-47ba-adfc-024f90441831___RS_Rust 2640_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/667700ea-1ef7-47ce-839e-422c9c4fd6a0___R.S_HL 8285 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/3ff59355-b164-4a03-a51f-4c19dad684a8___R.S_HL 8198 copy 2_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/6a03e78b-bfa6-4fd5-9927-1b8171f5367a___R.S_HL 8132 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/f7edb5ee-897b-4cb3-9b27-0cae21648b42___RS_Rust 2338_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/ee9da483-d8ad-4c8d-845e-96ecee0c26e1___RS_Rust 2690_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/1b875461-1cca-41b8-bc3b-34b5940f33a8___R.S_HL 8036 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/db938b2f-224f-43f1-ac48-ebfd78adc277___RS_Rust 2260_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/c3b2fefa-0cf6-4d9a-9d00-c0bdac381c85___RS_Rust 1990_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/2251b665-207d-4500-a396-bc9bb097c34b___R.S_HL 8073 copy_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/fb9ebab9-26e6-459c-8b74-8fd04fbf0f89___R.S_HL 7960 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/263e043e-d0c1-4d8a-b35a-b312220f17c3___RS_Rust 1641_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/cb08f6cf-4701-475a-b589-d3f486a672a5___R.S_HL 7898 copy_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/bd3fb027-a8ef-43e9-a37d-39ba4bd59e8c___RS_Rust 2276_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/04506233-3040-4d4b-9e8f-acdd0a1e9693___R.S_HL 7942 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/1f082e68-2c9e-4338-88c0-8c5e002e7bd2___RS_Rust 2105_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/e3bc2058-ff3e-4827-9e08-b130dbef2863___RS_Rust 2567_final_masked.jpg
+validation,Corn_healthy,Corn/Corn_healthy/validation/b0a8752f-204b-4282-ac8e-5f3667beb7c3___R.S_HL 8265 copy 2_final_masked.jpg
+validation,Corn_Common_rust,Corn/Corn_Common_rust/validation/f518f367-d560-4cad-8f9f-c4dd72ccd85c___RS_Rust 2632_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/527eeb2d-1d23-4053-9ee2-db9c97073c2a___RS_Rust 2705_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a6180128-2b88-4e3e-8964-76186593e1ca___R.S_HL 8196 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/4dfc51c1-3466-4717-b63c-5bd448a68819___R.S_HL 8220 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/ad4d13f1-8dbd-415d-bc48-95fcbca99ee5___RS_Rust 2357_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/856cfd7f-10a3-44d1-97b3-63573cc96e87___RS_Rust 2716_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/f82f0eb7-b399-4983-b69b-8b2ac5f0c7f5___R.S_HL 5491 copy 4_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6c905936-82a9-4d8f-bd2b-27c3259d27be___RS_Rust 2391_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b6502343-1e16-4343-81cc-ec9fc1a212d1___R.S_HL 8238 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/1697df80-ad16-4daf-b7ca-c59e39fb8070___RS_Rust 2169_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/ecbe7d2c-b5c2-4e18-b1a3-082144aeb201___RS_Rust 1946_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3fdabf59-5491-411c-b61e-c3fc0bbb3831___R.S_HL 8097 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/c9a59c8c-b828-4a5c-a3d3-ecf4833a02d2___R.S_HL 5494 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7f467853-2961-4e1f-ae5a-e4819e418c77___R.S_HL 7899 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/c4e0fdf4-3c6a-45d3-8f57-25847c7363ad___RS_Rust 2039_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/2cb6f8e6-c847-41f5-b5a6-eb2f15795141___RS_Rust 2191_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/dba56e1c-72a6-4285-b7de-b23471e1f8a5___R.S_HL 8221 copy 4_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/9c392db4-4a68-4a6b-8555-a822eec85ca7___R.S_HL 8177 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/329f3185-7416-4aa4-ad8b-d2a141d64cb7___RS_Rust 2558_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/fec7d3b4-736b-4d95-92cb-2e8b302f7488___R.S_HL 8306 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/cbc6b5f5-5471-41cc-b532-6d4540017dae___RS_Rust 1994_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/b94059c5-7ce7-490c-be19-b839f03bd0b0___RS_Rust 1937_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/782061ca-f0ea-4c4d-aa53-257534a1ef78___RS_Rust 2381_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/6a570f29-0710-4baa-87ef-84ee12414eab___R.S_HL 0617 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/f3102f6c-af30-41a5-80b7-fcfa86635651___R.S_HL 8324 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7377ca1f-38a7-4b2e-a53a-05483fb319e6___R.S_HL 7940 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/5151362d-b000-4d78-86f3-5fa2109612a2___R.S_HL 7928 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/45ba6389-6a24-49ce-8c33-0ce80e4e8277___RS_Rust 2529_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/fe89dba3-5452-40a8-9d43-4f689c981253___RS_Rust 2319_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/2d772e16-cff5-46dd-8a40-789e2fd4415f___RS_Rust 2669_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/ad07f4f7-c5a1-42f3-8007-bda26301a4c7___R.S_HL 8111 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3d7c8677-b8a0-4617-88b9-d248d30f70d1___R.S_HL 5550 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/2dbc047b-b666-47f7-8aec-c17c4d4c3753___R.S_HL 5533 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0618b46e-b4fb-4069-9b95-6c6c2387688a___R.S_HL 0609 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8f95a7b6-f0f2-4c59-af0c-081a7af16708___RS_Rust 2202_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/a2f3772c-5baf-4060-8a5d-4726dbb1bc44___RS_Rust 1703_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/5e6256f1-0221-47ca-8805-c3c843f67307___R.S_HL 7989 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b27ca23d-e90c-4087-8421-dec6e1876c89___R.S_HL 8075 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/df68dca4-ebe7-49ae-8639-ae7d252f79c0___RS_Rust 1684_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/c9c333a8-30ed-4163-adf1-c65379dac7ac___R.S_HL 7907 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/dae7de2e-e4a7-4a50-a786-990e2c692c81___RS_Rust 2602_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0f80ca6d-b0a3-4c59-bf37-f89bc3eea6ce___R.S_HL 8018 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/8b6204cd-cbf2-43b0-90cc-255815f7beb7___R.S_HL 8156 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d94448c4-ba78-4793-bd14-5d90e531e260___R.S_HL 7903 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/2e51c2f0-860b-48f7-81a7-4ae76e8db40b___R.S_HL 7877 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/04ed222d-d287-4199-b412-f2f07c872bee___R.S_HL 8101 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/935badec-3788-40d7-8dfe-be16ef3ae686___RS_Rust 2187_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/c7002ee8-4b90-4065-974a-0d3de66d3b63___RS_Rust 1944_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/e2b07dc0-0762-4da3-b2b5-efddcc2f8238___RS_Rust 1636_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/ef1eb71d-ff89-4815-9526-7dc2592a2bae___RS_Rust 2459_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6198dd0e-806f-4a9f-b4a4-4d035e9edb62___RS_Rust 2170_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/43efacbd-8cbd-4a15-88bf-97c2ab4e8814___RS_Rust 2744_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b914d1d7-db9b-4db3-9360-1ba44beef18b___R.S_HL 8176 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/1825cb9f-8f7b-46ef-a4a0-65a93592b857___R.S_HL 0615 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/52431a8e-2a36-4ed6-9bba-470e39de0dd3___RS_Rust 1741_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/390230ed-5980-4d83-8558-25d1c53bdd86___RS_Rust 1658_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/bda64a31-97b6-4a99-8182-acca2dc14e96___R.S_HL 8094 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/de1b7e7b-a462-464f-8316-bdb14718b59d___RS_Rust 2700_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8f3abe21-f0d9-4534-8ebe-a926bbadeccc___RS_Rust 1654_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8c8aaa16-9608-4226-884e-2c56c4d246d5___RS_Rust 2014_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/0f50c1ae-60d3-466a-9f7e-62a50d5578fb___RS_Rust 2621_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a20456bd-0ca9-4999-9a10-cda7915d280c___R.S_HL 5527 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/796fc965-0ed9-4701-adb3-297d8cfb00aa___RS_Rust 2597_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/e444fe57-5c82-45f3-b63d-59d7464aa0e5___RS_Rust 2672_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/81b0d8bd-b21a-448a-8aca-a1bf971bf014___R.S_HL 8029 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d976fc74-23c2-4c34-a068-db120a61fe0f___R.S_HL 5561 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8a7daffe-5563-457e-ad83-335770df0a1b___RS_Rust 2350_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/22e495d5-0daa-4cf6-8555-61f26d091b66___R.S_HL 8061 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b2495f66-78f3-40d5-b3e0-1a02545825cc___R.S_HL 5510 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/5516ee19-c476-4f9c-b3de-7815d4fd15b9___RS_Rust 2352_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/27a640fd-79a4-4b23-b6e0-56acc5ab67e9___RS_Rust 1964_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/5ae2edb3-e2b3-4017-a254-329c6971195c___RS_Rust 1924_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/4f0b04c7-a554-48b5-a1a9-512f8ea16b38___RS_Rust 1839_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/687cb6d7-33d4-42b7-85cf-253dbcca2787___RS_Rust 2576_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3ed3e07e-1932-4c33-9613-d31af970986c___R.S_HL 7973 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d96a3d7e-3c5d-4b22-9506-6451660bb8bf___R.S_HL 8182 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/55558508-0071-4e16-89ca-5e42716988e9___R.S_HL 8170 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/7429f9be-a53b-4214-81e5-b804254a0142___RS_Rust 1863_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/1ec14e70-9383-4337-9883-06ecb3cb32e6___R.S_HL 7939 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a31089a1-47b6-417f-b9ce-41465ff8279e___R.S_HL 8031 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/adbab47c-87a5-4800-a8bf-48f3d6abe235___RS_Rust 2432_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6531526f-9149-44dc-b684-cbd3d163d991___RS_Rust 1951_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a44d7b6a-f02f-4e2b-b43e-afe21be8f8d1___R.S_HL 8115 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/b4f99fcf-c7d2-495e-a1f1-ba3419171b77___RS_Rust 1997_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/2b3274d3-f41c-4dc7-abbd-13a70e922787___R.S_HL 5509 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/4ac073a9-0f2a-4b45-82e2-779947c835a4___RS_Rust 2329_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/500c13c7-2b8e-43ea-b842-154de7cf7f50___R.S_HL 8003 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0c039121-6d23-423a-9df3-f86b3ee035da___R.S_HL 8082 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3ac3f13d-352c-4390-bf06-94b5334cbfd8___R.S_HL 8206 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/04e947e8-d422-4f48-aa85-a1ec83883465___RS_Rust 2198_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/b000c64c-56f8-4e02-bfaf-d6ad6aae4577___RS_Rust 2134_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6cbcae72-a3cd-403d-9cc3-320cb191642d___RS_Rust 1836_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/31ed2f01-16d4-4b0f-8e51-d2b3bf960921___R.S_HL 7987 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0cdeb628-7351-4bff-abfe-dfe75ad931e4___R.S_HL 8224 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d305ee34-5c9b-4a71-bdd1-593503240e98___RS_Rust 1907_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/ca06aaa4-aaa0-4d29-8d9d-4557ce89ff68___RS_Rust 2027_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/50e026e1-cee6-4382-9664-5cd5be377e91___R.S_HL 8314 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/5eefff4e-1f92-4dca-abba-fc322614ca92___RS_Rust 1772_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/2012c62b-11b6-4cc4-9483-adebb2f30f81___R.S_HL 8326 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8686cb38-be0c-4379-ae52-97a5ed6b4962___RS_Rust 2660_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/3b935948-484b-4597-bad3-359375243a0a___RS_Rust 2557_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/4c8d1ae5-019c-45ef-9151-ed904f18ca00___R.S_HL 7909 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0ca3c51a-3f26-4668-aaad-a7924667f855___R.S_HL 8193 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/578bd4e5-81ca-4742-8b1a-d1ae5c748b86___RS_Rust 2366_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/25fdd168-2ffa-423a-8781-ec2cd35f3ce5___RS_Rust 2649_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/f257156f-70da-49fd-857b-0d3918c99c2f___R.S_HL 0651 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/9dec2bf1-3c97-4866-a2de-871e7860d505___R.S_HL 8188 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/13ac6d53-c481-4681-b180-61da00ee29c1___RS_Rust 1896_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/4d0fb4a0-e694-4101-ab80-8279ee08139c___RS_Rust 2160_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d7978832-fc72-492d-bfb1-73270bd24ba6___R.S_HL 7929 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/e3881e5b-b266-413d-89fd-4ee6eca1f00b___R.S_HL 0646 copy 4_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/59bc56e1-31cb-410e-a8bb-4afafb0fac7d___R.S_HL 0599 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/07a48bb0-4f7e-4b92-9871-f78ba0c42b90___RS_Rust 2213_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/556cdebc-9e18-4e5d-a63b-b756194776f8___RS_Rust 2655_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/15491a01-b117-46d3-9a89-dd2cbe0db748___R.S_HL 7886 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7cc7e4e5-6fb2-4620-8d6f-0e92b1fdf82b___R.S_HL 8049 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/dbb7d398-3ac0-45d4-8447-829c48f9bc64___R.S_HL 8099 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7cb008fd-2be4-415d-bc80-912dbf959aa4___R.S_HL 7884 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/0f735e65-a30d-47b3-bf2f-d857a8e5a7d7___R.S_HL 8042 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/23fb54f4-dc1c-4b90-ab44-4f4f98ef6edc___RS_Rust 2035_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/8825db08-2dd7-432e-aa12-2ff04e30aa25___RS_Rust 1792_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/289766de-9eb5-45f9-9959-b344fedecb62___R.S_HL 8295 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7d8c90b7-a84f-4c35-a43f-7d199bbfb493___R.S_HL 0608 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a8474109-c782-4c89-ab64-616c1aaea061___R.S_HL 7965 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/00ab8410-2b0e-4877-b947-cc3889be8d79___RS_Rust 2562_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/cd3cda5b-be94-430f-b8be-066b1b544cc7___R.S_HL 8294 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/88d705bb-1928-4323-9258-77ac3c2183ea___R.S_HL 8045 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/9892f301-b572-4578-8994-5656fa871a28___RS_Rust 2179_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/8c9c52f6-f03a-41e5-ab65-f4ccf30fd5d5___R.S_HL 5559 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/890a00f8-2101-4e99-abc5-5e4853130901___RS_Rust 2185_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6c7400b5-c74f-43c6-8287-683fdca95161___RS_Rust 1592_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/403c1b73-5eef-412c-9913-39909a5cedaf___R.S_HL 0636 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6228c0d1-eab8-4182-923c-c8a57efbb6f4___RS_Rust 2076_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/27cf1dd3-bee1-451d-b100-5a35369192d0___R.S_HL 8298 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/415566f4-9644-4a09-a906-b6eceea32a7e___RS_Rust 2676_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/87b57066-e08a-4f04-93b3-4e760100d6f5___R.S_HL 7989 copy 3_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7d9bd969-4031-45d2-b07a-26020da47471___R.S_HL 7924 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/c46f86d8-4436-41cd-8c80-8d47b8d4ac47___RS_Rust 1679_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6210e755-10c9-462e-8177-389682e54af1___RS_Rust 2144_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/adda5157-0c8f-4077-b89f-8be51e8cb9d8___R.S_HL 8262 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6d1c2f9a-a302-4a61-b1de-a166aae0377c___RS_Rust 2296_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/de15035f-f1fe-423a-94c4-de80ff1b0784___RS_Rust 1986_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/8b18084e-2976-426f-805a-bfcee0e1133a___R.S_HL 8102 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/692e08a9-2efa-43c2-8904-3e9aa0275c41___RS_Rust 1721_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/5a1567d9-a5ee-49fe-8c0c-78a9fe25b213___R.S_HL 8164 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/068a4f82-1166-4723-922f-0805becf92c5___RS_Rust 2010_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/fff6eb76-1a9b-4a07-88b1-c8df2e2c6fb2___RS_Rust 2312_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/76668ae0-ecba-4e1a-b7c4-be06a3d2ae89___RS_Rust 1872_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3cf0f532-b296-43d4-a280-d4f665913820___R.S_HL 8305 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d0e16874-80b3-4f2a-8511-15d5e69d33c6___R.S_HL 8056 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/90320770-39a7-458e-a4d7-398858827faa___R.S_HL 8093 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d94dfd11-4ccf-4d0a-a28b-8166ea4ed49d___R.S_HL 8120 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6e26bf65-c02a-4dbe-b8ae-f6dae7b368a8___RS_Rust 2544_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/c247b98d-cf62-4e0e-8d89-a487a71a54be___RS_Rust 1578_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/5965906e-dafe-4cbb-85d4-907ae9380f7d___RS_Rust 1774_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/13ecc48f-b919-4f40-a080-f13d1eb8b166___RS_Rust 1910_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/07078bdc-44b5-4103-8f13-bf889f7371c5___R.S_HL 8068 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d6c574f8-e234-47fc-880e-2620e618241c___RS_Rust 2277_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/c6928052-3d3a-4f49-aff3-020a47ea2dc5___RS_Rust 2307_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/f16bde19-7f34-4681-bd41-a3cf36f83c29___R.S_HL 7992 copy 3_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d51a4307-22ad-4959-a7f9-c02caa7ae675___R.S_HL 8188 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d241ba57-a574-49c0-a447-6f31e0e4829e___RS_Rust 2159_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/13f0f93a-f3b3-4693-b866-dea3a9a69b6a___RS_Rust 2571_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/29417d72-0bd4-47ad-8bc2-c56a40bf14a1___RS_Rust 1687_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/803074fa-8598-4987-86aa-0b043f047fe3___RS_Rust 1769_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b64f0fd8-4000-4675-81f9-e692a477a3ac___R.S_HL 8067 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/333922bd-09d6-4039-9975-894d77fec8eb___R.S_HL 5496 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/2d7f5851-8645-4d73-8f76-f59abf6585ec___RS_Rust 2509_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/915745f2-1da9-4e98-aba1-8a892cb1a863___R.S_HL 0597 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/a00ccefc-c91f-4c70-aa93-51e327b6c56b___RS_Rust 1880_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/c3479d2a-e11f-4b3d-8152-930ae6e24d5c___R.S_HL 7904 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3d7b536d-9c3c-4ac4-9027-1e7f3c1be0a6___R.S_HL 8215 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/aaad7ba5-1d5a-4852-a39c-f4c4e91c7876___R.S_HL 8172 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/d81b52fe-50d6-460b-88c0-64392ffdc901___R.S_HL 8054 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/88add02b-00cb-4c48-81e8-007335ae57cc___RS_Rust 2282_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/77fcdf9e-4aad-4f5b-9bb3-c96c909c8cac___RS_Rust 2593_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/02ab8d66-0385-43db-855a-ea5f8811ebd5___R.S_HL 7954 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6ff24f0c-1e64-46a1-8431-f3c73bc1208e___RS_Rust 1711_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a694e61f-3a63-40ac-9a31-66732cf9921d___R.S_HL 8116 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/f3ff0afe-f5e0-4ece-9e0c-615910fe7738___R.S_HL 7933 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/a07d9b98-d0e6-42be-8a97-b3b9470b384c___R.S_HL 7921 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/7be59e35-a7d3-4e66-a0a1-442371954a52___RS_Rust 2274_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/6df95c9d-2812-4251-b24e-08dd070bdd8f___RS_Rust 1598_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d209686e-e0ba-42a9-b13c-3fc0993fd6f0___RS_Rust 1573_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/3a0a1d5e-6279-4818-9314-63de5738d9c6___RS_Rust 2218_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/7a3a0488-19f0-4d08-988a-fedbae85e761___RS_Rust 1941_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/888320cd-1305-4d03-9323-a82d8a334414___R.S_HL 7885 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/efcf3042-4788-4043-802d-c4bc9661fd37___R.S_HL 8301 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/c5f181df-88f9-4b33-8e95-d17a3de8a80f___R.S_HL 8178 copy 2_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/32a1562a-00ca-4e01-b8fa-9bb9a964f2fe___R.S_HL 7984 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/60914759-2910-40d1-98bf-d9c75d0c9d2d___RS_Rust 2456_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/801ec1d8-e4e4-4682-85ff-fddfeaeae8c6___R.S_HL 0603 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/db66adfd-cc22-4c44-bf5d-856827ef14b4___R.S_HL 7977 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/026d9035-fa70-4a18-9033-d77f54c84d43___RS_Rust 1634_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/745219ab-300b-4616-bd42-c3ffb8387302___RS_Rust 1845_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/6eb1c523-f86b-4e13-9391-73573d0b0665___R.S_HL 8119 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/3309bae0-abdc-42a2-8c20-4360773f601f___R.S_HL 8217 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/7b7d23f9-d59c-4602-a79c-2012ff6f8f7f___R.S_HL 8239 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/fe6161d5-43ec-48af-a17e-915b807c9fe4___RS_Rust 2382_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/e5e34c0c-e9f9-40ff-b24e-78b2ccbec554___RS_Rust 2342_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/1035c09e-6caa-4bab-8faa-d64d539fa9a1___R.S_HL 0626copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d19fbc74-2d03-467f-922e-2e0db931c604___RS_Rust 2583_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/aca3d6ac-f40a-4116-88f0-ba561a7cbe4f___RS_Rust 2226_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/205f8753-7598-4469-86c2-59307f90e85c___R.S_HL 8228 copy_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/ff339e47-52bb-4e16-8338-d056f7dcf525___R.S_HL 8108 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/39b83749-66be-494a-b335-b208ba5c3fdc___RS_Rust 2295_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/c7f3bbd2-2aec-4031-9af0-9fb7653e6ae9___R.S_HL 8188 copy 2_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/9931e2db-705d-4f59-9371-efb19ea208a2___RS_Rust 1878_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/01c3bf88-d315-42a3-8fa1-fc80a05c97f1___R.S_HL 8189 copy_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/2b43dd1c-7f37-42a1-8320-9839f0db6361___RS_Rust 2264_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/d8f4748a-5e11-4916-9184-27105d0662c1___RS_Rust 2421_final_masked.jpg
+test,Corn_healthy,Corn/Corn_healthy/test/b16016da-ada7-4a6e-897b-5dba6b42a6cd___R.S_HL 8119 copy 3_final_masked.jpg
+test,Corn_Common_rust,Corn/Corn_Common_rust/test/f7ebfbd9-5139-47d1-82ec-42067748c846___RS_Rust 1785_final_masked.jpg

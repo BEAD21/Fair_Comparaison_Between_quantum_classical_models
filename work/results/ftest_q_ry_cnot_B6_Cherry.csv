@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,12,258,270,94.76190476190476,34,93.23809523809523,90.09433962264151,27.8,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,12,258,270,94.76190476190476,28,93.9047619047619,94.81132075471697,30.8,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,12,258,270,93.80952380952381,31,92.19047619047619,90.56603773584906,31.5,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,12,258,270,95.23809523809524,39,94.57142857142857,94.33962264150944,15.5,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,12,258,270,94.76190476190476,42,94.0,93.86792452830188,12.3,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,12,258,270,95.23809523809524,28,94.28571428571428,93.86792452830188,12.2,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,12,258,270,95.23809523809524,38,94.28571428571428,95.75471698113208,11.3,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,12,258,270,94.28571428571429,45,92.0,90.56603773584906,11.8,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,12,258,270,94.76190476190476,45,94.0952380952381,90.56603773584906,11.4,0ac11c0da63a
+Cherry,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,12,258,270,95.23809523809524,49,94.57142857142857,93.86792452830188,11.2,0ac11c0da63a

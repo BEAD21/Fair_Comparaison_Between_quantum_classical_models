@@ -1,0 +1,10 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split,derived_from
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,62,850,912,95.23809523809524,81,93.14285714285714,,160.7,f203883bbb0e,0
+Grape,qa/ancilla_nb,default,100,tune,62,850,912,90.47619047619048,18,87.80952380952381,,32.1,f203883bbb0e,100
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,62,850,912,93.33333333333333,37,91.04761904761905,,64.3,f203883bbb0e,100
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,62,850,912,96.19047619047619,79,95.71428571428572,,145.4,f203883bbb0e,0
+Grape,qa/ancilla_nb,default,101,tune,62,850,912,89.04761904761905,19,86.0952380952381,,29.1,f203883bbb0e,100
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,62,850,912,93.80952380952381,34,93.04761904761905,,58.2,f203883bbb0e,100
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,62,850,912,95.71428571428571,43,94.57142857142858,,130.0,f203883bbb0e,0
+Grape,qa/ancilla_nb,default,102,tune,62,850,912,91.42857142857143,16,86.85714285714286,,26.0,f203883bbb0e,100
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,62,850,912,95.23809523809524,39,93.33333333333333,,52.0,f203883bbb0e,100

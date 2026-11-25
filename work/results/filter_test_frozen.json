@@ -1,0 +1,54 @@
+{
+  "written": "2026-11-10",
+  "crops": [
+    "Apple",
+    "Cherry",
+    "Grape",
+    "Peach",
+    "Pepper",
+    "Potato",
+    "Tomato"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "models": {
+    "q/ry_cnot_B6": {
+      "act": "tanh",
+      "epochs": 50,
+      "norm": "none",
+      "warmup_epochs": 2
+    },
+    "c/Conv2x2/raw": {
+      "act": "tanh",
+      "epochs": 50,
+      "lr": 0.01,
+      "norm": "none",
+      "warmup_epochs": 2
+    },
+    "c/PatchMLP/raw": {
+      "act": "tanh",
+      "epochs": 50,
+      "norm": "bn",
+      "warmup_epochs": 2
+    },
+    "q/identity": {
+      "act": "relu",
+      "epochs": 50,
+      "norm": "none",
+      "warmup_epochs": 2
+    }
+  },
+  "checkpoint": "best validation epoch",
+  "mcnemar": "majority vote over seeds, ties by mean probability",
+  "ensembles": "plain average of softmax probabilities, no weights tuned"
+}

@@ -1,0 +1,481 @@
+crop,model,recipe,seed,phase,epoch,train_loss,val_acc
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,0,0.6959870933023699,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,1,0.6935904172300561,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,2,0.6938997892270546,65.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,3,0.6930726786088846,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,4,0.6938024741008969,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,5,0.6929499888468862,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,6,0.6925993259455285,66.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,7,0.6909355468789005,57.142857142857146
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,8,0.6855242895933747,53.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,9,0.6658113886486046,57.142857142857146
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,10,0.6060370980840032,80.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,11,0.5134763153296551,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,12,0.4627247658122049,79.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,13,0.40185572216115845,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,14,0.36429285515549237,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,15,0.3666660534579817,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,16,0.33077729805725,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,17,0.3646779458946977,80.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,18,0.34312061566272883,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,19,0.3281715789272741,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,20,0.31239836042887836,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,21,0.2989093948970787,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,22,0.29513262361592796,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,23,0.29529134152125724,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,24,0.31331181416482284,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,25,0.2819643957666093,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,26,0.28945821042197367,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,27,0.2851627739660579,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,28,0.27433939819016584,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,29,0.296951047116262,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,30,0.27876801761381464,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,31,0.268594577024807,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,32,0.2682151154506426,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,33,0.27841784172750444,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,34,0.26796813208632675,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,35,0.27643982782685683,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,36,0.26043335261520434,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,37,0.2535198819661677,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,38,0.2464456489663914,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,39,0.26852722962697345,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,40,0.25913825527534406,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,41,0.24959887823200422,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,42,0.2367116449922628,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,43,0.2580425580830174,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,44,0.24220298169702595,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,45,0.2418923218313658,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,46,0.2326621206625839,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,47,0.23068908996621038,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,48,0.2694116536764036,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,49,0.2549007158642654,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,50,0.23496575004484024,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,51,0.26662109466174383,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,52,0.2397234570273105,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,53,0.2273451367770236,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,54,0.23459288313344945,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,55,0.24853074593290472,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,56,0.25737223215020266,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,57,0.22026530371365616,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,58,0.24246365499277056,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,59,0.21994934671373698,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,60,0.21472939915939832,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,61,0.23369199098497326,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,62,0.24355568969907937,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,63,0.22482167418992835,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,64,0.23176317438026148,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,65,0.22029851818864818,82.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,66,0.2770994675549505,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,67,0.22180274345270207,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,68,0.2204735073697104,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,69,0.21843541591811033,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,70,0.21875715657977238,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,71,0.22700367145743106,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,72,0.20799730376841344,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,73,0.21130365186612787,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,74,0.23072532349568933,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,75,0.246982459595964,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,76,0.23368548022122226,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,77,0.231301133618033,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,78,0.23280004239764926,85.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,79,0.2157640310274799,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,80,0.20268944027721272,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,81,0.2174079780807768,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,82,0.20287550937056786,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,83,0.2116989598500948,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,84,0.20751595378287732,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,85,0.21517346726239092,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,86,0.22503282696557192,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,87,0.2087944205355181,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,88,0.20283512207384247,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,89,0.19023792578215978,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,90,0.19668093384653026,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,91,0.21179159104458392,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,92,0.23672784386480755,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,93,0.2490262823724064,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,94,0.22329934977436847,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,95,0.23962396468609146,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,96,0.1991988166039219,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,97,0.20605947232685207,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,98,0.21568170339173823,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",100,tune,99,0.18939386405705919,90.95238095238095
+Grape,qa/ancilla_nb,default,100,tune,0,0.6959870933023699,50.0
+Grape,qa/ancilla_nb,default,100,tune,1,0.6935904172300561,50.0
+Grape,qa/ancilla_nb,default,100,tune,2,0.6938997892270546,65.71428571428571
+Grape,qa/ancilla_nb,default,100,tune,3,0.6930726786088846,50.0
+Grape,qa/ancilla_nb,default,100,tune,4,0.6938024741008969,50.0
+Grape,qa/ancilla_nb,default,100,tune,5,0.6929499888468862,50.0
+Grape,qa/ancilla_nb,default,100,tune,6,0.6925993259455285,66.19047619047619
+Grape,qa/ancilla_nb,default,100,tune,7,0.6909355468789005,57.142857142857146
+Grape,qa/ancilla_nb,default,100,tune,8,0.6855242895933747,53.80952380952381
+Grape,qa/ancilla_nb,default,100,tune,9,0.6658113886486046,57.142857142857146
+Grape,qa/ancilla_nb,default,100,tune,10,0.6060370980840032,80.0
+Grape,qa/ancilla_nb,default,100,tune,11,0.5134763153296551,86.66666666666667
+Grape,qa/ancilla_nb,default,100,tune,12,0.4627247658122049,79.04761904761905
+Grape,qa/ancilla_nb,default,100,tune,13,0.40185572216115845,87.61904761904762
+Grape,qa/ancilla_nb,default,100,tune,14,0.36429285515549237,88.0952380952381
+Grape,qa/ancilla_nb,default,100,tune,15,0.3666660534579817,89.52380952380952
+Grape,qa/ancilla_nb,default,100,tune,16,0.33077729805725,89.04761904761905
+Grape,qa/ancilla_nb,default,100,tune,17,0.3646779458946977,80.95238095238095
+Grape,qa/ancilla_nb,default,100,tune,18,0.34312061566272883,90.47619047619048
+Grape,qa/ancilla_nb,default,100,tune,19,0.3281715789272741,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,0,0.6959870933023699,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,1,0.6935904172300561,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,2,0.6938997892270546,65.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,3,0.6930726786088846,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,4,0.6938024741008969,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,5,0.6929499888468862,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,6,0.6925993259455285,66.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,7,0.6909355468789005,57.142857142857146
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,8,0.6855242895933747,53.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,9,0.6658113886486046,57.142857142857146
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,10,0.6060370980840032,80.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,11,0.5134763153296551,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,12,0.4627247658122049,79.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,13,0.40185572216115845,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,14,0.36429285515549237,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,15,0.3666660534579817,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,16,0.33077729805725,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,17,0.3646779458946977,80.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,18,0.34312061566272883,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,19,0.3281715789272741,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,20,0.31239836042887836,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,21,0.2989093948970787,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,22,0.29513262361592796,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,23,0.29529134152125724,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,24,0.31331181416482284,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,25,0.2819643957666093,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,26,0.28945821042197367,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,27,0.2851627739660579,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,28,0.27433939819016584,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,29,0.296951047116262,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,30,0.27876801761381464,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,31,0.268594577024807,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,32,0.2682151154506426,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,33,0.27841784172750444,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,34,0.26796813208632675,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,35,0.27643982782685683,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,36,0.26043335261520434,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,37,0.2535198819661677,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,38,0.2464456489663914,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",100,tune,39,0.26852722962697345,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,0,0.6952472914215977,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,1,0.6934500312268855,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,2,0.6934410332414513,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,3,0.6926388361458886,56.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,4,0.6914286528140733,50.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,5,0.6877716819932855,71.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,6,0.6698336151479943,76.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,7,0.6252547224606473,68.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,8,0.581937668147994,73.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,9,0.5314874829446368,71.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,10,0.492950555980815,82.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,11,0.4800981651298351,77.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,12,0.45869807384009254,78.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,13,0.43876712435593634,83.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,14,0.4180195239241138,84.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,15,0.39333079386586306,84.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,16,0.3971880343428419,84.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,17,0.3855986295302221,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,18,0.38195508078563434,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,19,0.358306142815783,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,20,0.3479095772975305,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,21,0.33803114331573064,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,22,0.3250590202632857,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,23,0.32175976196437284,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,24,0.31251446412141093,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,25,0.30108197225383454,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,26,0.34269767115940103,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,27,0.38874343872557876,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,28,0.29150386334440703,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,29,0.2889293529748429,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,30,0.27979619761429925,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,31,0.2611116921121601,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,32,0.27542139123553877,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,33,0.2700563431212751,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,34,0.2682976580104945,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,35,0.2584594901354035,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,36,0.26773630786527153,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,37,0.25049213903569495,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,38,0.28223158678150373,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,39,0.24109012857536596,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,40,0.24022844214380884,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,41,0.24911674899801398,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,42,0.2568135495566152,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,43,0.24112257014023014,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,44,0.23886827636959607,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,45,0.24540490814025662,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,46,0.29733504876037314,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,47,0.2455151952300335,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,48,0.22105437596395217,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,49,0.2165379826520362,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,50,0.21908221495907243,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,51,0.2429403727893205,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,52,0.24490577719938048,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,53,0.23394308956854182,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,54,0.20613718041978732,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,55,0.21887878724707172,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,56,0.2127798229212166,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,57,0.2167718442793029,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,58,0.20493602185892912,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,59,0.20119175991397695,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,60,0.23164670754429753,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,61,0.21463952949442014,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,62,0.20379495590254817,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,63,0.21117877084114312,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,64,0.2330843544201373,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,65,0.22912710082311571,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,66,0.2067053334783679,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,67,0.21114191943151087,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,68,0.22457373623711444,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,69,0.21493886767720882,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,70,0.26406248776215474,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,71,0.2340430623427003,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,72,0.20558864003188285,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,73,0.21555704314162638,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,74,0.1980663431019871,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,75,0.20040168712231768,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,76,0.22237468615997058,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,77,0.18833039429777726,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,78,0.19092621942239305,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,79,0.2059659703438511,96.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,80,0.1833374206669979,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,81,0.19062673442202843,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,82,0.1856610145122727,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,83,0.20821664243144247,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,84,0.18649072747045256,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,85,0.1846870570643548,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,86,0.2058212209211049,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,87,0.19141351440750018,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,88,0.2299354860143915,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,89,0.2701842852683399,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,90,0.20964999944885815,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,91,0.2177594201696431,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,92,0.1883578308398982,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,93,0.1920717178800111,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,94,0.20374837176443852,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,95,0.18941923927188165,96.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,96,0.22932531222975328,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,97,0.18865189887202347,96.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,98,0.1817180132512422,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",101,tune,99,0.24022862242043383,96.19047619047619
+Grape,qa/ancilla_nb,default,101,tune,0,0.6952472914215977,50.0
+Grape,qa/ancilla_nb,default,101,tune,1,0.6934500312268855,50.0
+Grape,qa/ancilla_nb,default,101,tune,2,0.6934410332414513,50.0
+Grape,qa/ancilla_nb,default,101,tune,3,0.6926388361458886,56.19047619047619
+Grape,qa/ancilla_nb,default,101,tune,4,0.6914286528140733,50.95238095238095
+Grape,qa/ancilla_nb,default,101,tune,5,0.6877716819932855,71.9047619047619
+Grape,qa/ancilla_nb,default,101,tune,6,0.6698336151479943,76.19047619047619
+Grape,qa/ancilla_nb,default,101,tune,7,0.6252547224606473,68.57142857142857
+Grape,qa/ancilla_nb,default,101,tune,8,0.581937668147994,73.80952380952381
+Grape,qa/ancilla_nb,default,101,tune,9,0.5314874829446368,71.42857142857143
+Grape,qa/ancilla_nb,default,101,tune,10,0.492950555980815,82.85714285714286
+Grape,qa/ancilla_nb,default,101,tune,11,0.4800981651298351,77.61904761904762
+Grape,qa/ancilla_nb,default,101,tune,12,0.45869807384009254,78.0952380952381
+Grape,qa/ancilla_nb,default,101,tune,13,0.43876712435593634,83.80952380952381
+Grape,qa/ancilla_nb,default,101,tune,14,0.4180195239241138,84.76190476190476
+Grape,qa/ancilla_nb,default,101,tune,15,0.39333079386586306,84.28571428571429
+Grape,qa/ancilla_nb,default,101,tune,16,0.3971880343428419,84.28571428571429
+Grape,qa/ancilla_nb,default,101,tune,17,0.3855986295302221,86.66666666666667
+Grape,qa/ancilla_nb,default,101,tune,18,0.38195508078563434,86.19047619047619
+Grape,qa/ancilla_nb,default,101,tune,19,0.358306142815783,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,0,0.6952472914215977,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,1,0.6934500312268855,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,2,0.6934410332414513,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,3,0.6926388361458886,56.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,4,0.6914286528140733,50.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,5,0.6877716819932855,71.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,6,0.6698336151479943,76.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,7,0.6252547224606473,68.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,8,0.581937668147994,73.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,9,0.5314874829446368,71.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,10,0.492950555980815,82.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,11,0.4800981651298351,77.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,12,0.45869807384009254,78.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,13,0.43876712435593634,83.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,14,0.4180195239241138,84.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,15,0.39333079386586306,84.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,16,0.3971880343428419,84.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,17,0.3855986295302221,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,18,0.38195508078563434,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,19,0.358306142815783,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,20,0.3479095772975305,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,21,0.33803114331573064,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,22,0.3250590202632857,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,23,0.32175976196437284,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,24,0.31251446412141093,86.19047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,25,0.30108197225383454,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,26,0.34269767115940103,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,27,0.38874343872557876,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,28,0.29150386334440703,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,29,0.2889293529748429,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,30,0.27979619761429925,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,31,0.2611116921121601,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,32,0.27542139123553877,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,33,0.2700563431212751,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,34,0.2682976580104945,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,35,0.2584594901354035,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,36,0.26773630786527153,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,37,0.25049213903569495,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,38,0.28223158678150373,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",101,tune,39,0.24109012857536596,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,0,0.6942438338188062,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,1,0.692557471539589,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,2,0.6922289146479897,62.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,3,0.6900944378234614,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,4,0.682269287377535,58.095238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,5,0.6639075772893941,69.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,6,0.621917480583815,70.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,7,0.5464177926381429,75.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,8,0.49267057565579875,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,9,0.49559643846348017,70.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,10,0.4381467203908659,82.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,11,0.40547356570181425,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,12,0.3914083164406213,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,13,0.3594869866449165,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,14,0.33989835730115814,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,15,0.3410495964539807,84.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,16,0.31537482514215637,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,17,0.3016239721137566,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,18,0.360703424198252,80.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,19,0.36927544473382834,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,20,0.28257549113778735,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,21,0.2729795802468415,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,22,0.27137125580588733,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,23,0.25851865895930487,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,24,0.25133232007484985,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,25,0.2461438756169473,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,26,0.2715375150395805,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,27,0.24711184898402794,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,28,0.23855049106728568,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,29,0.23019748152155575,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,30,0.26510857036508667,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,31,0.22357667747938317,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,32,0.2255533758116646,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,33,0.23239290278503988,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,34,0.2366849290690783,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,35,0.22169573778755094,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,36,0.20842091672137714,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,37,0.21801980373074428,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,38,0.21140973602092095,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,39,0.22401768743138614,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,40,0.21074570688001948,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,41,0.20448460583794092,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,42,0.239865479232831,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,43,0.20609314566009615,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,44,0.19250621465329987,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,45,0.1898463806613579,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,46,0.20008146988346046,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,47,0.19199931286351568,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,48,0.1840098718284098,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,49,0.1950678242739968,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,50,0.17959285614314985,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,51,0.21107663275152141,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,52,0.20134109429298977,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,53,0.18034152299592343,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,54,0.18577694231625227,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,55,0.18483285164052968,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,56,0.18740798044637424,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,57,0.1773721693971162,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,58,0.17925089207651182,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,59,0.22309118100196307,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,60,0.19187693351190271,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,61,0.18816677150307012,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,62,0.19128143628925878,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,63,0.18011820749027355,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,64,0.19528569534024823,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,65,0.1946950786288043,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,66,0.17704046615123262,86.66666666666667
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,67,0.20123487700287307,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,68,0.17659692175244504,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,69,0.15981979841834928,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,70,0.1711578884739086,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,71,0.18615994930023552,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,72,0.19772872363040053,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,73,0.17041322061742498,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,74,0.2052756204195549,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,75,0.18218116837045167,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,76,0.1773226113041486,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,77,0.1625446318391642,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,78,0.17251519090924528,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,79,0.16642181529589226,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,80,0.20301776188892334,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,81,0.22474280912391004,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,82,0.18798345446220935,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,83,0.16795799024936367,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,84,0.1595034153945363,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,85,0.1607412684000343,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,86,0.23374729687328963,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,87,0.1742407961582845,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,88,0.1639990263098588,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,89,0.18176159768504355,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,90,0.18575416983758503,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,91,0.16341256854602407,94.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,92,0.17212015023199814,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,93,0.1542359491189321,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,94,0.15505887005013436,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,95,0.19958171958450402,95.71428571428571
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,96,0.1800769172715507,95.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,97,0.18854797678734872,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,98,0.1853887824939682,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 100}",102,tune,99,0.15794815913086532,95.23809523809524
+Grape,qa/ancilla_nb,default,102,tune,0,0.6942438338188062,50.0
+Grape,qa/ancilla_nb,default,102,tune,1,0.692557471539589,50.0
+Grape,qa/ancilla_nb,default,102,tune,2,0.6922289146479897,62.38095238095238
+Grape,qa/ancilla_nb,default,102,tune,3,0.6900944378234614,50.0
+Grape,qa/ancilla_nb,default,102,tune,4,0.682269287377535,58.095238095238095
+Grape,qa/ancilla_nb,default,102,tune,5,0.6639075772893941,69.52380952380952
+Grape,qa/ancilla_nb,default,102,tune,6,0.621917480583815,70.95238095238095
+Grape,qa/ancilla_nb,default,102,tune,7,0.5464177926381429,75.23809523809524
+Grape,qa/ancilla_nb,default,102,tune,8,0.49267057565579875,85.23809523809524
+Grape,qa/ancilla_nb,default,102,tune,9,0.49559643846348017,70.47619047619048
+Grape,qa/ancilla_nb,default,102,tune,10,0.4381467203908659,82.85714285714286
+Grape,qa/ancilla_nb,default,102,tune,11,0.40547356570181425,85.23809523809524
+Grape,qa/ancilla_nb,default,102,tune,12,0.3914083164406213,87.61904761904762
+Grape,qa/ancilla_nb,default,102,tune,13,0.3594869866449165,88.57142857142857
+Grape,qa/ancilla_nb,default,102,tune,14,0.33989835730115814,88.0952380952381
+Grape,qa/ancilla_nb,default,102,tune,15,0.3410495964539807,84.76190476190476
+Grape,qa/ancilla_nb,default,102,tune,16,0.31537482514215637,91.42857142857143
+Grape,qa/ancilla_nb,default,102,tune,17,0.3016239721137566,88.57142857142857
+Grape,qa/ancilla_nb,default,102,tune,18,0.360703424198252,80.95238095238095
+Grape,qa/ancilla_nb,default,102,tune,19,0.36927544473382834,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,0,0.6942438338188062,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,1,0.692557471539589,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,2,0.6922289146479897,62.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,3,0.6900944378234614,50.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,4,0.682269287377535,58.095238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,5,0.6639075772893941,69.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,6,0.621917480583815,70.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,7,0.5464177926381429,75.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,8,0.49267057565579875,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,9,0.49559643846348017,70.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,10,0.4381467203908659,82.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,11,0.40547356570181425,85.23809523809524
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,12,0.3914083164406213,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,13,0.3594869866449165,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,14,0.33989835730115814,88.0952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,15,0.3410495964539807,84.76190476190476
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,16,0.31537482514215637,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,17,0.3016239721137566,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,18,0.360703424198252,80.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,19,0.36927544473382834,88.57142857142857
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,20,0.28257549113778735,91.9047619047619
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,21,0.2729795802468415,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,22,0.27137125580588733,91.42857142857143
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,23,0.25851865895930487,90.0
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,24,0.25133232007484985,90.95238095238095
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,25,0.2461438756169473,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,26,0.2715375150395805,89.04761904761905
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,27,0.24711184898402794,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,28,0.23855049106728568,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,29,0.23019748152155575,93.33333333333333
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,30,0.26510857036508667,92.85714285714286
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,31,0.22357667747938317,92.38095238095238
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,32,0.2255533758116646,87.61904761904762
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,33,0.23239290278503988,90.47619047619048
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,34,0.2366849290690783,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,35,0.22169573778755094,89.52380952380952
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,36,0.20842091672137714,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,37,0.21801980373074428,93.80952380952381
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,38,0.21140973602092095,94.28571428571429
+Grape,qa/ancilla_nb,"{""epochs"": 40}",102,tune,39,0.22401768743138614,95.23809523809524

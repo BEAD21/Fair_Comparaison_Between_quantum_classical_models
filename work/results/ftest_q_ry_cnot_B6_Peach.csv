@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,12,258,270,82.85714285714286,44,80.0,78.04878048780488,10.9,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,12,258,270,88.0952380952381,26,86.47619047619048,84.8780487804878,11.2,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,12,258,270,82.38095238095238,48,81.33333333333334,83.90243902439025,10.9,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,12,258,270,85.71428571428571,29,82.85714285714286,82.4390243902439,10.8,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,12,258,270,85.71428571428571,31,84.66666666666666,82.92682926829268,11.2,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,12,258,270,86.66666666666667,48,85.61904761904762,80.97560975609757,11.3,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,12,258,270,88.0952380952381,40,85.80952380952382,81.95121951219512,11.4,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,12,258,270,85.23809523809524,46,83.9047619047619,80.48780487804879,13.6,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,12,258,270,87.61904761904762,32,86.0952380952381,81.46341463414633,22.2,e22b0454e6f3
+Peach,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,12,258,270,84.28571428571429,13,80.85714285714286,81.95121951219512,11.4,e22b0454e6f3

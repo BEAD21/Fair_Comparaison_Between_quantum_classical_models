@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,0,258,258,94.28571428571429,13,93.14285714285715,89.15094339622641,4.4,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,0,258,258,94.28571428571429,32,93.14285714285714,88.20754716981132,3.6,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,0,258,258,93.80952380952381,18,92.85714285714285,88.67924528301887,3.3,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,0,258,258,93.80952380952381,6,92.66666666666666,87.26415094339622,3.4,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,0,258,258,94.28571428571429,24,93.33333333333334,87.26415094339622,3.1,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,0,258,258,94.28571428571429,10,93.23809523809523,89.62264150943396,3.2,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,0,258,258,94.28571428571429,11,92.95238095238096,88.67924528301887,3.1,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,0,258,258,93.80952380952381,21,92.66666666666667,88.67924528301887,3.4,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,0,258,258,93.80952380952381,8,92.76190476190476,89.15094339622641,3.1,dd28644ef9b3
+Tomato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,0,258,258,93.80952380952381,15,92.66666666666667,88.67924528301887,3.1,dd28644ef9b3

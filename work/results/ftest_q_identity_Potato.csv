@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,0,258,258,83.80952380952381,37,82.57142857142858,79.70297029702971,3.8,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,0,258,258,84.28571428571429,41,82.57142857142857,77.72277227722772,3.7,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,0,258,258,83.33333333333333,42,82.47619047619048,77.72277227722772,3.8,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,0,258,258,84.28571428571429,38,82.57142857142858,78.21782178217822,3.7,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,0,258,258,83.80952380952381,43,82.38095238095238,75.74257425742574,4.1,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,0,258,258,83.80952380952381,41,82.0952380952381,80.19801980198021,3.8,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,0,258,258,83.33333333333333,42,80.47619047619048,79.20792079207921,3.6,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,0,258,258,83.80952380952381,43,82.85714285714286,78.71287128712872,3.7,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,0,258,258,83.80952380952381,37,82.38095238095238,78.71287128712872,4.3,0a7a80f525ba
+Potato,q/identity,"{""act"": ""relu"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,0,258,258,83.80952380952381,44,81.33333333333334,79.70297029702971,4.5,0a7a80f525ba

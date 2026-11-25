@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,12,258,270,86.66666666666667,44,85.71428571428572,92.57425742574257,12.7,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,12,258,270,86.66666666666667,40,84.76190476190476,90.0990099009901,12.8,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,12,258,270,86.19047619047619,22,85.52380952380953,86.63366336633663,12.8,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,12,258,270,87.14285714285714,48,86.00000000000001,88.61386138613861,13.0,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,12,258,270,87.61904761904762,30,84.00000000000001,85.64356435643565,10.7,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,12,258,270,87.61904761904762,30,85.80952380952382,86.13861386138613,10.8,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,12,258,270,84.76190476190476,38,83.52380952380953,83.16831683168317,8.7,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,12,258,270,87.14285714285714,9,82.95238095238095,85.64356435643565,7.8,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,12,258,270,86.66666666666667,29,84.95238095238095,88.61386138613861,7.8,0a7a80f525ba
+Potato,q/ry_cnot_B6,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,12,258,270,84.28571428571429,34,82.95238095238095,83.66336633663366,8.3,0a7a80f525ba

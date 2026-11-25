@@ -1,0 +1,6 @@
+model,n_recipes,best12,score12,best24,score24,changed
+q/ry_cnot_B6,24,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""none"", ""warmup_epochs"": 2}",94.44444444444446,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.002, ""norm"": ""none"", ""warmup_epochs"": 2}",94.9047619047619,True
+c/Conv2x2/raw,24,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",97.0,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.02, ""norm"": ""none"", ""warmup_epochs"": 2}",97.01587301587301,True
+c/PatchMLP/raw,24,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",95.65079365079366,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",95.65079365079366,False
+c/Conv2x2/amp,24,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",93.79365079365078,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",93.79365079365078,False
+c/PatchMLP/amp,24,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",93.71428571428572,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.02, ""norm"": ""none"", ""warmup_epochs"": 2}",93.95238095238096,True

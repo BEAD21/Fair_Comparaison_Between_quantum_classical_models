@@ -1,0 +1,27 @@
+{
+  "qnn": {
+    "model": "qn/sel_L4",
+    "recipe": {
+      "epochs": 100,
+      "lr": 0.003
+    },
+    "val_last5": 96.085,
+    "worst_config": 79.037
+  },
+  "ann": {
+    "model": "cn/dense_tanh",
+    "recipe": {
+      "epochs": 100,
+      "lr": 0.01
+    },
+    "val_last5": 96.402,
+    "worst_config": 94.942
+  },
+  "val_qnn_minus_ann": {
+    "diff": -0.3174603174603116,
+    "lo": -1.4598098563776525,
+    "hi": 0.8248892214570291,
+    "p_t": 0.5395450261043722,
+    "n_pairs": 9
+  }
+}

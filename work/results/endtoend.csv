@@ -1,0 +1,451 @@
+crop,model,recipe,seed,family,phase,filter_params,total_params,val_acc,best_epoch,test_acc,oracle_acc,routed
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,85.23809523809524,18,80.18867924528303,81.60377358490565,97.64150943396226
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,94.76190476190476,19,95.75471698113208,96.22641509433964,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,100.0,16,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,94.28571428571428,5,90.43062200956938,90.43062200956938,100.0
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,81.9047619047619,13,78.53658536585367,79.51219512195122,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,79.04761904761905,13,73.11320754716981,75.47169811320755,96.22641509433963
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,79.04761904761905,19,74.75247524752476,80.19801980198021,94.55445544554455
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,93.33333333333331,10,89.15094339622641,91.98113207547168,97.16981132075472
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",0,quantum,final,12,270,88.45238095238095,14,85.26252983293557,86.93317422434367,98.0310262529833
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,79.52380952380952,14,79.24528301886792,79.24528301886792,99.52830188679245
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,94.28571428571428,18,93.86792452830188,94.33962264150944,99.05660377358491
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,99.52380952380952,17,98.11320754716981,98.1132075471698,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,96.66666666666669,13,93.30143540669856,93.77990430622008,99.52153110047847
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,82.38095238095238,14,78.53658536585367,79.51219512195122,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,79.04761904761905,12,72.64150943396226,74.52830188679245,96.69811320754717
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,80.0,15,74.25742574257426,81.1881188118812,93.06930693069307
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,93.8095238095238,16,89.15094339622641,91.0377358490566,98.11320754716981
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",1,quantum,final,12,270,88.1547619047619,14,84.96420047732697,86.51551312649165,98.15035799522673
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,80.0,11,78.30188679245283,78.77358490566037,99.05660377358491
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,91.9047619047619,10,87.26415094339622,88.20754716981132,99.05660377358491
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,100.0,3,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,94.28571428571428,6,92.34449760765551,92.34449760765553,100.0
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,86.19047619047619,17,80.97560975609757,81.95121951219512,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,78.57142857142857,6,71.69811320754717,72.64150943396226,97.64150943396226
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,79.04761904761905,11,77.72277227722772,80.19801980198021,96.53465346534654
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,93.33333333333331,8,86.79245283018868,90.56603773584906,96.22641509433963
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",2,quantum,final,12,270,87.91666666666666,9,84.36754176610978,85.56085918854416,98.44868735083531
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,79.52380952380952,6,78.30188679245283,78.77358490566037,98.58490566037736
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,94.76190476190476,18,95.28301886792453,95.75471698113208,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,100.0,2,99.05660377358491,99.05660377358492,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,94.28571428571428,10,94.25837320574163,94.25837320574163,100.0
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,88.0952380952381,10,81.95121951219512,82.92682926829268,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,80.0,12,71.69811320754717,73.58490566037736,96.22641509433963
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,80.0,16,75.24752475247524,77.72277227722772,97.52475247524752
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,93.33333333333331,3,83.9622641509434,88.20754716981132,95.75471698113208
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",3,quantum,final,12,270,88.75,9,85.02386634844868,86.33651551312649,98.32935560859188
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,80.0,11,79.71698113207547,80.18867924528303,99.05660377358491
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,94.76190476190476,16,95.28301886792453,95.75471698113208,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,100.0,2,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,93.33333333333331,8,93.30143540669856,93.30143540669856,100.0
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,85.71428571428571,12,80.48780487804879,81.46341463414633,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,81.42857142857143,19,72.64150943396226,74.05660377358491,97.64150943396226
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,78.0952380952381,13,73.26732673267327,76.23762376237624,96.53465346534654
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,93.8095238095238,6,83.9622641509434,90.09433962264151,93.86792452830188
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",4,quantum,final,12,270,88.39285714285714,10,84.84486873508354,86.39618138424821,98.21002386634845
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,80.0,15,75.0,77.35849056603774,96.69811320754717
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,95.23809523809524,19,94.81132075471697,95.28301886792453,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,100.0,9,99.05660377358491,99.05660377358492,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,93.8095238095238,14,93.30143540669856,94.25837320574163,99.04306220095694
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,82.38095238095238,14,78.04878048780488,79.02439024390245,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,80.0,19,75.47169811320755,77.35849056603774,96.69811320754717
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,79.52380952380952,14,80.19801980198021,81.1881188118812,99.00990099009901
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,92.85714285714286,8,79.71698113207547,91.0377358490566,88.20754716981132
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",5,quantum,final,12,270,87.97619047619048,14,84.48687350835323,86.87350835322196,97.25536992840095
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,83.33333333333333,13,77.83018867924528,80.66037735849056,97.16981132075472
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,94.76190476190476,17,95.75471698113208,96.22641509433964,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,100.0,2,99.05660377358491,99.05660377358492,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,94.28571428571428,4,91.38755980861244,91.86602870813395,99.52153110047847
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,86.19047619047619,15,79.51219512195122,80.97560975609757,98.53658536585365
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,79.04761904761905,11,74.05660377358491,75.0,97.64150943396226
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,80.47619047619048,15,75.74257425742574,80.19801980198021,95.04950495049505
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,93.33333333333331,14,87.73584905660378,89.62264150943396,98.11320754716981
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",6,quantum,final,12,270,88.92857142857142,11,85.20286396181385,86.75417661097852,98.21002386634845
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,80.47619047619048,15,75.47169811320755,75.94339622641509,98.58490566037736
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,95.23809523809524,17,94.81132075471697,95.75471698113208,99.05660377358491
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,100.0,3,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,94.28571428571428,15,93.77990430622009,94.25837320574163,99.52153110047847
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,85.23809523809524,16,79.02439024390245,80.0,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,79.04761904761905,14,75.0,76.41509433962264,97.64150943396226
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,77.14285714285714,7,71.78217821782178,73.26732673267327,98.51485148514851
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,93.33333333333331,17,81.13207547169812,89.15094339622641,91.0377358490566
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",7,quantum,final,12,270,88.09523809523809,13,83.89021479713604,85.62052505966588,97.91169451073985
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,85.71428571428571,13,79.24528301886792,81.13207547169812,97.16981132075472
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,91.42857142857144,19,89.15094339622641,89.62264150943396,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,100.0,3,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,95.23809523809524,18,92.82296650717703,93.30143540669856,99.52153110047847
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,81.9047619047619,17,78.53658536585367,79.51219512195122,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,79.52380952380952,4,67.9245283018868,69.33962264150944,97.16981132075472
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,78.57142857142857,12,79.70297029702971,82.17821782178217,97.52475247524752
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,92.85714285714286,7,84.90566037735849,90.56603773584906,94.33962264150944
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",8,quantum,final,12,270,88.15476190476191,11,84.00954653937947,85.68019093078759,98.0310262529833
+Apple,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,85.71428571428571,19,78.30188679245283,82.0754716981132,95.28301886792453
+Cherry,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,94.28571428571428,10,93.86792452830188,94.33962264150944,99.52830188679245
+Corn,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,100.0,3,99.52830188679245,99.52830188679243,100.0
+Grape,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,95.23809523809524,9,93.77990430622009,93.77990430622008,100.0
+Peach,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,82.38095238095238,14,81.95121951219512,82.4390243902439,99.02439024390245
+Pepper,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,79.52380952380952,3,69.33962264150944,71.69811320754717,97.16981132075472
+Potato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,81.9047619047619,7,80.6930693069307,83.66336633663366,97.02970297029702
+Tomato,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,93.33333333333331,8,84.90566037735849,89.15094339622641,95.75471698113208
+ALL,q/ry_cnot_B6,"{""act"": ""relu"", ""norm"": ""none"", ""warmup_epochs"": 2}",9,quantum,final,12,270,89.04761904761904,9,85.32219570405728,87.11217183770883,97.97136038186157
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,85.23809523809524,21,83.01886792452831,84.90566037735849,97.64150943396226
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,96.66666666666669,39,96.22641509433963,96.69811320754717,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,100.0,13,99.05660377358491,99.05660377358492,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,96.66666666666669,24,96.65071770334929,96.65071770334929,100.0
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,86.19047619047619,38,86.82926829268293,87.8048780487805,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,79.52380952380952,25,73.11320754716981,76.41509433962264,96.22641509433963
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,79.04761904761905,10,73.26732673267327,78.21782178217822,94.55445544554455
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,90.47619047619048,16,90.56603773584906,93.39622641509436,97.16981132075472
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,classical_raw,final,12,270,89.22619047619048,23,87.41050119331743,89.20047732696898,98.0310262529833
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,84.76190476190476,35,81.60377358490565,82.0754716981132,99.52830188679245
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,96.66666666666669,23,96.69811320754717,97.64150943396226,99.05660377358491
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,100.0,35,99.05660377358491,99.05660377358492,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,95.71428571428572,18,95.69377990430623,96.17224880382776,99.52153110047847
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,86.19047619047619,35,86.82926829268293,87.8048780487805,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,79.04761904761905,6,71.69811320754717,73.58490566037736,96.69811320754717
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,78.57142857142857,28,74.25742574257426,81.1881188118812,93.06930693069307
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,92.38095238095238,18,89.15094339622641,91.0377358490566,98.11320754716981
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,classical_raw,final,12,270,89.16666666666667,24,86.93317422434367,88.60381861575179,98.15035799522673
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,86.19047619047619,29,83.01886792452831,83.9622641509434,99.05660377358491
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,97.14285714285714,39,94.33962264150944,95.28301886792453,99.05660377358491
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,100.0,6,99.52830188679245,99.52830188679243,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,97.14285714285714,27,96.65071770334929,96.65071770334929,100.0
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,85.23809523809524,20,77.5609756097561,78.53658536585367,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,78.0952380952381,18,74.52830188679245,75.94339622641509,97.64150943396226
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,80.95238095238095,29,79.70297029702971,83.16831683168317,96.53465346534654
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,90.47619047619048,31,87.26415094339622,91.0377358490566,96.22641509433963
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,classical_raw,final,12,270,89.40476190476191,24,86.63484486873509,88.06682577565633,98.44868735083531
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,82.85714285714286,29,81.60377358490565,82.54716981132076,98.58490566037736
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,97.61904761904762,37,93.39622641509435,93.86792452830188,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,99.04761904761904,10,100.0,100.0,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,96.1904761904762,37,97.1291866028708,97.1291866028708,100.0
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,84.28571428571429,22,86.82926829268293,87.8048780487805,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,77.61904761904762,32,74.52830188679245,75.94339622641509,96.22641509433963
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,79.52380952380952,35,80.19801980198021,82.17821782178217,97.52475247524752
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,90.47619047619048,26,85.84905660377359,89.62264150943396,95.75471698113208
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,classical_raw,final,12,270,88.45238095238096,28,87.47016706443914,88.66348448687351,98.32935560859188
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,85.71428571428571,16,83.9622641509434,84.90566037735849,99.05660377358491
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,96.1904761904762,35,94.81132075471697,95.28301886792453,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,99.52380952380952,24,98.58490566037736,98.58490566037736,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,96.66666666666669,38,95.69377990430623,95.69377990430624,100.0
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,85.71428571428571,8,84.8780487804878,85.85365853658537,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,79.04761904761905,22,73.11320754716981,74.05660377358491,97.64150943396226
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,77.14285714285714,15,75.74257425742574,78.71287128712872,96.53465346534654
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,89.52380952380952,23,85.37735849056604,91.0377358490566,93.86792452830188
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,classical_raw,final,12,270,88.6904761904762,22,86.57517899761336,88.06682577565633,98.21002386634845
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,82.85714285714286,27,78.30188679245283,81.60377358490565,96.69811320754717
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,98.0952380952381,33,94.81132075471697,95.28301886792453,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,100.0,26,99.05660377358491,99.05660377358492,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,95.71428571428572,34,93.77990430622009,94.73684210526316,99.04306220095694
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,87.61904761904762,37,86.34146341463415,87.3170731707317,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,75.23809523809524,25,75.0,76.88679245283019,96.69811320754717
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,82.85714285714286,25,81.68316831683168,82.67326732673267,99.00990099009901
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,90.95238095238096,32,81.13207547169812,91.0377358490566,88.20754716981132
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,classical_raw,final,12,270,89.16666666666667,29,86.27684964200478,88.60381861575179,97.25536992840095
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,83.33333333333333,36,82.0754716981132,83.9622641509434,97.16981132075472
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,96.66666666666669,34,95.28301886792453,95.75471698113208,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,100.0,14,99.52830188679245,99.52830188679243,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,96.1904761904762,22,94.25837320574163,94.73684210526316,99.52153110047847
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,86.66666666666667,38,86.82926829268293,87.8048780487805,98.53658536585365
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,77.14285714285714,17,73.11320754716981,74.05660377358491,97.64150943396226
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,83.80952380952381,37,80.19801980198021,85.14851485148515,95.04950495049505
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,91.9047619047619,29,88.67924528301887,90.56603773584906,98.11320754716981
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,classical_raw,final,12,270,89.46428571428572,28,87.52983293556086,88.9618138424821,98.21002386634845
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,85.23809523809524,33,83.49056603773585,84.43396226415094,98.58490566037736
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,96.1904761904762,30,95.28301886792453,96.22641509433964,99.05660377358491
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,99.04761904761904,9,99.05660377358491,99.05660377358492,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,97.14285714285714,11,94.25837320574163,94.73684210526316,99.52153110047847
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,85.71428571428571,26,88.78048780487805,89.75609756097562,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,76.66666666666667,6,74.05660377358491,75.47169811320755,97.64150943396226
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,78.57142857142857,22,73.26732673267327,74.75247524752476,98.51485148514851
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,93.8095238095238,39,84.43396226415094,92.45283018867924,91.0377358490566
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,classical_raw,final,12,270,89.04761904761904,22,86.63484486873509,88.42482100238664,97.91169451073985
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,84.76190476190476,28,80.18867924528303,82.54716981132076,97.16981132075472
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,98.57142857142856,37,96.69811320754717,97.16981132075472,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,100.0,24,99.52830188679245,99.52830188679243,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,96.66666666666669,26,96.17224880382776,96.65071770334929,99.52153110047847
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,88.57142857142857,35,87.8048780487805,88.78048780487805,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,83.33333333333333,30,70.75471698113208,71.69811320754717,97.16981132075472
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,79.52380952380952,35,82.67326732673267,84.65346534653465,97.52475247524752
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,91.42857142857144,37,84.43396226415094,89.15094339622641,94.33962264150944
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,classical_raw,final,12,270,90.35714285714286,31,87.291169451074,88.78281622911695,98.0310262529833
+Apple,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,83.80952380952381,24,77.83018867924528,82.54716981132076,95.28301886792453
+Cherry,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,96.66666666666669,39,94.81132075471697,95.28301886792453,99.52830188679245
+Corn,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,100.0,15,98.58490566037736,98.58490566037736,100.0
+Grape,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,98.57142857142856,31,97.60765550239235,97.60765550239236,100.0
+Peach,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,85.23809523809524,34,87.3170731707317,88.29268292682927,99.02439024390245
+Pepper,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,81.42857142857143,34,75.0,77.35849056603774,97.16981132075472
+Potato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,79.04761904761905,25,76.73267326732673,79.20792079207921,97.02970297029702
+Tomato,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,91.42857142857144,27,83.9622641509434,87.73584905660378,95.75471698113208
+ALL,c/Separable3x3/raw,"{""act"": ""none"", ""epochs"": 40, ""lr"": 0.001, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,classical_raw,final,12,270,89.52380952380952,28,86.51551312649165,88.36515513126491,97.97136038186157
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,82.85714285714286,7,79.24528301886792,81.13207547169812,97.64150943396226
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,92.38095238095238,15,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,99.04761904761904,3,98.58490566037736,98.58490566037736,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,93.8095238095238,33,93.77990430622009,93.77990430622008,100.0
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,86.19047619047619,37,79.02439024390245,80.0,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,81.42857142857143,11,69.33962264150944,71.22641509433963,96.22641509433963
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,80.47619047619048,8,78.21782178217822,83.16831683168317,94.55445544554455
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,93.33333333333331,6,91.0377358490566,93.39622641509436,97.16981132075472
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",0,classical_amp,final,12,270,88.69047619047619,15,85.32219570405728,86.87350835322196,98.0310262529833
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,83.80952380952381,4,83.49056603773585,83.9622641509434,99.52830188679245
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,92.38095238095238,32,90.09433962264151,90.56603773584906,99.05660377358491
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,99.52380952380952,13,98.58490566037736,98.58490566037736,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,96.66666666666669,27,92.82296650717703,93.30143540669856,99.52153110047847
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,85.23809523809524,27,81.46341463414633,81.95121951219512,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,83.33333333333333,15,69.33962264150944,71.22641509433963,96.69811320754717
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,87.61904761904762,23,78.21782178217822,84.65346534653465,93.06930693069307
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,94.28571428571428,28,89.15094339622641,91.0377358490566,98.11320754716981
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",1,classical_amp,final,12,270,90.35714285714286,21,85.44152744630071,86.93317422434367,98.15035799522673
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,84.76190476190476,25,82.0754716981132,83.01886792452831,99.05660377358491
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,95.71428571428572,14,94.33962264150944,95.28301886792453,99.05660377358491
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,99.52380952380952,3,99.52830188679245,99.52830188679243,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,94.76190476190476,24,93.30143540669856,93.30143540669856,100.0
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,86.66666666666667,3,81.46341463414633,82.4390243902439,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,76.66666666666667,4,69.33962264150944,70.75471698113208,97.64150943396226
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,81.9047619047619,12,76.23762376237624,79.20792079207921,96.53465346534654
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,92.38095238095238,15,89.15094339622641,92.9245283018868,96.22641509433963
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",2,classical_amp,final,12,270,89.04761904761904,12,85.73985680190931,87.11217183770883,98.44868735083531
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,83.80952380952381,17,82.0754716981132,83.01886792452831,98.58490566037736
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,93.8095238095238,35,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,99.04761904761904,19,98.58490566037736,98.58490566037736,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,94.76190476190476,35,94.25837320574163,94.25837320574163,100.0
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,83.80952380952381,6,82.4390243902439,83.41463414634146,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,77.61904761904762,13,70.28301886792453,73.11320754716981,96.22641509433963
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,82.85714285714286,33,84.65346534653465,87.12871287128714,97.52475247524752
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,93.8095238095238,9,87.73584905660378,91.98113207547168,95.75471698113208
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",3,classical_amp,final,12,270,88.69047619047618,20,86.63484486873509,88.12649164677804,98.32935560859188
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,84.28571428571429,4,84.43396226415094,85.37735849056604,99.05660377358491
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,94.76190476190476,30,95.28301886792453,95.75471698113208,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,99.04761904761904,15,98.11320754716981,98.1132075471698,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,94.76190476190476,13,89.95215311004785,89.95215311004785,100.0
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,87.61904761904762,30,80.97560975609757,81.46341463414633,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,77.14285714285714,25,74.05660377358491,75.47169811320755,97.64150943396226
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,86.19047619047619,2,81.68316831683168,85.14851485148515,96.53465346534654
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,90.95238095238096,17,84.43396226415094,89.62264150943396,93.86792452830188
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",4,classical_amp,final,12,270,89.3452380952381,17,86.15751789976133,87.6491646778043,98.21002386634845
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,85.23809523809524,2,83.01886792452831,85.84905660377359,96.69811320754717
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,93.33333333333331,12,93.86792452830188,94.33962264150944,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,99.04761904761904,2,98.11320754716981,98.1132075471698,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,98.0952380952381,22,93.77990430622009,94.73684210526316,99.04306220095694
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,88.0952380952381,35,82.92682926829268,83.41463414634146,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,77.14285714285714,5,69.81132075471697,72.16981132075472,96.69811320754717
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,87.61904761904762,18,85.14851485148515,86.13861386138613,99.00990099009901
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,93.33333333333331,14,78.77358490566037,89.62264150943396,88.20754716981132
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",5,classical_amp,final,12,270,90.23809523809523,13,85.68019093078759,88.06682577565633,97.25536992840095
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,83.33333333333333,0,80.18867924528303,83.01886792452831,97.16981132075472
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,94.76190476190476,20,96.69811320754717,97.16981132075472,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,99.04761904761904,11,99.05660377358491,99.05660377358492,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,96.1904761904762,25,93.77990430622009,94.25837320574163,99.52153110047847
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,83.33333333333333,2,81.95121951219512,83.41463414634146,98.53658536585365
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,76.19047619047619,6,76.41509433962264,77.83018867924528,97.64150943396226
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,86.19047619047619,2,79.70297029702971,84.65346534653465,95.04950495049505
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,93.33333333333331,7,89.15094339622641,91.0377358490566,98.11320754716981
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",6,classical_amp,final,12,270,89.04761904761904,9,87.17183770883055,88.84248210023867,98.21002386634845
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,83.80952380952381,3,81.60377358490565,83.01886792452831,98.58490566037736
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,95.23809523809524,3,94.81132075471697,95.75471698113208,99.05660377358491
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,99.52380952380952,1,99.05660377358491,99.05660377358492,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,97.14285714285714,19,95.21531100478468,95.69377990430624,99.52153110047847
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,86.66666666666667,18,80.0,80.48780487804879,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,77.61904761904762,2,70.75471698113208,71.69811320754717,97.64150943396226
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,83.33333333333333,27,82.17821782178217,83.66336633663366,98.51485148514851
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,92.85714285714286,7,83.9622641509434,92.45283018867924,91.0377358490566
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",7,classical_amp,final,12,270,89.52380952380952,10,85.97852028639618,87.76849642004774,97.91169451073985
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,86.66666666666667,8,79.71698113207547,80.66037735849056,97.16981132075472
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,92.85714285714286,28,88.20754716981132,88.67924528301887,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,99.52380952380952,0,99.05660377358491,99.05660377358492,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,96.66666666666669,15,93.77990430622009,94.25837320574163,99.52153110047847
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,86.19047619047619,26,82.4390243902439,83.41463414634146,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,79.52380952380952,5,71.69811320754717,73.58490566037736,97.16981132075472
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,82.85714285714286,11,78.21782178217822,80.6930693069307,97.52475247524752
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,92.85714285714286,3,86.79245283018868,92.45283018867924,94.33962264150944
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",8,classical_amp,final,12,270,89.64285714285714,12,85.02386634844868,86.63484486873509,98.0310262529833
+Apple,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,83.33333333333333,35,76.88679245283019,79.71698113207547,95.28301886792453
+Cherry,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,93.8095238095238,35,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,99.04761904761904,0,98.11320754716981,98.1132075471698,100.0
+Grape,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,94.76190476190476,22,94.73684210526315,94.73684210526316,100.0
+Peach,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,82.38095238095238,2,76.09756097560975,77.07317073170732,99.02439024390245
+Pepper,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,79.52380952380952,7,71.69811320754717,74.05660377358491,97.16981132075472
+Potato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,84.76190476190476,4,83.16831683168317,86.13861386138613,97.02970297029702
+Tomato,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,94.28571428571428,11,86.79245283018868,90.56603773584906,95.75471698113208
+ALL,c/FixedBasis6/amp,"{""act"": ""tanh"", ""epochs"": 40, ""lr"": 0.02, ""norm"": ""none""}",9,classical_amp,final,12,270,88.98809523809524,14,85.0835322195704,86.75417661097852,97.97136038186157
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,82.85714285714286,72,80.18867924528303,82.54716981132076,97.64150943396226
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,94.76190476190476,96,94.33962264150944,94.81132075471696,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,100.0,9,99.05660377358491,99.05660377358492,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,96.1904761904762,92,93.77990430622009,93.77990430622008,100.0
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,78.0952380952381,84,71.21951219512195,72.1951219512195,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,74.76190476190476,31,69.33962264150944,73.11320754716981,96.22641509433963
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,85.71428571428571,45,75.24752475247524,80.19801980198021,94.55445544554455
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,93.8095238095238,42,91.98113207547169,94.81132075471696,97.16981132075472
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",0,qnn,final,96,114,88.27380952380953,58,84.48687350835323,86.39618138424821,98.0310262529833
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,82.38095238095238,58,80.66037735849056,81.13207547169812,99.52830188679245
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,95.71428571428572,81,92.45283018867924,93.39622641509436,99.05660377358491
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,99.52380952380952,9,96.69811320754717,96.69811320754717,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,95.23809523809524,40,92.82296650717703,93.30143540669856,99.52153110047847
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,74.76190476190476,83,71.21951219512195,72.1951219512195,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,76.66666666666667,16,66.50943396226415,69.33962264150944,96.69811320754717
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,84.76190476190476,94,79.20792079207921,84.65346534653465,93.06930693069307
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,91.9047619047619,92,91.98113207547169,93.86792452830188,98.11320754716981
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",1,qnn,final,96,114,87.61904761904762,59,84.00954653937947,85.62052505966588,98.15035799522673
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,80.47619047619048,88,78.77358490566037,79.71698113207547,99.05660377358491
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,96.66666666666669,78,93.39622641509435,94.33962264150944,99.05660377358491
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,99.52380952380952,5,96.22641509433963,96.22641509433964,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,94.76190476190476,96,95.21531100478468,95.21531100478468,100.0
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,79.52380952380952,96,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,76.19047619047619,73,72.16981132075472,73.58490566037736,97.64150943396226
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,84.28571428571429,77,80.6930693069307,84.15841584158416,96.53465346534654
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,94.76190476190476,88,89.62264150943396,93.39622641509436,96.22641509433963
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",2,qnn,final,96,114,88.27380952380952,75,84.90453460620525,86.33651551312649,98.44868735083531
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,78.57142857142857,62,78.30188679245283,79.71698113207547,98.58490566037736
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,94.28571428571428,86,91.98113207547169,92.45283018867924,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,99.52380952380952,37,96.69811320754717,96.69811320754717,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,94.76190476190476,86,92.34449760765551,92.34449760765553,100.0
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,79.04761904761905,87,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,76.66666666666667,22,66.98113207547169,69.33962264150944,96.22641509433963
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,86.19047619047619,85,80.19801980198021,82.17821782178217,97.52475247524752
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,92.38095238095238,45,90.09433962264151,94.33962264150944,95.75471698113208
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",3,qnn,final,96,114,87.67857142857142,63,83.71121718377088,85.14319809069212,98.32935560859188
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,80.47619047619048,27,81.60377358490565,82.54716981132076,99.05660377358491
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,96.1904761904762,83,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,100.0,25,97.64150943396226,97.64150943396226,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,96.1904761904762,52,94.73684210526315,94.73684210526316,100.0
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,76.66666666666667,8,66.34146341463415,66.82926829268293,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,75.71428571428571,10,66.0377358490566,67.45283018867924,97.64150943396226
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,87.14285714285714,78,80.19801980198021,83.66336633663366,96.53465346534654
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,95.23809523809524,38,88.20754716981132,94.33962264150944,93.86792452830188
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",4,qnn,final,96,114,88.45238095238096,40,83.53221957040573,85.14319809069212,98.21002386634845
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,80.95238095238095,38,79.24528301886792,82.54716981132076,96.69811320754717
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,95.71428571428572,96,94.33962264150944,94.81132075471696,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,100.0,20,98.11320754716981,98.1132075471698,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,94.28571428571428,57,90.9090909090909,91.86602870813395,99.04306220095694
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,74.28571428571429,50,73.17073170731707,74.14634146341463,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,72.85714285714286,38,72.16981132075472,74.52830188679245,96.69811320754717
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,85.71428571428571,42,83.66336633663366,84.65346534653465,99.00990099009901
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,94.28571428571428,46,80.66037735849056,92.45283018867924,88.20754716981132
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",5,qnn,final,96,114,87.26190476190476,48,84.0692124105012,86.6945107398568,97.25536992840095
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,81.42857142857143,80,76.88679245283019,79.71698113207547,97.16981132075472
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,93.8095238095238,56,93.86792452830188,94.33962264150944,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,100.0,50,97.64150943396226,97.64150943396226,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,95.23809523809524,74,93.77990430622009,94.25837320574163,99.52153110047847
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,76.66666666666667,92,73.17073170731707,74.63414634146342,98.53658536585365
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,74.76190476190476,9,65.09433962264151,66.50943396226415,97.64150943396226
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,85.23809523809524,79,81.1881188118812,86.13861386138613,95.04950495049505
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,91.42857142857144,42,90.56603773584906,92.45283018867924,98.11320754716981
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",6,qnn,final,96,114,87.32142857142858,60,84.0692124105012,85.73985680190931,98.21002386634845
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,82.38095238095238,32,78.77358490566037,79.24528301886792,98.58490566037736
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,93.8095238095238,65,91.0377358490566,91.98113207547168,99.05660377358491
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,100.0,24,97.16981132075472,97.16981132075472,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,94.28571428571428,68,91.38755980861244,91.86602870813395,99.52153110047847
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,77.14285714285714,90,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,72.38095238095238,93,72.16981132075472,74.05660377358491,97.64150943396226
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,86.66666666666667,81,83.16831683168317,84.65346534653465,98.51485148514851
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,94.28571428571428,32,83.49056603773585,92.45283018867924,91.0377358490566
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",7,qnn,final,96,114,87.61904761904762,60,83.7708830548926,85.68019093078759,97.91169451073985
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,82.38095238095238,53,82.54716981132076,84.90566037735849,97.16981132075472
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,92.85714285714286,66,92.45283018867924,92.9245283018868,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,100.0,18,98.58490566037736,98.58490566037736,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,95.23809523809524,54,92.82296650717703,93.30143540669856,99.52153110047847
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,77.61904761904762,61,73.65853658536585,74.14634146341463,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,75.71428571428571,38,68.39622641509435,70.75471698113208,97.16981132075472
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,86.19047619047619,82,83.66336633663366,85.64356435643565,97.52475247524752
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,93.8095238095238,31,85.37735849056604,91.0377358490566,94.33962264150944
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",8,qnn,final,96,114,87.97619047619048,50,84.7255369928401,86.45584725536993,98.0310262529833
+Apple,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,81.9047619047619,23,75.47169811320755,79.71698113207547,95.28301886792453
+Cherry,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,95.23809523809524,74,92.45283018867924,92.9245283018868,99.52830188679245
+Corn,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,100.0,47,98.11320754716981,98.1132075471698,100.0
+Grape,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,95.71428571428572,72,92.82296650717703,92.82296650717704,100.0
+Peach,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,76.19047619047619,95,70.24390243902438,71.21951219512195,99.02439024390245
+Pepper,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,74.76190476190476,12,64.62264150943396,66.0377358490566,97.16981132075472
+Potato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,85.23809523809524,59,80.6930693069307,83.66336633663366,97.02970297029702
+Tomato,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,93.8095238095238,74,87.73584905660378,91.98113207547168,95.75471698113208
+ALL,qn/sel_L4,"{""epochs"": 100, ""lr"": 0.003}",9,qnn,final,96,114,87.85714285714286,57,82.81622911694511,84.60620525059666,97.97136038186157
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,83.33333333333333,89,80.66037735849056,82.0754716981132,97.64150943396226
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,94.28571428571428,32,92.45283018867924,92.9245283018868,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,100.0,2,97.64150943396226,97.64150943396226,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,96.66666666666669,21,94.73684210526315,94.73684210526316,100.0
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,75.23809523809524,11,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,75.23809523809524,91,70.28301886792453,73.58490566037736,96.22641509433963
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,83.80952380952381,16,77.22772277227723,81.68316831683168,94.55445544554455
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,93.8095238095238,2,89.62264150943396,92.45283018867924,97.16981132075472
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",0,ann,final,72,90,87.79761904761904,33,84.48687350835323,86.15751789976133,98.0310262529833
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,83.80952380952381,55,82.0754716981132,82.0754716981132,99.52830188679245
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,92.85714285714286,32,92.45283018867924,93.39622641509436,99.05660377358491
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,100.0,1,98.58490566037736,98.58490566037736,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,96.66666666666669,18,95.21531100478468,95.69377990430624,99.52153110047847
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,77.61904761904762,51,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,76.19047619047619,34,71.22641509433963,74.05660377358491,96.69811320754717
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,84.28571428571429,31,80.19801980198021,85.64356435643565,93.06930693069307
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,93.8095238095238,3,90.09433962264151,91.98113207547168,98.11320754716981
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",1,ann,final,72,90,88.1547619047619,28,85.381861575179,86.93317422434367,98.15035799522673
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,83.80952380952381,87,80.18867924528303,81.13207547169812,99.05660377358491
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,92.85714285714286,13,90.56603773584906,91.50943396226415,99.05660377358491
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,100.0,3,98.11320754716981,98.1132075471698,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,97.61904761904762,44,94.73684210526315,94.73684210526316,100.0
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,77.14285714285714,35,72.1951219512195,73.17073170731707,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,73.80952380952381,0,65.56603773584906,66.98113207547169,97.64150943396226
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,83.33333333333333,17,78.71287128712872,81.1881188118812,96.53465346534654
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,94.28571428571428,26,90.56603773584906,94.33962264150944,96.22641509433963
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",2,ann,final,72,90,87.85714285714286,28,83.89021479713604,85.20286396181385,98.44868735083531
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,82.85714285714286,75,81.60377358490565,83.01886792452831,98.58490566037736
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,93.8095238095238,39,91.50943396226415,91.98113207547168,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,100.0,2,98.11320754716981,98.1132075471698,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,97.14285714285714,14,94.73684210526315,94.73684210526316,100.0
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,76.66666666666667,39,71.21951219512195,72.1951219512195,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,75.71428571428571,55,73.11320754716981,75.94339622641509,96.22641509433963
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,82.85714285714286,30,79.70297029702971,82.17821782178217,97.52475247524752
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,94.76190476190476,20,90.09433962264151,94.33962264150944,95.75471698113208
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",3,ann,final,72,90,87.97619047619048,34,85.0835322195704,86.63484486873509,98.32935560859188
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,82.85714285714286,24,80.18867924528303,80.66037735849056,99.05660377358491
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,93.8095238095238,21,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,100.0,1,98.58490566037736,98.58490566037736,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,96.66666666666669,9,94.25837320574163,94.25837320574163,100.0
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,77.61904761904762,35,72.6829268292683,73.65853658536585,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,74.28571428571429,97,69.33962264150944,71.22641509433963,97.64150943396226
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,85.71428571428571,14,81.1881188118812,84.15841584158416,96.53465346534654
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,93.33333333333331,12,86.79245283018868,92.9245283018868,93.86792452830188
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",4,ann,final,72,90,88.03571428571429,26,84.54653937947494,86.15751789976133,98.21002386634845
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,84.28571428571429,82,77.83018867924528,80.18867924528303,96.69811320754717
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,94.28571428571428,87,94.33962264150944,94.81132075471696,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,100.0,2,97.64150943396226,97.64150943396226,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,97.14285714285714,24,94.25837320574163,95.21531100478468,99.04306220095694
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,77.61904761904762,36,74.14634146341463,75.1219512195122,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,76.19047619047619,27,68.39622641509435,71.22641509433963,96.69811320754717
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,84.28571428571429,28,80.6930693069307,81.68316831683168,99.00990099009901
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,93.8095238095238,6,80.18867924528303,91.98113207547168,88.20754716981132
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",5,ann,final,72,90,88.45238095238093,36,83.47255369928402,86.0381861575179,97.25536992840095
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,84.76190476190476,46,79.71698113207547,82.0754716981132,97.16981132075472
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,93.8095238095238,19,92.9245283018868,93.39622641509436,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,100.0,1,98.58490566037736,98.58490566037736,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,96.66666666666669,12,93.30143540669856,93.77990430622008,99.52153110047847
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,78.0952380952381,54,73.17073170731707,74.14634146341463,98.53658536585365
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,78.0952380952381,33,72.64150943396226,74.52830188679245,97.64150943396226
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,83.80952380952381,13,77.72277227722772,81.68316831683168,95.04950495049505
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,93.8095238095238,10,91.0377358490566,92.9245283018868,98.11320754716981
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",6,ann,final,72,90,88.63095238095238,23,84.96420047732697,86.45584725536993,98.21002386634845
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,83.33333333333333,55,80.18867924528303,81.60377358490565,98.58490566037736
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,93.8095238095238,93,92.45283018867924,93.39622641509436,99.05660377358491
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,100.0,1,98.11320754716981,98.1132075471698,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,96.66666666666669,10,93.30143540669856,93.77990430622008,99.52153110047847
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,76.19047619047619,25,72.1951219512195,73.17073170731707,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,75.23809523809524,89,72.16981132075472,74.05660377358491,97.64150943396226
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,82.85714285714286,38,82.67326732673267,84.15841584158416,98.51485148514851
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,93.8095238095238,5,83.9622641509434,92.9245283018868,91.0377358490566
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",7,ann,final,72,90,87.73809523809524,39,84.4272076372315,86.45584725536993,97.91169451073985
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,81.42857142857143,30,79.71698113207547,82.0754716981132,97.16981132075472
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,94.76190476190476,81,93.86792452830188,94.33962264150944,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,100.0,1,98.58490566037736,98.58490566037736,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,97.61904761904762,15,95.69377990430623,96.17224880382776,99.52153110047847
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,74.28571428571429,9,70.24390243902438,71.21951219512195,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,75.23809523809524,45,70.28301886792453,72.64150943396226,97.16981132075472
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,84.76190476190476,15,81.68316831683168,83.66336633663366,97.52475247524752
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,94.28571428571428,12,88.20754716981132,93.86792452830188,94.33962264150944
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",8,ann,final,72,90,87.79761904761905,26,84.84486873508354,86.63484486873509,98.0310262529833
+Apple,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,83.33333333333333,35,77.35849056603774,81.60377358490565,95.28301886792453
+Cherry,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,95.23809523809524,99,92.45283018867924,92.9245283018868,99.52830188679245
+Corn,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,100.0,1,98.58490566037736,98.58490566037736,100.0
+Grape,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,96.66666666666669,6,93.77990430622009,93.77990430622008,100.0
+Peach,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,76.19047619047619,38,75.1219512195122,76.09756097560975,99.02439024390245
+Pepper,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,75.71428571428571,38,66.98113207547169,69.33962264150944,97.16981132075472
+Potato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,84.28571428571429,28,82.17821782178217,85.14851485148515,97.02970297029702
+Tomato,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,93.33333333333331,2,88.67924528301887,92.9245283018868,95.75471698113208
+ALL,cn/dense_tanh,"{""epochs"": 100, ""lr"": 0.01}",9,ann,final,72,90,88.0952380952381,30,84.4272076372315,86.33651551312649,97.97136038186157

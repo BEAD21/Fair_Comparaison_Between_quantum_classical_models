@@ -1,0 +1,340 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Filter test</title><style>body{font:14px system-ui,sans-serif;margin:24px;color:#1a1a1a}table{border-collapse:collapse;margin-bottom:24px}th,td{border:1px solid #ccc;padding:4px 8px;text-align:right;white-space:nowrap}th{background:#f2f2f2}</style></head><body><h1>Filter comparison: TEST (run once, configs frozen before)</h1>
+<p>Test accuracy (%), mean ± SD over seeds 0-9, one row per crop. Last row: the 7-crop average, mean ± SD over seeds. Recipes frozen in filter_test_frozen.json. McNemar: exact, on each model's majority vote over the 10 seeds; Holm over crops.</p>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>q/ry_cnot_B6</th>
+      <th>c/Conv2x2/raw</th>
+      <th>c/PatchMLP/raw</th>
+      <th>q/identity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Apple</th>
+      <td>81.37 ± 1.48</td>
+      <td>83.49 ± 1.69</td>
+      <td>84.53 ± 0.70</td>
+      <td>78.49 ± 0.95</td>
+    </tr>
+    <tr>
+      <th>Cherry</th>
+      <td>92.83 ± 2.13</td>
+      <td>95.47 ± 1.53</td>
+      <td>95.90 ± 1.86</td>
+      <td>91.79 ± 0.33</td>
+    </tr>
+    <tr>
+      <th>Grape</th>
+      <td>94.16 ± 1.03</td>
+      <td>94.40 ± 1.28</td>
+      <td>95.84 ± 2.34</td>
+      <td>94.78 ± 0.15</td>
+    </tr>
+    <tr>
+      <th>Peach</th>
+      <td>81.90 ± 1.89</td>
+      <td>86.05 ± 1.46</td>
+      <td>88.68 ± 1.82</td>
+      <td>76.10 ± 0.65</td>
+    </tr>
+    <tr>
+      <th>Pepper</th>
+      <td>75.38 ± 0.86</td>
+      <td>74.10 ± 3.25</td>
+      <td>74.25 ± 1.54</td>
+      <td>74.01 ± 0.68</td>
+    </tr>
+    <tr>
+      <th>Potato</th>
+      <td>87.08 ± 2.91</td>
+      <td>83.27 ± 3.75</td>
+      <td>82.33 ± 3.41</td>
+      <td>78.56 ± 1.30</td>
+    </tr>
+    <tr>
+      <th>Tomato</th>
+      <td>90.52 ± 0.75</td>
+      <td>91.37 ± 1.66</td>
+      <td>90.33 ± 1.82</td>
+      <td>88.54 ± 0.77</td>
+    </tr>
+    <tr>
+      <th>mean (7 crops)</th>
+      <td>86.18 ± 0.64</td>
+      <td>86.88 ± 1.23</td>
+      <td>87.41 ± 1.05</td>
+      <td>83.18 ± 0.30</td>
+    </tr>
+    <tr>
+      <th>params</th>
+      <td>12</td>
+      <td>10</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<h2>q/ry_cnot_B6 - c/Conv2x2/raw</h2><p>difference, CI over seeds: -0.70 [-1.54, +0.13]; CI over crops: -0.70 [-3.15, +1.75]; pooled McNemar p = 0.0918</p>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>crop</th>
+      <th>n</th>
+      <th>acc_a</th>
+      <th>acc_b</th>
+      <th>only first right</th>
+      <th>only second right</th>
+      <th>p</th>
+      <th>p_holm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Apple</td>
+      <td>212</td>
+      <td>81.13</td>
+      <td>85.38</td>
+      <td>6</td>
+      <td>15</td>
+      <td>0.08</td>
+      <td>0.55</td>
+    </tr>
+    <tr>
+      <td>Cherry</td>
+      <td>212</td>
+      <td>93.40</td>
+      <td>96.70</td>
+      <td>6</td>
+      <td>13</td>
+      <td>0.17</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Grape</td>
+      <td>209</td>
+      <td>94.74</td>
+      <td>94.74</td>
+      <td>4</td>
+      <td>4</td>
+      <td>1.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Peach</td>
+      <td>205</td>
+      <td>84.88</td>
+      <td>88.29</td>
+      <td>14</td>
+      <td>21</td>
+      <td>0.31</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>212</td>
+      <td>75.94</td>
+      <td>76.42</td>
+      <td>12</td>
+      <td>13</td>
+      <td>1.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Potato</td>
+      <td>202</td>
+      <td>88.12</td>
+      <td>86.14</td>
+      <td>12</td>
+      <td>8</td>
+      <td>0.50</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>212</td>
+      <td>91.51</td>
+      <td>91.98</td>
+      <td>6</td>
+      <td>7</td>
+      <td>1.00</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+<h2>q/ry_cnot_B6 - c/PatchMLP/raw</h2><p>difference, CI over seeds: -1.23 [-2.18, -0.28]; CI over crops: -1.23 [-4.64, +2.18]; pooled McNemar p = 0.00801</p>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>crop</th>
+      <th>n</th>
+      <th>acc_a</th>
+      <th>acc_b</th>
+      <th>only first right</th>
+      <th>only second right</th>
+      <th>p</th>
+      <th>p_holm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Apple</td>
+      <td>212</td>
+      <td>81.13</td>
+      <td>86.32</td>
+      <td>6</td>
+      <td>17</td>
+      <td>0.03</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>Cherry</td>
+      <td>212</td>
+      <td>93.40</td>
+      <td>98.11</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0.00</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <td>Grape</td>
+      <td>209</td>
+      <td>94.74</td>
+      <td>98.09</td>
+      <td>0</td>
+      <td>7</td>
+      <td>0.02</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>Peach</td>
+      <td>205</td>
+      <td>84.88</td>
+      <td>89.76</td>
+      <td>10</td>
+      <td>20</td>
+      <td>0.10</td>
+      <td>0.39</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>212</td>
+      <td>75.94</td>
+      <td>74.06</td>
+      <td>14</td>
+      <td>10</td>
+      <td>0.54</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Potato</td>
+      <td>202</td>
+      <td>88.12</td>
+      <td>85.64</td>
+      <td>14</td>
+      <td>9</td>
+      <td>0.40</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>212</td>
+      <td>91.51</td>
+      <td>92.45</td>
+      <td>5</td>
+      <td>7</td>
+      <td>0.77</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+<h2>q/ry_cnot_B6 - q/identity</h2><p>difference, CI over seeds: +2.99 [+2.43, +3.56]; CI over crops: +2.99 [+0.10, +5.89]; pooled McNemar p = 0.000343</p>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>crop</th>
+      <th>n</th>
+      <th>acc_a</th>
+      <th>acc_b</th>
+      <th>only first right</th>
+      <th>only second right</th>
+      <th>p</th>
+      <th>p_holm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Apple</td>
+      <td>212</td>
+      <td>81.13</td>
+      <td>79.72</td>
+      <td>21</td>
+      <td>18</td>
+      <td>0.75</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Cherry</td>
+      <td>212</td>
+      <td>93.40</td>
+      <td>91.51</td>
+      <td>11</td>
+      <td>7</td>
+      <td>0.48</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Grape</td>
+      <td>209</td>
+      <td>94.74</td>
+      <td>94.74</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Peach</td>
+      <td>205</td>
+      <td>84.88</td>
+      <td>77.07</td>
+      <td>31</td>
+      <td>15</td>
+      <td>0.03</td>
+      <td>0.16</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>212</td>
+      <td>75.94</td>
+      <td>74.53</td>
+      <td>14</td>
+      <td>11</td>
+      <td>0.69</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>Potato</td>
+      <td>202</td>
+      <td>88.12</td>
+      <td>78.71</td>
+      <td>31</td>
+      <td>12</td>
+      <td>0.01</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>212</td>
+      <td>91.51</td>
+      <td>88.68</td>
+      <td>9</td>
+      <td>3</td>
+      <td>0.15</td>
+      <td>0.73</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

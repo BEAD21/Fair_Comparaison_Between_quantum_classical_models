@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Results: repro</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+.viz-root{color-scheme:light;--surface-1:#fcfcfb;--text-primary:#0b0b0b;--text-secondary:#52514e;
+ --muted:#898781;--grid:#e1e0d9;--border:rgba(11,11,11,.10);--s0:#2a78d6;--s1:#eb6834;--s2:#1baf7a;--s3:#eda100;--s4:#e87ba4;--s5:#008300;--s6:#6250d6;--s7:#e34948;}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])) .viz-root{color-scheme:dark;
+ --surface-1:#1a1a19;--text-primary:#f0efec;--text-secondary:#c3c2b7;--muted:#898781;--grid:#2c2c2a;
+ --border:rgba(255,255,255,.10);--s0:#3987e5;--s1:#d95926;--s2:#199e70;--s3:#c98500;--s4:#d55181;--s5:#008300;--s6:#9085e9;--s7:#e66767;}}
+:root[data-theme="dark"] .viz-root{color-scheme:dark;--surface-1:#1a1a19;--text-primary:#f0efec;
+ --text-secondary:#c3c2b7;--muted:#898781;--grid:#2c2c2a;--border:rgba(255,255,255,.10);--s0:#3987e5;--s1:#d95926;--s2:#199e70;--s3:#c98500;--s4:#d55181;--s5:#008300;--s6:#9085e9;--s7:#e66767;}
+html,body{margin:0}
+.viz-root{background:var(--surface-1);color:var(--text-primary);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;
+ min-height:100vh;padding:28px 32px 60px;box-sizing:border-box}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:18px;margin:36px 0 2px;padding-top:18px;border-top:1px solid var(--grid)}
+h3{font-size:14px;margin:22px 0 2px}.sub{color:var(--text-secondary);margin:0 0 10px;max-width:820px}
+.note{color:var(--muted);font-size:12px}
+.row{display:flex;gap:10px;align-items:center;margin:8px 0 0}
+button{font:inherit;font-size:12px;color:var(--text-secondary);background:transparent;border:1px solid var(--border);
+ border-radius:6px;padding:3px 10px;cursor:pointer}
+svg text{font:12px system-ui,-apple-system,"Segoe UI",sans-serif;fill:var(--text-secondary)}
+svg .lbl{fill:var(--text-primary)}svg .mut{fill:var(--muted)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin:6px 0 2px;font-size:12px;color:var(--text-secondary)}
+.legend span{display:inline-flex;align-items:center;gap:6px}.sw{width:10px;height:10px;border-radius:3px;display:inline-block}
+table{border-collapse:collapse;font-size:13px;margin-top:8px;font-variant-numeric:tabular-nums}
+th,td{padding:4px 12px 4px 0;text-align:right;border-bottom:1px solid var(--grid)}th{color:var(--text-secondary);font-weight:600}
+td:first-child,th:first-child{text-align:left}
+#tip{position:fixed;pointer-events:none;background:var(--surface-1);color:var(--text-primary);border:1px solid var(--border);
+ box-shadow:0 2px 10px rgba(0,0,0,.15);border-radius:8px;padding:7px 10px;font-size:12px;display:none;z-index:9;
+ font-variant-numeric:tabular-nums;white-space:nowrap}
+details summary{cursor:pointer;color:var(--text-secondary);margin-top:10px}
+</style></head>
+<body><div class="viz-root" id="root">
+<h1>Results: repro</h1>
+<p class="sub" id="intro"></p>
+<div class="row"><button id="theme">Toggle dark / light</button></div>
+<div id="out"></div><div id="tip"></div>
+</div>
+<script>
+const D = {"ref": "q/ry_cnot_B6", "crops": [{"crop": "Corn", "metric": "test_acc", "models": [{"label": "q/ry_cnot_B6", "slot": 0, "filter_params": 12, "total_params": 270, "mean": 98.34905660377359, "ci": 0.23860081093419305, "sd": 0.33354093452195954, "n": 10, "seeds": [{"seed": 0, "value": 99.05660377358491, "val": 99.52380952380952, "epoch": 2}, {"seed": 1, "value": 98.11320754716981, "val": 99.52380952380952, "epoch": 2}, {"seed": 2, "value": 98.11320754716981, "val": 100.0, "epoch": 4}, {"seed": 3, "value": 98.11320754716981, "val": 99.52380952380952, "epoch": 11}, {"seed": 4, "value": 98.11320754716981, "val": 99.04761904761905, "epoch": 5}, {"seed": 5, "value": 98.11320754716981, "val": 99.52380952380952, "epoch": 1}, {"seed": 6, "value": 98.58490566037736, "val": 99.52380952380952, "epoch": 2}, {"seed": 7, "value": 98.58490566037736, "val": 99.52380952380952, "epoch": 11}, {"seed": 8, "value": 98.58490566037736, "val": 99.52380952380952, "epoch": 6}, {"seed": 9, "value": 98.11320754716981, "val": 99.52380952380952, "epoch": 11}], "curve": [{"epoch": 0, "val": 96.42857142857142}, {"epoch": 1, "val": 98.04761904761905}, {"epoch": 2, "val": 98.76190476190476}, {"epoch": 3, "val": 99.04761904761905}, {"epoch": 4, "val": 98.66666666666667}, {"epoch": 5, "val": 98.95238095238095}, {"epoch": 6, "val": 98.85714285714286}, {"epoch": 7, "val": 98.61904761904762}, {"epoch": 8, "val": 98.66666666666666}, {"epoch": 9, "val": 99.04761904761905}, {"epoch": 10, "val": 98.95238095238095}, {"epoch": 11, "val": 99.28571428571429}, {"epoch": 12, "val": 99.0}, {"epoch": 13, "val": 98.95238095238095}, {"epoch": 14, "val": 99.0952380952381}, {"epoch": 15, "val": 98.95238095238095}, {"epoch": 16, "val": 99.04761904761905}, {"epoch": 17, "val": 99.0}, {"epoch": 18, "val": 99.04761904761905}, {"epoch": 19, "val": 99.0}]}, {"label": "c/Conv2x2/raw", "slot": 1, "filter_params": 10, "total_params": 268, "mean": 99.38679245283019, "ci": 0.5287638977892626, "sd": 0.7391609606001989, "n": 10, "seeds": [{"seed": 0, "value": 100.0, "val": 100.0, "epoch": 14}, {"seed": 1, "value": 100.0, "val": 100.0, "epoch": 11}, {"seed": 2, "value": 98.58490566037736, "val": 99.52380952380952, "epoch": 13}, {"seed": 3, "value": 100.0, "val": 100.0, "epoch": 8}, {"seed": 4, "value": 100.0, "val": 100.0, "epoch": 12}, {"seed": 5, "value": 99.52830188679245, "val": 100.0, "epoch": 7}, {"seed": 6, "value": 98.58490566037736, "val": 99.52380952380952, "epoch": 12}, {"seed": 7, "value": 100.0, "val": 100.0, "epoch": 7}, {"seed": 8, "value": 99.05660377358491, "val": 99.52380952380952, "epoch": 13}, {"seed": 9, "value": 98.11320754716981, "val": 99.52380952380952, "epoch": 9}], "paired": {"n": 10.0, "diff": -1.0377358490566053, "lo": -1.5841496500640884, "hi": -0.4913220480491223, "p_t": 0.0020016776317212572, "p_wilcoxon": 0.0078125, "seeds": [{"seed": 0, "value": -0.9433962264150892}, {"seed": 1, "value": -1.8867924528301927}, {"seed": 2, "value": -0.47169811320755173}, {"seed": 3, "value": -1.8867924528301927}, {"seed": 4, "value": -1.8867924528301927}, {"seed": 5, "value": -1.415094339622641}, {"seed": 6, "value": 0.0}, {"seed": 7, "value": -1.415094339622641}, {"seed": 8, "value": -0.47169811320755173}, {"seed": 9, "value": 0.0}]}, "curve": [{"epoch": 0, "val": 90.28571428571429}, {"epoch": 1, "val": 95.61904761904762}, {"epoch": 2, "val": 97.33333333333334}, {"epoch": 3, "val": 97.95238095238095}, {"epoch": 4, "val": 98.28571428571429}, {"epoch": 5, "val": 98.0}, {"epoch": 6, "val": 98.38095238095238}, {"epoch": 7, "val": 98.38095238095238}, {"epoch": 8, "val": 98.66666666666666}, {"epoch": 9, "val": 98.95238095238095}, {"epoch": 10, "val": 98.71428571428571}, {"epoch": 11, "val": 99.14285714285714}, {"epoch": 12, "val": 98.85714285714286}, {"epoch": 13, "val": 99.28571428571429}, {"epoch": 14, "val": 99.47619047619048}, {"epoch": 15, "val": 99.23809523809524}, {"epoch": 16, "val": 99.38095238095238}, {"epoch": 17, "val": 99.57142857142857}, {"epoch": 18, "val": 99.28571428571429}, {"epoch": 19, "val": 99.0952380952381}]}]}, {"crop": "Cherry", "metric": "test_acc", "models": [{"label": "q/ry_cnot_B6", "slot": 0, "filter_params": 12, "total_params": 270, "mean": 92.87735849056604, "ci": 0.9061247791068706, "sd": 1.2666750981838273, "n": 10, "seeds": [{"seed": 0, "value": 92.45283018867924, "val": 94.76190476190476, "epoch": 15}, {"seed": 1, "value": 94.81132075471699, "val": 93.33333333333333, "epoch": 16}, {"seed": 2, "value": 91.0377358490566, "val": 92.38095238095238, "epoch": 17}, {"seed": 3, "value": 93.86792452830188, "val": 94.28571428571429, "epoch": 16}, {"seed": 4, "value": 92.45283018867924, "val": 93.33333333333333, "epoch": 16}, {"seed": 5, "value": 94.33962264150944, "val": 94.28571428571429, "epoch": 9}, {"seed": 6, "value": 93.39622641509433, "val": 93.80952380952381, "epoch": 14}, {"seed": 7, "value": 92.9245283018868, "val": 93.80952380952381, "epoch": 18}, {"seed": 8, "value": 91.0377358490566, "val": 93.33333333333333, "epoch": 18}, {"seed": 9, "value": 92.45283018867924, "val": 94.28571428571429, "epoch": 16}], "curve": [{"epoch": 0, "val": 75.38095238095238}, {"epoch": 1, "val": 82.42857142857142}, {"epoch": 2, "val": 86.33333333333334}, {"epoch": 3, "val": 87.85714285714286}, {"epoch": 4, "val": 89.47619047619047}, {"epoch": 5, "val": 90.28571428571429}, {"epoch": 6, "val": 90.33333333333334}, {"epoch": 7, "val": 90.95238095238095}, {"epoch": 8, "val": 90.71428571428571}, {"epoch": 9, "val": 91.38095238095238}, {"epoch": 10, "val": 91.76190476190476}, {"epoch": 11, "val": 91.95238095238095}, {"epoch": 12, "val": 92.14285714285714}, {"epoch": 13, "val": 92.0952380952381}, {"epoch": 14, "val": 92.38095238095238}, {"epoch": 15, "val": 92.57142857142857}, {"epoch": 16, "val": 93.19047619047619}, {"epoch": 17, "val": 93.14285714285714}, {"epoch": 18, "val": 92.71428571428571}, {"epoch": 19, "val": 92.42857142857142}]}, {"label": "c/Conv2x2/raw", "slot": 1, "filter_params": 10, "total_params": 268, "mean": 87.26415094339623, "ci": 5.785762181712157, "sd": 8.087937829944456, "n": 10, "seeds": [{"seed": 0, "value": 94.81132075471699, "val": 97.14285714285714, "epoch": 18}, {"seed": 1, "value": 91.50943396226415, "val": 94.28571428571429, "epoch": 13}, {"seed": 2, "value": 85.84905660377359, "val": 78.0952380952381, "epoch": 19}, {"seed": 3, "value": 92.9245283018868, "val": 93.80952380952381, "epoch": 19}, {"seed": 4, "value": 94.33962264150944, "val": 94.28571428571429, "epoch": 18}, {"seed": 5, "value": 95.28301886792453, "val": 92.85714285714286, "epoch": 17}, {"seed": 6, "value": 80.66037735849056, "val": 79.52380952380952, "epoch": 18}, {"seed": 7, "value": 72.64150943396227, "val": 75.23809523809524, "epoch": 9}, {"seed": 8, "value": 76.88679245283019, "val": 80.47619047619048, "epoch": 19}, {"seed": 9, "value": 87.73584905660377, "val": 90.95238095238095, "epoch": 17}], "paired": {"n": 10.0, "diff": 5.613207547169809, "lo": 0.1249278506812237, "hi": 11.101487243658394, "p_t": 0.04596110371099101, "p_wilcoxon": 0.052734375, "seeds": [{"seed": 0, "value": -2.3584905660377444}, {"seed": 1, "value": 3.3018867924528337}, {"seed": 2, "value": 5.188679245283012}, {"seed": 3, "value": 0.9433962264150892}, {"seed": 4, "value": -1.8867924528301927}, {"seed": 5, "value": -0.9433962264150892}, {"seed": 6, "value": 12.735849056603769}, {"seed": 7, "value": 20.283018867924525}, {"seed": 8, "value": 14.15094339622641}, {"seed": 9, "value": 4.716981132075475}]}, "curve": [{"epoch": 0, "val": 59.38095238095239}, {"epoch": 1, "val": 66.04761904761905}, {"epoch": 2, "val": 70.66666666666667}, {"epoch": 3, "val": 72.52380952380952}, {"epoch": 4, "val": 74.04761904761905}, {"epoch": 5, "val": 79.0952380952381}, {"epoch": 6, "val": 79.85714285714286}, {"epoch": 7, "val": 80.28571428571429}, {"epoch": 8, "val": 79.76190476190476}, {"epoch": 9, "val": 82.52380952380953}, {"epoch": 10, "val": 82.95238095238095}, {"epoch": 11, "val": 83.28571428571429}, {"epoch": 12, "val": 82.80952380952381}, {"epoch": 13, "val": 84.47619047619048}, {"epoch": 14, "val": 84.66666666666666}, {"epoch": 15, "val": 85.19047619047619}, {"epoch": 16, "val": 85.57142857142857}, {"epoch": 17, "val": 85.66666666666666}, {"epoch": 18, "val": 86.47619047619048}, {"epoch": 19, "val": 86.42857142857143}]}]}]};
+const NS = 'http://www.w3.org/2000/svg';
+const tip = document.getElementById('tip');
+const col = i => `var(--s${i % 8})`;
+const f2 = v => (v == null || isNaN(v)) ? '–' : v.toFixed(2);
+const fp = p => p == null ? '–' : (p < 0.001 ? '<0.001' : p.toFixed(3));
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function txt(parent, x, y, s, cls, anchor) { const t = el('text', {x, y, class: cls || '', 'text-anchor': anchor || 'start'}, parent);
+  t.textContent = s; return t; }
+function showTip(ev, html) { tip.innerHTML = html; tip.style.display = 'block';
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX + 14, y = ev.clientY + 14;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - 14; if (y + h > innerHeight - 8) y = ev.clientY - h - 14;
+  tip.style.left = x + 'px'; tip.style.top = y + 'px'; }
+function hideTip() { tip.style.display = 'none'; }
+function niceTicks(lo, hi, n) { const span = hi - lo, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => span / s <= n) || 10 * mag;
+  const out = []; for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) out.push(+v.toFixed(6)); return out; }
+function legend(parent, models) { const L = document.createElement('div'); L.className = 'legend';
+  models.forEach(m => { const s = document.createElement('span');
+    s.innerHTML = `<i class="sw" style="background:${col(m.slot)}"></i>${m.label}`; L.appendChild(s); });
+  parent.appendChild(L); }
+
+// ---------- dot plot: every seed, mean and 95% CI, one row per model
+function dotRows(parent, rows, opts) {
+  const W = 860, left = 250, right = 150, rowH = 60, top = 26, H = top + rows.length * rowH + 30;
+  const svg = el('svg', {width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': opts.aria}, parent);
+  const xs = rows.flatMap(r => r.points.map(p => p.value).concat([r.lo, r.hi])).filter(v => v != null);
+  let lo = Math.min(...xs, opts.zero ? 0 : Infinity), hi = Math.max(...xs, opts.zero ? 0 : -Infinity);
+  const pad = (hi - lo) * 0.06 || 1; lo -= pad; hi += pad;
+  if (opts.cap100) hi = Math.min(hi, 100.5);
+  const X = v => left + (v - lo) / (hi - lo) * (W - left - right);
+  for (const t of niceTicks(lo, hi, 7)) {
+    el('line', {x1: X(t), x2: X(t), y1: top - 6, y2: H - 26, stroke: 'var(--grid)', 'stroke-width': 1}, svg);
+    txt(svg, X(t), H - 10, (opts.zero && t > 0 ? '+' : '') + t, 'mut', 'middle'); }
+  if (opts.zero) { el('line', {x1: X(0), x2: X(0), y1: top - 6, y2: H - 26, stroke: 'var(--muted)', 'stroke-width': 1.5}, svg);
+    txt(svg, X(0) - 8, top - 10, opts.negLabel, 'mut', 'end'); txt(svg, X(0) + 8, top - 10, opts.posLabel, 'mut', 'start'); }
+  rows.forEach((r, i) => {
+    const cy = top + i * rowH + rowH / 2;
+    el('rect', {x: left - 236, y: cy - 6, width: 10, height: 10, rx: 3, fill: col(r.slot)}, svg);
+    txt(svg, left - 220, cy + 4, r.label, 'lbl');
+    if (r.sublabel) txt(svg, left - 220, cy + 18, r.sublabel, 'mut');
+    if (r.lo != null) el('line', {x1: X(r.lo), x2: X(r.hi), y1: cy, y2: cy, stroke: 'var(--text-secondary)', 'stroke-width': 2, 'stroke-linecap': 'round'}, svg);
+    // stack seeds that share a value so none is hidden behind another
+    const same = {}; r.points.forEach(p => { const k = p.value.toFixed(3); same[k] = (same[k] || 0) + 1; });
+    const seen = {};
+    r.points.forEach(p => {
+      const key = p.value.toFixed(3), j = (seen[key] = (seen[key] || 0) + 1) - 1;
+      const jy = cy + (j - (same[key] - 1) / 2) * 7;
+      const c = el('circle', {cx: X(p.value), cy: jy, r: 4.5, fill: col(r.slot), stroke: 'var(--surface-1)', 'stroke-width': 2}, svg);
+      const hit = el('circle', {cx: X(p.value), cy: jy, r: 9, fill: 'transparent'}, svg);
+      hit.addEventListener('mousemove', ev => { c.setAttribute('r', 6); showTip(ev, p.tip); });
+      hit.addEventListener('mouseleave', () => { c.setAttribute('r', 4.5); hideTip(); }); });
+    el('line', {x1: X(r.mean), x2: X(r.mean), y1: cy - 13, y2: cy + 13, stroke: 'var(--text-primary)', 'stroke-width': 2.5, 'stroke-linecap': 'round'}, svg);
+    txt(svg, W - right + 14, cy + 4, r.right, 'lbl');
+    if (r.right2) txt(svg, W - right + 14, cy + 18, r.right2, 'mut');
+  });
+}
+
+// ---------- validation curves (overlay for <=3 models, small multiples beyond)
+function curves(parent, models) {
+  const ms = models.filter(m => m.curve); if (!ms.length) return;
+  const groups = ms.length <= 3 ? [ms] : ms.map(m => [m]);
+  const wrap = document.createElement('div'); wrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:12px'; parent.appendChild(wrap);
+  if (ms.length <= 3) legend(parent.insertBefore(document.createElement('div'), wrap), ms);
+  const all = ms.flatMap(m => m.curve.map(c => c.val));
+  let lo = Math.min(...all), hi = Math.max(...all); const pad = (hi - lo) * 0.08 || 1; lo -= pad; hi = Math.min(100.5, hi + pad);
+  groups.forEach(g => {
+    const single = groups.length > 1, W = single ? 420 : 860, H = single ? 220 : 280, l = 46, r = single ? 16 : 190, t = single ? 26 : 14, b = 34;
+    const svg = el('svg', {width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'validation accuracy per epoch'}, wrap);
+    const E = Math.max(...g.flatMap(m => m.curve.map(c => c.epoch)));
+    const X = e => l + e / Math.max(E, 1) * (W - l - r), Y = v => t + (hi - v) / (hi - lo) * (H - t - b);
+    if (single) { el('rect', {x: 0, y: 4, width: 10, height: 10, rx: 3, fill: col(g[0].slot)}, svg); txt(svg, 16, 13, g[0].label, 'lbl'); }
+    for (const v of niceTicks(lo, hi, 5)) { el('line', {x1: l, x2: W - r, y1: Y(v), y2: Y(v), stroke: 'var(--grid)'}, svg); txt(svg, l - 8, Y(v) + 4, v, 'mut', 'end'); }
+    for (const e of niceTicks(0, E, 6)) txt(svg, X(e), H - 14, e, 'mut', 'middle');
+    txt(svg, (l + W - r) / 2, H - 1, 'epoch', 'mut', 'middle');
+    g.forEach(m => { el('path', {d: m.curve.map((c, k) => (k ? 'L' : 'M') + X(c.epoch) + ' ' + Y(c.val)).join(''),
+      fill: 'none', stroke: col(m.slot), 'stroke-width': 2, 'stroke-linejoin': 'round'}, svg);
+    });
+    if (!single) {   // end labels, pushed apart so they never overlap
+      const ends = g.map(m => { const c = m.curve[m.curve.length - 1]; return {m, x: X(c.epoch), y: Y(c.val), v: c.val}; })
+                    .sort((a, b) => a.y - b.y);
+      for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 15) ends[k].y = ends[k - 1].y + 15;
+      ends.forEach(e => txt(svg, e.x + 8, e.y + 4, `${e.m.label}: ${f2(e.v)}`, 'lbl')); }
+    const cross = el('line', {y1: t, y2: H - b, stroke: 'var(--muted)', 'stroke-width': 1, visibility: 'hidden'}, svg);
+    const dots = g.map(m => el('circle', {r: 4.5, fill: col(m.slot), stroke: 'var(--surface-1)', 'stroke-width': 2, visibility: 'hidden'}, svg));
+    const hit = el('rect', {x: l, y: t, width: W - l - r, height: H - t - b, fill: 'transparent'}, svg);
+    hit.addEventListener('mousemove', ev => { const bb = svg.getBoundingClientRect();
+      const e = Math.round((ev.clientX - bb.left - l) / (W - l - r) * E); if (e < 0 || e > E) return;
+      cross.setAttribute('x1', X(e)); cross.setAttribute('x2', X(e)); cross.setAttribute('visibility', 'visible');
+      let html = `<b>epoch ${e}</b>`;
+      g.forEach((m, k) => { const c = m.curve.find(c => c.epoch === e); if (!c) return;
+        dots[k].setAttribute('cx', X(e)); dots[k].setAttribute('cy', Y(c.val)); dots[k].setAttribute('visibility', 'visible');
+        html += `<br><i class="sw" style="background:${col(m.slot)}"></i> ${m.label}: ${f2(c.val)}%`; });
+      showTip(ev, html); });
+    hit.addEventListener('mouseleave', () => { cross.setAttribute('visibility', 'hidden'); dots.forEach(d => d.setAttribute('visibility', 'hidden')); hideTip(); });
+  });
+}
+
+// ---------- page
+const metricName = m => m === 'test_acc' ? 'test accuracy' : 'validation accuracy (tuning run, test not evaluated)';
+document.getElementById('intro').textContent =
+  `Each dot is one seed. The black tick is the mean, the grey bar its 95% confidence interval. ` +
+  `Differences are paired by seed: positive means ${D.ref} did better. Hover any dot or curve for details.`;
+const out = document.getElementById('out');
+D.crops.forEach(C => {
+  const sec = document.createElement('section'); out.appendChild(sec);
+  sec.insertAdjacentHTML('beforeend', `<h2>${C.crop}</h2><h3>1. Accuracy per seed</h3>
+    <p class="sub">${metricName(C.metric)}, one row per model</p>`);
+  dotRows(sec, C.models.map(m => ({label: m.label, slot: m.slot, sublabel: `filter ${m.filter_params} · total ${m.total_params} params`,
+    mean: m.mean, lo: m.mean - m.ci, hi: m.mean + m.ci, right: `${f2(m.mean)} ± ${f2(m.ci)}`, right2: `sd ${f2(m.sd)} · n=${m.n}`,
+    points: m.seeds.map(s => ({value: s.value, tip: `<b>${m.label}</b><br>seed ${s.seed}: <b>${f2(s.value)}%</b><br>val ${f2(s.val)}% · best epoch ${s.epoch}`}))})),
+    {aria: `${C.crop} accuracy per seed`, cap100: true});
+  const pr = C.models.filter(m => m.paired);
+  if (pr.length) {
+    sec.insertAdjacentHTML('beforeend', `<h3>2. Paired difference: ${D.ref} minus each model</h3>
+      <p class="sub">Same seed on both sides. If the grey bar crosses zero, the difference is not significant.</p>`);
+    dotRows(sec, pr.map(m => ({label: m.label, slot: m.slot, mean: m.paired.diff, lo: m.paired.lo, hi: m.paired.hi,
+      right: `${m.paired.diff >= 0 ? '+' : ''}${f2(m.paired.diff)} pp`, right2: `p=${fp(m.paired.p_t)} (t) · ${fp(m.paired.p_wilcoxon)} (W)`,
+      points: m.paired.seeds.map(s => ({value: s.value, tip: `seed ${s.seed}: ${D.ref} ${s.value >= 0 ? 'ahead by' : 'behind by'} <b>${f2(Math.abs(s.value))} pp</b>`}))})),
+      {aria: `${C.crop} paired differences`, zero: true, negLabel: '← other model better', posLabel: `${D.ref} better →`});
+  }
+  if (C.models.some(m => m.curve)) {
+    sec.insertAdjacentHTML('beforeend', `<h3>3. Validation accuracy during training</h3><p class="sub">mean over seeds, per epoch</p>`);
+    curves(sec, C.models);
+  }
+  let t = `<details open><summary>Table</summary><table><tr><th>model</th><th>filter</th><th>total</th><th>mean</th><th>95% CI</th><th>sd</th><th>n</th>
+    <th>diff vs ref</th><th>CI of diff</th><th>p (t)</th><th>p (Wilcoxon)</th></tr>`;
+  C.models.forEach(m => { const p = m.paired;
+    t += `<tr><td>${m.label}</td><td>${m.filter_params}</td><td>${m.total_params}</td><td>${f2(m.mean)}</td><td>± ${f2(m.ci)}</td><td>${f2(m.sd)}</td><td>${m.n}</td>
+      <td>${p ? f2(p.diff) : 'ref'}</td><td>${p ? `[${f2(p.lo)}, ${f2(p.hi)}]` : ''}</td><td>${p ? fp(p.p_t) : ''}</td><td>${p ? fp(p.p_wilcoxon) : ''}</td></tr>`; });
+  t += '</table></details>';
+  const seeds = [...new Set(C.models.flatMap(m => m.seeds.map(s => s.seed)))].sort((a, b) => a - b);
+  t += `<details><summary>Per-seed values</summary><table><tr><th>seed</th>${C.models.map(m => `<th>${m.label}</th>`).join('')}</tr>` +
+    seeds.map(s => `<tr><td>${s}</td>${C.models.map(m => { const x = m.seeds.find(z => z.seed === s); return `<td>${x ? f2(x.value) : ''}</td>`; }).join('')}</tr>`).join('') +
+    '</table></details>';
+  sec.insertAdjacentHTML('beforeend', t);
+});
+document.getElementById('theme').onclick = () => { const r = document.documentElement;
+  const dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme = dark ? 'light' : 'dark'; };
+</script></body></html>

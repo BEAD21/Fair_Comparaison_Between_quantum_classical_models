@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,final,12,258,270,76.66666666666667,21,73.61904761904762,75.74257425742574,4.5,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,final,12,258,270,79.04761904761905,15,76.19047619047619,80.19801980198021,4.5,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,final,12,258,270,81.9047619047619,44,76.95238095238096,82.67326732673267,4.2,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,final,12,258,270,85.23809523809524,14,81.33333333333334,85.64356435643565,4.2,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,final,12,258,270,84.28571428571429,48,82.0,84.15841584158416,4.4,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,final,12,258,270,82.38095238095238,35,80.0,85.64356435643565,4.2,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,final,12,258,270,84.76190476190476,46,82.66666666666667,85.14851485148515,4.6,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,final,12,258,270,82.85714285714286,16,80.47619047619047,83.66336633663366,4.3,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,final,12,258,270,78.57142857142857,11,77.04761904761904,77.72277227722772,4.2,0a7a80f525ba
+Potato,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,final,12,258,270,86.19047619047619,47,83.61904761904762,82.67326732673267,4.8,0a7a80f525ba

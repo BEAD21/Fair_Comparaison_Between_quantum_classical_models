@@ -1,0 +1,95 @@
+{
+  "dev_crops": [
+    "Cherry",
+    "Corn",
+    "Grape"
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "metric": "val_last5",
+  "families": {
+    "quantum": {
+      "model": "q/ry_cnot_B6",
+      "recipe": {
+        "act": "relu",
+        "norm": "none",
+        "warmup_epochs": 2
+      },
+      "score": 95.45079365079366,
+      "filter_params": 12,
+      "per_crop": {
+        "Cherry": 93.21904761904761,
+        "Corn": 99.93333333333332,
+        "Grape": 93.2
+      },
+      "validation_winner": {
+        "model": "q/ry_only_L2",
+        "recipe": {
+          "act": "tanh",
+          "epochs": 40,
+          "norm": "bn",
+          "warmup_epochs": 2
+        },
+        "score": 96.22539682539681,
+        "filter_params": 4,
+        "per_crop": {
+          "Cherry": 94.6,
+          "Corn": 97.95238095238095,
+          "Grape": 96.12380952380951
+        }
+      },
+      "b6_vs_winner": {
+        "diff": -0.7746031746031729,
+        "lo": -1.826358165272525,
+        "hi": 0.2771518160661791,
+        "p_t": 0.1428105837689894,
+        "n_pairs": 30
+      },
+      "b6_rule": "B6 main if upper 95% CI of (B6 - winner) >= 0",
+      "chosen_by": "B6 rule"
+    },
+    "classical_raw": {
+      "model": "c/Separable3x3/raw",
+      "recipe": {
+        "act": "none",
+        "epochs": 40,
+        "lr": 0.001,
+        "norm": "bn",
+        "warmup_epochs": 2
+      },
+      "score": 97.33333333333333,
+      "filter_params": 12,
+      "per_crop": {
+        "Cherry": 96.47619047619048,
+        "Corn": 99.45714285714286,
+        "Grape": 96.06666666666666
+      }
+    },
+    "classical_amp": {
+      "model": "c/FixedBasis6/amp",
+      "recipe": {
+        "act": "tanh",
+        "epochs": 40,
+        "lr": 0.02,
+        "norm": "none"
+      },
+      "score": 95.39047619047619,
+      "filter_params": 12,
+      "per_crop": {
+        "Cherry": 92.64761904761903,
+        "Corn": 98.15238095238095,
+        "Grape": 95.37142857142857
+      }
+    }
+  }
+}

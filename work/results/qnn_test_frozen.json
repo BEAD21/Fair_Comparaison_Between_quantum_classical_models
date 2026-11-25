@@ -1,0 +1,46 @@
+{
+  "written": "2026-11-13 16:28",
+  "rule": "per family, highest Stage 2 val_last5 (7 crops x seeds 100-109)",
+  "qnn": "qn/sel_L4",
+  "ann": "cn/mlp5_tanh",
+  "stage2_val": {
+    "qnn": 84.71,
+    "ann": 84.66
+  },
+  "crops": [
+    "Apple",
+    "Cherry",
+    "Grape",
+    "Peach",
+    "Pepper",
+    "Potato",
+    "Tomato"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "models": {
+    "qn/sel_L4": {
+      "epochs": 100,
+      "lr": 0.003
+    },
+    "cn/mlp5_tanh": {
+      "epochs": 100,
+      "lr": 0.003
+    },
+    "qn/identity": {
+      "epochs": 100,
+      "lr": 0.003
+    }
+  },
+  "checkpoint": "best validation epoch"
+}

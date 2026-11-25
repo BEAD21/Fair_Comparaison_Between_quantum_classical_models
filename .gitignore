@@ -1,0 +1,13 @@
+# environments
+.venv/
+.venv_pl/
+__pycache__/
+*.pyc
+
+# images (not redistributed; see README) and preprocessed caches (rebuilt automatically)
+data/
+work/cache/
+work/_none/
+
+# run logs
+*.log

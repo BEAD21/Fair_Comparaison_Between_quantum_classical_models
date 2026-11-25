@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,final,12,258,270,95.71428571428571,42,93.99999999999999,91.38755980861244,4.1,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,final,12,258,270,95.71428571428571,44,94.28571428571428,92.34449760765551,4.1,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,final,12,258,270,99.52380952380952,17,96.76190476190477,97.60765550239235,4.5,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,final,12,258,270,97.14285714285714,49,95.9047619047619,95.69377990430623,4.8,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,final,12,258,270,97.14285714285714,20,95.14285714285714,97.1291866028708,8.1,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,final,12,258,270,96.66666666666667,25,95.80952380952381,98.08612440191388,5.1,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,final,12,258,270,97.61904761904762,12,96.0,97.60765550239235,8.7,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,final,12,258,270,97.14285714285714,42,95.04761904761907,97.60765550239235,5.8,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,final,12,258,270,96.66666666666667,36,93.71428571428572,94.73684210526315,4.0,f203883bbb0e
+Grape,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,final,12,258,270,98.57142857142857,11,95.04761904761907,96.17224880382776,4.2,f203883bbb0e

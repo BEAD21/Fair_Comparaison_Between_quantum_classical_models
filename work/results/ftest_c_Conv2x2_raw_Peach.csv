@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,10,258,268,88.57142857142857,42,86.47619047619048,87.8048780487805,3.4,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,10,258,268,88.57142857142857,39,86.47619047619048,87.8048780487805,4.0,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,10,258,268,85.71428571428571,43,83.80952380952381,85.85365853658537,4.9,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,10,258,268,85.23809523809524,7,83.71428571428571,83.41463414634146,4.0,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,10,258,268,86.19047619047619,12,83.04761904761905,85.85365853658537,4.1,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,10,258,268,88.57142857142857,33,87.23809523809526,86.82926829268293,6.4,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,10,258,268,85.71428571428571,32,84.66666666666666,86.34146341463415,5.3,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,10,258,268,86.66666666666667,38,83.61904761904762,83.90243902439025,2.8,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,10,258,268,86.19047619047619,39,85.14285714285714,85.85365853658537,2.8,e22b0454e6f3
+Peach,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,10,258,268,86.19047619047619,48,84.95238095238096,86.82926829268293,3.0,e22b0454e6f3

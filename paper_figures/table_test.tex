@@ -1,0 +1,23 @@
+\begin{tabular}{@{}l@{\hspace{4pt}}rrrrrrrr@{\hspace{5pt}}c@{}}
+\toprule
+Model & Par. & App & Che & Gra & Pea & Pep & Pot & Tom & Mean $\pm$ SD \\
+\midrule
+\multicolumn{10}{@{}l}{\emph{Image models (32$\times$32 pixels)}} \\
+\textcolor{qcol}{QCNN, B6 filter (quantum)} & 270 & 81.4 & 92.8 & 94.2 & 81.9 & \textbf{75.4} & \textbf{87.1} & 90.5 & 86.18 $\pm$ 0.64 \\
+CNN, Conv2x2 (best on val.) & 268 & 83.5 & 95.5 & 94.4 & 86.0 & 74.1 & 83.3 & \textbf{91.4} & 86.88 $\pm$ 1.23 \\
+CNN, PatchMLP (exact twin) & 270 & \textbf{84.5} & \textbf{95.9} & \textbf{95.8} & \textbf{88.7} & 74.2 & 82.3 & 90.3 & 87.41 $\pm$ 1.05 \\
+Conv2x2, encoded input & 268 & 83.9 & 93.4 & 93.6 & 81.8 & 74.3 & 83.5 & 91.2 & 85.96 $\pm$ 0.81 \\
+PatchMLP, encoded input & 270 & 84.2 & 94.3 & 93.6 & 81.3 & 74.4 & 83.6 & 91.7 & 86.18 $\pm$ 1.13 \\
+Identity (no trained circuit) & 258 & 78.5 & 91.8 & 94.8 & 76.1 & 74.0 & 78.6 & 88.5 & 83.18 $\pm$ 0.30 \\
+\midrule
+\multicolumn{10}{@{}l}{\emph{Feature models (8 PCA features)}} \\
+\textcolor{qcol}{QNN, 4 layers (quantum)} & 114 & 81.2 & \textbf{93.5} & 93.3 & 72.6 & 70.5 & \textbf{84.0} & \textbf{93.1} & 84.04 $\pm$ 0.76 \\
+ANN, 8--5--8 (classical) & 111 & \textbf{82.3} & 93.4 & \textbf{94.5} & \textbf{73.6} & \textbf{73.7} & 82.9 & 93.0 & 84.78 $\pm$ 0.33 \\
+Encoding only (no trained circuit) & 18 & 64.9 & 68.4 & 63.1 & 67.3 & 53.2 & 75.2 & 71.9 & 66.28 $\pm$ 0.45 \\
+\midrule
+\multicolumn{10}{@{}l}{\emph{Ensembles (50/50 average of probabilities)}} \\
+\textcolor{qcol}{QCNN + QNN} & 384 & 82.6 & 97.5 & 96.2 & 81.6 & 75.8 & \textbf{89.1} & 93.1 & 87.97 $\pm$ 0.65 \\
+Conv2x2 + ANN & 379 & 84.4 & 97.1 & 95.8 & \textbf{85.5} & 77.4 & 86.1 & \textbf{93.8} & 88.60 $\pm$ 1.00 \\
+PatchMLP + ANN & 381 & \textbf{85.9} & \textbf{97.8} & \textbf{96.6} & 85.1 & \textbf{77.9} & 85.6 & 93.0 & 88.83 $\pm$ 0.70 \\
+\bottomrule
+\end{tabular}

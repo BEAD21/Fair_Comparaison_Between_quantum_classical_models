@@ -1,0 +1,8 @@
+# Python 3.14; versions used for every run in the paper
+torch==2.11.0
+numpy==2.5.4
+pandas==3.0.3
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+opencv-python-headless==5.0.0.93

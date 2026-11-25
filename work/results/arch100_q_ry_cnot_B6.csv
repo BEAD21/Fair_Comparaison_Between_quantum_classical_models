@@ -1,0 +1,10 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split,derived_from
+Grape,q/ry_cnot_B6,"{""epochs"": 100}",100,tune,12,258,270,97.61904761904762,92,96.57142857142858,,43.9,f203883bbb0e,0
+Grape,q/ry_cnot_B6,default,100,tune,12,258,270,95.71428571428571,11,94.38095238095238,,8.8,f203883bbb0e,100
+Grape,q/ry_cnot_B6,"{""epochs"": 40}",100,tune,12,258,270,96.66666666666667,33,94.76190476190476,,17.6,f203883bbb0e,100
+Grape,q/ry_cnot_B6,"{""epochs"": 100}",101,tune,12,258,270,96.19047619047619,21,93.33333333333333,,35.4,f203883bbb0e,0
+Grape,q/ry_cnot_B6,default,101,tune,12,258,270,95.71428571428571,16,94.0,,7.1,f203883bbb0e,100
+Grape,q/ry_cnot_B6,"{""epochs"": 40}",101,tune,12,258,270,96.19047619047619,21,93.80952380952381,,14.2,f203883bbb0e,100
+Grape,q/ry_cnot_B6,"{""epochs"": 100}",102,tune,12,258,270,96.19047619047619,33,93.9047619047619,,56.5,f203883bbb0e,0
+Grape,q/ry_cnot_B6,default,102,tune,12,258,270,95.71428571428571,18,94.47619047619048,,11.3,f203883bbb0e,100
+Grape,q/ry_cnot_B6,"{""epochs"": 40}",102,tune,12,258,270,96.19047619047619,33,95.33333333333333,,22.6,f203883bbb0e,100

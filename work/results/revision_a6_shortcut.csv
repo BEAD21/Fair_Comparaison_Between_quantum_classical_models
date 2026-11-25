@@ -1,0 +1,9 @@
+crop,excluded,train_acc,val_acc,mean_black_Apple_healthy,mean_black_Apple_scab,mean_black_Cherry_Powdery_mildew,mean_black_Cherry_healthy,mean_black_Grape_Black_rot,mean_black_Grape_healthy,mean_black_Peach_Bacterial_spot,mean_black_Peach_healthy,mean_black_Pepper_bell_Bacterial_spot,mean_black_Pepper_bell_healthy,mean_black_Potato_Late_blight,mean_black_Potato_healthy,mean_black_Tomato_Late_blight,mean_black_Tomato_healthy,mean_black_Corn_Common_rust,mean_black_Corn_healthy
+Apple,False,73.92638036809815,73.33333333333333,0.5789857330010225,0.4679072405419223,,,,,,,,,,,,,,
+Cherry,False,55.419222903885476,53.333333333333336,,,0.5261694785276073,0.533987969708589,,,,,,,,,,,,
+Grape,False,64.92842535787321,63.33333333333333,,,,,0.49386902479550104,0.45503019555214724,,,,,,,,,,
+Peach,False,75.97137014314929,75.23809523809524,,,,,,,0.630386071702454,0.7509066653885481,,,,,,,,
+Pepper,False,58.179959100204506,61.42857142857143,,,,,,,,,0.4959699322597137,0.4775270801380368,,,,,,
+Potato,False,55.93047034764827,55.23809523809524,,,,,,,,,,,0.5135540484406953,0.49444817229038857,,,,
+Tomato,False,69.42740286298569,71.9047619047619,,,,,,,,,,,,,0.6496936509458078,0.5805933665644172,,
+Corn,True,99.079754601227,99.52380952380952,,,,,,,,,,,,,,,0.2829734630623722,0.005477936477505113

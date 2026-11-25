@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,final,12,258,270,85.23809523809524,14,83.80952380952381,86.82926829268293,4.2,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,final,12,258,270,85.23809523809524,28,82.66666666666667,86.34146341463415,4.1,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,final,12,258,270,84.28571428571429,16,82.38095238095238,87.3170731707317,4.7,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,final,12,258,270,87.14285714285714,8,85.52380952380953,89.26829268292683,4.9,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,final,12,258,270,87.14285714285714,9,83.9047619047619,90.73170731707317,8.2,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,final,12,258,270,88.57142857142857,17,85.52380952380955,91.70731707317074,4.9,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,final,12,258,270,88.57142857142857,14,84.76190476190476,89.26829268292683,9.4,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,final,12,258,270,86.19047619047619,14,82.95238095238096,87.3170731707317,5.3,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,final,12,258,270,85.23809523809524,11,82.28571428571429,87.8048780487805,4.0,e22b0454e6f3
+Peach,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,final,12,258,270,87.14285714285714,23,85.71428571428572,90.2439024390244,4.4,e22b0454e6f3

@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",0,final,12,258,270,84.76190476190476,43,81.71428571428572,83.9622641509434,12.7,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",1,final,12,258,270,87.14285714285714,29,81.52380952380952,85.84905660377359,7.2,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",2,final,12,258,270,85.23809523809524,8,82.57142857142858,85.37735849056604,10.2,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",3,final,12,258,270,85.23809523809524,8,81.23809523809523,83.9622641509434,10.1,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",4,final,12,258,270,86.19047619047619,15,82.95238095238095,83.9622641509434,10.1,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",5,final,12,258,270,84.76190476190476,28,83.61904761904762,84.90566037735849,10.3,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",6,final,12,258,270,85.71428571428571,24,82.57142857142858,83.9622641509434,10.2,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",7,final,12,258,270,85.23809523809524,41,84.28571428571429,83.9622641509434,11.2,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",8,final,12,258,270,82.38095238095238,2,79.04761904761904,84.43396226415094,10.6,1ab85d737e05
+Apple,c/PatchMLP/raw,"{""act"": ""tanh"", ""epochs"": 50, ""norm"": ""bn"", ""warmup_epochs"": 2}",9,final,12,258,270,84.28571428571429,9,81.23809523809526,84.90566037735849,6.8,1ab85d737e05

@@ -1,0 +1,46 @@
+{
+  "Grape": {
+    "quantum": {
+      "model": "q/ry_only_L2",
+      "recipe": {
+        "act": "tanh",
+        "epochs": 40,
+        "norm": "bn",
+        "warmup_epochs": 2
+      },
+      "val_last5": 96.22222222222223,
+      "val_mean": 97.46031746031747,
+      "val_sd": 0.9912695235552872,
+      "filter_params": 4,
+      "trials_done": 40
+    },
+    "classical_raw": {
+      "model": "c/FixedBasis6/raw",
+      "recipe": {
+        "act": "none",
+        "lr": 0.01,
+        "norm": "none",
+        "warmup_epochs": 2
+      },
+      "val_last5": 97.23809523809526,
+      "val_mean": 97.93650793650794,
+      "val_sd": 0.5498573992282059,
+      "filter_params": 12,
+      "trials_done": 40
+    },
+    "classical_amp": {
+      "model": "c/FixedBasis6/amp",
+      "recipe": {
+        "act": "tanh",
+        "epochs": 40,
+        "lr": 0.02,
+        "norm": "none"
+      },
+      "val_last5": 95.71428571428571,
+      "val_mean": 96.5079365079365,
+      "val_sd": 1.1983864182969446,
+      "filter_params": 12,
+      "trials_done": 40
+    }
+  }
+}

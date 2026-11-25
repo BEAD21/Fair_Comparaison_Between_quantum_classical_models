@@ -1,0 +1,11 @@
+crop,model,recipe,seed,phase,filter_params,head_params,total_params,val_acc,best_epoch,val_last5,test_acc,seconds,split
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",0,final,10,258,268,92.38095238095238,43,91.14285714285714,92.45283018867924,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",1,final,10,258,268,90.0,2,87.23809523809523,88.67924528301887,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",2,final,10,258,268,92.38095238095238,39,91.23809523809523,91.98113207547169,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",3,final,10,258,268,92.85714285714286,46,92.57142857142858,91.50943396226415,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",4,final,10,258,268,93.33333333333333,14,92.19047619047619,94.81132075471697,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",5,final,10,258,268,90.0,30,88.95238095238095,91.0377358490566,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",6,final,10,258,268,90.95238095238095,48,89.23809523809524,91.0377358490566,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",7,final,10,258,268,93.80952380952381,37,91.80952380952381,91.98113207547169,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",8,final,10,258,268,91.9047619047619,42,89.23809523809524,90.56603773584906,1.7,dd28644ef9b3
+Tomato,c/Conv2x2/raw,"{""act"": ""tanh"", ""epochs"": 50, ""lr"": 0.01, ""norm"": ""none"", ""warmup_epochs"": 2}",9,final,10,258,268,89.04761904761905,15,88.38095238095238,89.62264150943396,1.7,dd28644ef9b3

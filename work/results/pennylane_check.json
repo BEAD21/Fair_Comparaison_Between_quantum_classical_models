@@ -1,0 +1,186 @@
+{
+  "versions": {
+    "pennylane": "0.45.1",
+    "numpy": "2.5.4",
+    "device": "default.qubit"
+  },
+  "tol": 1e-05,
+  "ok": true,
+  "circuits": {
+    "q/identity": {
+      "negative": false,
+      "err": 1.7305393062994057e-07,
+      "values": 128
+    },
+    "q/random": {
+      "negative": false,
+      "err": 1.7682910558036724e-07,
+      "values": 128
+    },
+    "q/ry_cnot_B3": {
+      "negative": false,
+      "err": 2.444405665658067e-07,
+      "values": 128
+    },
+    "q/ry_cnot_B6": {
+      "negative": false,
+      "err": 5.229743076928806e-07,
+      "values": 128
+    },
+    "q/hea_L2": {
+      "negative": false,
+      "err": 3.7067845315430503e-07,
+      "values": 128
+    },
+    "q/hea_L3": {
+      "negative": false,
+      "err": 4.989712242275957e-07,
+      "values": 128
+    },
+    "q/ry_only_L2": {
+      "negative": false,
+      "err": 3.235010662128168e-07,
+      "values": 128
+    },
+    "q/ry_only_L3": {
+      "negative": false,
+      "err": 4.0318732719146766e-07,
+      "values": 128
+    },
+    "q/ry_cnot_B10": {
+      "negative": false,
+      "err": 4.322433878600762e-07,
+      "values": 128
+    },
+    "q/ry_only_L6": {
+      "negative": false,
+      "err": 4.7697262184343e-07,
+      "values": 128
+    },
+    "q/ry_only_L10": {
+      "negative": false,
+      "err": 7.325615318798384e-07,
+      "values": 128
+    },
+    "q/hea_L5": {
+      "negative": false,
+      "err": 4.126920299940551e-07,
+      "values": 128
+    },
+    "q/wgate_P2": {
+      "negative": false,
+      "err": 5.10247548657361e-07,
+      "values": 128
+    },
+    "q/wgate_P3": {
+      "negative": false,
+      "err": 7.846021908841649e-07,
+      "values": 128
+    },
+    "q/qaoa_p6": {
+      "negative": false,
+      "err": 3.9788986860855857e-07,
+      "values": 128
+    },
+    "q/qaoa_p10": {
+      "negative": false,
+      "err": 6.287390859061048e-07,
+      "values": 128
+    },
+    "q/ry_cnot_B6_k4": {
+      "negative": false,
+      "err": 3.7581903655770077e-07,
+      "values": 256
+    },
+    "q/ry_cnot_B6_k8": {
+      "negative": false,
+      "err": 6.846659444947889e-07,
+      "values": 384
+    },
+    "q/ry_cnot_B6_k16": {
+      "negative": false,
+      "err": 4.3941621735710257e-07,
+      "values": 128
+    },
+    "qn/sel_L1": {
+      "negative": false,
+      "err": 2.4194665226850987e-07,
+      "values": 64
+    },
+    "qn/sel_L2": {
+      "negative": false,
+      "err": 1.762752399603329e-07,
+      "values": 64
+    },
+    "qn/sel_L3": {
+      "negative": false,
+      "err": 1.7235408206195402e-07,
+      "values": 64
+    },
+    "qn/sel_L4": {
+      "negative": false,
+      "err": 1.7227498472216496e-07,
+      "values": 64
+    },
+    "qa/hc": {
+      "negative": false,
+      "err": 1.6766115767952172e-07,
+      "values": 8
+    },
+    "qa/hc_nb": {
+      "negative": false,
+      "err": 8.656850271626659e-07,
+      "values": 8
+    },
+    "qa/ancilla": {
+      "negative": false,
+      "err": 2.951737609613314e-07,
+      "values": 32
+    },
+    "qa/ancilla_nb": {
+      "negative": false,
+      "err": 1.4419154234501796e-07,
+      "values": 32
+    },
+    "qa/fqc": {
+      "negative": false,
+      "err": 1.2648185567787351e-06,
+      "values": 8
+    },
+    "qa/fqc_sel": {
+      "negative": false,
+      "err": 8.935439623769525e-07,
+      "values": 8
+    },
+    "qa/fqc_nb": {
+      "negative": false,
+      "err": 2.593690404117943e-06,
+      "values": 8
+    },
+    "qa/fqc_nb_scale": {
+      "negative": false,
+      "err": 2.405616906786534e-07,
+      "values": 4
+    },
+    "qa/hc_nb (shifted on purpose)": {
+      "negative": true,
+      "err": 0.00043896028304379886,
+      "values": 4
+    },
+    "qa/ancilla_nb (shifted on purpose)": {
+      "negative": true,
+      "err": 0.005098726149750821,
+      "values": 16
+    },
+    "qn/sel_L4 (shifted on purpose)": {
+      "negative": true,
+      "err": 0.008960354232810719,
+      "values": 32
+    },
+    "q/ry_cnot_B6 (shifted on purpose)": {
+      "negative": true,
+      "err": 0.09943508610300061,
+      "values": 64
+    }
+  }
+}
